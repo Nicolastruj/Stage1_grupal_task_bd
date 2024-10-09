@@ -1,5 +1,5 @@
 from data_model.object_type.Palabra import Palabra
-from indexer.indexer import indexer, indexer2
+from indexer_object.indexer import indexer, indexer2
 
 
 def main():
