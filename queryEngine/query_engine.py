@@ -1,76 +1,78 @@
 import json
 import glob
-import re  # Importar el módulo de expresiones regulares
 
-# Función del motor de consultas
-def query_engine(word, book_folder="/Users/elisa/Desktop/BDGrupoGit/Datamart_libros",
-                 index_folder="/Users/elisa/Desktop/BDGrupoGit/Datamart_palabras"):
-    word = word.lower()  # Convertir a minúsculas para evitar problemas de coincidencia
+def query_engine(input, book_folder="../Datamart_libros",
+                 index_folder="../Datamart_palabras"):
+    input = input.lower()
+    words = input.split()
     results = []
-    indexer = {}
+    loaded_words = {}
 
-    # Cargar todos los índices JSON desde la carpeta
     for filepath in glob.glob(f"{index_folder}/*.json"):
         with open(filepath, "r") as file:
             data = json.load(file)
-            # Suponiendo que el JSON tiene la estructura mencionada
             if "id_nombre" in data and "diccionario" in data:
-                word_key = data["id_nombre"]  # Extraer la palabra
-                dictionary_info = data["diccionario"]  # Obtener el diccionario
+                word_key = data["id_nombre"]
+                dictionary_info = data["diccionario"]  #getting the information out of the diccionary in the JSON object
+                loaded_words[word_key] = {"diccionario": dictionary_info} #saving the information of the word in a diccionary
 
-                # Guardar en el índice
-                indexer[word_key] = {"diccionario": dictionary_info}
 
-    # Verificar si la palabra está en el índice
-    if word in indexer:
-        info = indexer[word]["diccionario"]  # Obtener el diccionario de IDs de libros y posiciones
+    words_looked_for= all(word in loaded_words for word in words) #here we check if all the words looked for are in the diccionary we just created
+    if words_looked_for:
+        books_in_common = None
+        for word in words:
+            word_info = loaded_words[word]["diccionario"]
+            if books_in_common is None:
+                books_in_common = set(word_info.keys())  # common books that include the word
+            else:
+                books_in_common &= set(word_info.keys())  # So that it only takes into account books that include all of the words together
 
-        for book_id, positions in info.items():
-            # Construir el nombre del archivo del libro
-            book_filename = f"{book_folder}/libro_{book_id}.txt"  # Concatenar la ruta y el nombre del archivo
+        # If there are books in common with all the words looked for
+        if books_in_common:
+            for book_id in books_in_common:
+                book_filename = f"{book_folder}/libro_{book_id}.txt"
 
-            # Leer el texto del libro
-            try:
-                with open(book_filename, "r") as book_file:
-                    text = book_file.read()
+                try:
+                    with open(book_filename, "r") as file:
+                        text = file.read()
 
-                # Separar el texto en párrafos
-                paragraphs = text.split('\n\n')
-                relevant_paragraphs = []
+                    # separating the text into paragraphs
+                    paragraphs = text.split('\n\n')
+                    relevant_paragraphs = [] #to save the found paragraphs that include the word or words
 
-                # Buscar en los párrafos para encontrar los relevantes
-                for position in positions:
+                    # Finding the word/words
                     for paragraph in paragraphs:
-                        # Comprobar si la palabra exacta está en el párrafo
-                        if re.search(r'\b' + re.escape(word) + r'\b', paragraph.lower()):  # Buscar solo coincidencias exactas
-                            relevant_paragraphs.append(paragraph.strip())
-                            break  # Salir del bucle una vez que se encuentre el párrafo
+                        if input in paragraph.lower():  # Check to see if the exact word/words are in the paragraph
+                            relevant_paragraphs.append(paragraph.strip()) #and save them
 
-                # Agregar el resultado solo si hay párrafos relevantes
-                if relevant_paragraphs:
-                    results.append({
-                        "document_id": book_id,
-                        "paragraphs": relevant_paragraphs
-                    })
+                    # if there are any, we append them to the paragraphs
+                    if relevant_paragraphs:
+                        results.append({
+                            "document_id": book_id,
+                            "paragraphs": relevant_paragraphs
+                        })
 
-            except FileNotFoundError:
-                print(f"Error: The file {book_filename} was not found.")  # Mensaje de error si el archivo no existe
+                except FileNotFoundError:
+                    print(f"Error: The file {book_filename} was not found.")  # Error message if there is no boook foudn
 
     return results
 
 
-# Ejemplo de uso
-word = "abandon"  # Palabra a buscar
-search_results = query_engine(word)
+# For trying out the code
+input = "men and women"  # words as AND
+#input = "abandon" #word to check
+search_results = query_engine(input)
 
-# Mostrar resultados
-print(f"Results for '{word}':")
-if search_results:  # Solo imprimir si hay resultados
+# Showing the results - output
+print(f"Results for '{input}':")
+if search_results:  # Only if there are results, otherwise "else"
     for result in search_results:
-        print(f"Book Name: {result['document_id']}")
+        print(f"Document ID: {result['document_id']}")
         print(f"URL: \n")
         print(f"Paragraphs where the word is included: \n")
-        for paragraph in result['paragraphs']:
-            print(f"{paragraph} \n")  # Mostrar los párrafos relevantes
+
+        for paragraph in result['paragraphs']: #printing out all the paragraphs found
+            print(f"Paragraph: {paragraph} \n")
 else:
     print("No results found.")
+
