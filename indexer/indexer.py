@@ -1,6 +1,14 @@
 # main.py
-import os
 import json
+
+
+#  import os
+
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+
 import re
 from  data_model.object_type.Palabra import Palabra
 
