@@ -80,6 +80,7 @@ def indexer2(datamart_txt_path, datamart_json_path):
 
     # Obtener todos los archivos txt que siguen el patrón 'libro_indice.txt'
     txt_files = [f for f in os.listdir(datamart_txt_path) if re.match(r'^libro_\d+\.txt$', f)]
+    #txt_files = [f for f in os.listdir(datamart_txt_path) if re.match(r'^\d+\.txt$', f)]
 
     print(txt_files)
 
