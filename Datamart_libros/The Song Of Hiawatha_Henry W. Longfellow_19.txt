@@ -1,4 +1,4 @@
-ï»¿The Project Gutenberg eBook of The Song Of Hiawatha, by Henry W. Longfellow
+﻿The Project Gutenberg eBook of The Song Of Hiawatha, by Henry W. Longfellow
 
 This eBook is for the use of anyone anywhere in the United States and
 most other parts of the world at no cost and with almost no restrictions
@@ -36,26 +36,26 @@ CONTENTS
  Introduction
  I. The Peace-Pipe
  II. The Four Winds
- III. Hiawathaâs Childhood
+ III. Hiawatha’s Childhood
  IV. Hiawatha and Mudjekeewis
- V. Hiawathaâs Fasting
- VI. Hiawathaâs Friends
- VII. Hiawathaâs Sailing
- VIII. Hiawathaâs Fishing
+ V. Hiawatha’s Fasting
+ VI. Hiawatha’s Friends
+ VII. Hiawatha’s Sailing
+ VIII. Hiawatha’s Fishing
  IX. Hiawatha and the Pearl-Feather
- X. Hiawathaâs Wooing
- XI. Hiawathaâs Wedding-Feast
+ X. Hiawatha’s Wooing
+ XI. Hiawatha’s Wedding-Feast
  XII. The Son of the Evening Star
  XIII. Blessing the Corn-Fields
  XIV. Picture-Writing
- XV. Hiawathaâs Lamentation
+ XV. Hiawatha’s Lamentation
  XVI. Pau-Puk-Keewis
  XVII. The Hunting of Pau-Puk-Keewis
  XVIII. The Death of Kwasind
  XIX. The Ghosts
  XX. The Famine
- XXI. The White Manâs Foot
- XXII. Hiawathaâs Departure
+ XXI. The White Man’s Foot
+ XXII. Hiawatha’s Departure
  Vocabulary
 
 
@@ -92,18 +92,18 @@ made no secret of the fact that he had used the meter of the Kalevala;
 but as for the legends, he openly gave credit to Schoolcraft in his
 notes to the poem.
 
-I would add a personal note here. My fatherâs roots include Ojibway
+I would add a personal note here. My father’s roots include Ojibway
 Indians: his mother, Margaret Caroline Davenport, was a daughter of
 Susan des Carreaux, O-gee-em-a-qua (The Chief Woman), Davenport whose
 mother was a daughter of Chief Waub-o-jeeg. Finally, my mother used to
 rock me to sleep reading portions of Hiawatha to me, especially:
 
-âWah-wah-taysee, little fire-fly,
+“Wah-wah-taysee, little fire-fly,
 Little, flitting, white-fire insect
 Little, dancing, white-fire creature,
 Light me with your little candle,
 Ere upon my bed I lay me,
-Ere in sleep I close my eyelids!â
+Ere in sleep I close my eyelids!”
 
 Woodrow W. Morris
 April 1, 1991
@@ -130,7 +130,7 @@ And their wild reverberations
 As of thunder in the mountains?
 
 I should answer, I should tell you,
-âFrom the forests and the prairies,
+“From the forests and the prairies,
 From the great lakes of the Northland,
 From the land of the Ojibways,
 From the land of the Dacotahs,
@@ -139,32 +139,32 @@ Where the heron, the Shuh-shuh-gah,
 Feeds among the reeds and rushes.
 I repeat them as I heard them
 From the lips of Nawadaha,
-The musician, the sweet singer.â
+The musician, the sweet singer.”
 
 Should you ask where Nawadaha
 Found these songs so wild and wayward,
 Found these legends and traditions,
 I should answer, I should tell you,
-âIn the birdâs-nests of the forest,
+“In the bird’s-nests of the forest,
 In the lodges of the beaver,
 In the hoofprint of the bison,
 In the eyry of the eagle!
 
-âAll the wild-fowl sang them to him,
+“All the wild-fowl sang them to him,
 In the moorlands and the fen-lands,
 In the melancholy marshes;
 Chetowaik, the plover, sang them,
 Mahng, the loon, the wild-goose, Wawa,
 The blue heron, the Shuh-shuh-gah,
-And the grouse, the Mushkodasa!â
+And the grouse, the Mushkodasa!”
 
 If still further you should ask me,
-Saying, âWho was Nawadaha?
-Tell us of this Nawadaha,â
+Saying, “Who was Nawadaha?
+Tell us of this Nawadaha,”
 I should answer your inquiries
 Straightway in such words as follow.
 
-âIn the vale of Tawasentha,
+“In the vale of Tawasentha,
 In the green and silent valley,
 By the pleasant water-courses,
 Dwelt the singer Nawadaha.
@@ -175,7 +175,7 @@ Stood the groves of singing pine-trees,
 Green in Summer, white in Winter,
 Ever sighing, ever singing.
 
-âAnd the pleasant water-courses,
+“And the pleasant water-courses,
 You could trace them through the valley,
 By the rushing in the Spring-time,
 By the alders in the Summer,
@@ -185,13 +185,13 @@ And beside them dwelt the singer,
 In the vale of Tawasentha,
 In the green and silent valley.
 
-âThere he sang of Hiawatha,
+“There he sang of Hiawatha,
 Sang the Song of Hiawatha,
 Sang his wondrous birth and being,
 How he prayed and how be fasted,
 How he lived, and toiled, and suffered,
 That the tribes of men might prosper,
-That he might advance his people!â
+That he might advance his people!”
 
 Ye who love the haunts of Nature,
 Love the sunshine of the meadow,
@@ -206,7 +206,7 @@ Flap like eagles in their eyries;--
 Listen to these wild traditions,
 To this Song of Hiawatha!
 
-Ye who love a nationâs legends,
+Ye who love a nation’s legends,
 Love the ballads of a people,
 That like voices from afar off
 Call to us to pause and listen,
@@ -225,7 +225,7 @@ There are longings, yearnings, strivings
 For the good they comprehend not,
 That the feeble hands and helpless,
 Groping blindly in the darkness,
-Touch Godâs right hand in that darkness
+Touch God’s right hand in that darkness
 And are lifted up and strengthened;--
 Listen to this simple story,
 To this Song of Hiawatha!
@@ -263,12 +263,12 @@ Called the tribes of men together.
 
 From his footprints flowed a river,
 Leaped into the light of morning,
-Oâer the precipice plunging downward
+O’er the precipice plunging downward
 Gleamed like Ishkoodah, the comet.
 And the Spirit, stooping earthward,
 With his finger on the meadow
 Traced a winding pathway for it,
-Saying to it, âRun in this way!â
+Saying to it, “Run in this way!”
 
 From the red stone of the quarry
 With his hand he broke a fragment,
@@ -308,15 +308,15 @@ Saw the distant smoke ascending,
 The Pukwana of the Peace-Pipe.
 
 And the Prophets of the nations
-Said: âBehold it, the Pukwana!
+Said: “Behold it, the Pukwana!
 By the signal of the Peace-Pipe,
 Bending like a wand of willow,
 Waving like a hand that beckons,
 Gitche Manito, the mighty,
 Calls the tribes of men together,
-Calls the warriors to his council!â
+Calls the warriors to his council!”
 
-Down the rivers, oâer the prairies,
+Down the rivers, o’er the prairies,
 Came the warriors of the nations,
 Came the Delawares and Mohawks,
 Came the Choctaws and Camanches,
@@ -357,13 +357,13 @@ As the sound of far-off waters,
 Falling into deep abysses,
 Warning, chiding, spake in this wise:
 
-âO my children! my poor children!
+“O my children! my poor children!
 Listen to the words of wisdom,
 Listen to the words of warning,
 From the lips of the Great Spirit,
 From the Master of Life, who made you!
 
-âI have given you lands to hunt in,
+“I have given you lands to hunt in,
 I have given you streams to fish in,
 I have given you bear and bison,
 I have given you roe and reindeer,
@@ -373,7 +373,7 @@ Filled the rivers full of fishes:
 Why then are you not contented?
 Why then will you hunt each other?
 
-âI am weary of your quarrels,
+“I am weary of your quarrels,
 Weary of your wars and bloodshed,
 Weary of your prayers for vengeance,
 Of your wranglings and dissensions;
@@ -382,7 +382,7 @@ All your danger is in discord;
 Therefore be at peace henceforward,
 And as brothers live together.
 
-âI will send a Prophet to you,
+“I will send a Prophet to you,
 A Deliverer of the nations,
 Who shall guide you and shall teach you,
 Who shall toil and suffer with you.
@@ -391,7 +391,7 @@ You will multiply and prosper;
 If his warnings pass unheeded,
 You will fade away and perish!
 
-âBathe now in the stream before you,
+“Bathe now in the stream before you,
 Wash the war-paint from your faces,
 Wash the blood-stains from your fingers,
 Bury your war-clubs and your weapons,
@@ -400,7 +400,7 @@ Mould and make it into Peace-Pipes,
 Take the reeds that grow beside you,
 Deck them with your brightest feathers,
 Smoke the calumet together,
-And as brothers live henceforward!â
+And as brothers live henceforward!”
 
 Then upon the ground the warriors
 Threw their cloaks and shirts of deer-skin,
@@ -442,7 +442,7 @@ II
 The Four Winds
 
 
-âHonor be to Mudjekeewis!â
+“Honor be to Mudjekeewis!”
 Cried the warriors, cried the old men,
 When he came in triumph homeward
 With the sacred Belt of Wampum,
@@ -489,7 +489,7 @@ Standing fearlessly before him,
 Taunted him in loud derision,
 Spake disdainfully in this wise:
 
-âHark you, Bear! you are a coward;
+“Hark you, Bear! you are a coward;
 And no Brave, as you pretended;
 Else you would not cry and whimper
 Like a miserable woman!
@@ -503,7 +503,7 @@ Not a groan would I have uttered;
 But you, Bear! sit here and whimper,
 And disgrace your tribe by crying,
 Like a wretched Shaugodaya,
-Like a cowardly old woman!â
+Like a cowardly old woman!”
 
 Then again he raised his war-club,
 Smote again the Mishe-Mokwa
@@ -514,15 +514,15 @@ Thus was slain the Mishe-Mokwa,
 He the Great Bear of the mountains,
 He the terror of the nations.
 
-âHonor be to Mudjekeewis!â
+“Honor be to Mudjekeewis!”
 With a shout exclaimed the people,
-âHonor be to Mudjekeewis!
+“Honor be to Mudjekeewis!
 Henceforth he shall be the West-Wind,
 And hereafter and forever
 Shall he hold supreme dominion
 Over all the winds of heaven.
 Call him no more Mudjekeewis,
-Call him Kabeyun, the West-Wind!â
+Call him Kabeyun, the West-Wind!”
 
 Thus was Mudjekeewis chosen
 Father of the Winds of Heaven.
@@ -536,7 +536,7 @@ To the fierce Kabibonokka.
 Young and beautiful was Wabun;
 He it was who brought the morning,
 He it was whose silver arrows
-Chased the dark oâer hill and valley;
+Chased the dark o’er hill and valley;
 He it was whose cheeks were painted
 With the brightest streaks of crimson,
 And whose voice awoke the village,
@@ -612,20 +612,20 @@ Over frozen lakes and moorlands.
 There among the reeds and rushes
 Found he Shingebis, the diver,
 Trailing strings of fish behind him,
-Oâer the frozen fens and moorlands,
+O’er the frozen fens and moorlands,
 Lingering still among the moorlands,
 Though his tribe had long departed
 To the land of Shawondasee.
 
 Cried the fierce Kabibonokka,
-âWho is this that dares to brave me?
+“Who is this that dares to brave me?
 Dares to stay in my dominions,
 When the Wawa has departed,
 When the wild-goose has gone southward,
 And the heron, the Shuh-shuh-gah,
 Long ago departed southward?
 I will go into his wigwam,
-I will put his smouldering fire out!â
+I will put his smouldering fire out!”
 
 And at night Kabibonokka,
 To the lodge came wild and wailing,
@@ -640,8 +640,8 @@ One for each moon of the winter,
 And for food the fishes served him.
 By his blazing fire he sat there,
 Warm and merry, eating, laughing,
-Singing, âO Kabibonokka,
-You are but my fellow-mortal!â
+Singing, “O Kabibonokka,
+You are but my fellow-mortal!”
 
 Then Kabibonokka entered,
 And though Shingebis, the diver,
@@ -653,7 +653,7 @@ Only turned the log a little,
 Only made the fire burn brighter,
 Made the sparks fly up the smoke-flue.
 
-From Kabibonokkaâs forehead,
+From Kabibonokka’s forehead,
 From his snow-besprinkled tresses,
 Drops of sweat fell fast and heavy,
 Making dints upon the ashes,
@@ -687,8 +687,8 @@ To the kingdom of Wabasso,
 To the land of the White Rabbit,
 Hearing still the gusty laughter,
 Hearing Shingebis, the diver,
-Singing, âO Kabibonokka,
-You are but my fellow-mortal!â
+Singing, “O Kabibonokka,
+You are but my fellow-mortal!”
 
 Shawondasee, fat and lazy,
 Had his dwelling far to southward,
@@ -737,19 +737,19 @@ For the maiden of the prairie.
 
 Till one morning, looking northward,
 He beheld her yellow tresses
-Changed and covered oâer with whiteness,
+Changed and covered o’er with whiteness,
 Covered as with whitest snow-flakes.
-âAh! my brother from the North-land,
+“Ah! my brother from the North-land,
 From the kingdom of Wabasso,
 From the land of the White Rabbit!
 You have stolen the maiden from me,
 You have laid your hand upon her,
 You have wooed and won my maiden,
-With your stories of the North-land!â
+With your stories of the North-land!”
 
 Thus the wretched Shawondasee
 Breathed into the air his sorrow;
-And the South-Wind oâer the prairie
+And the South-Wind o’er the prairie
 Wandered warm with sighs of passion,
 With the sighs of Shawondasee,
 Till the air seemed full of snow-flakes,
@@ -760,9 +760,9 @@ Never more did Shawondasee
 See the maid with yellow tresses!
 
 Poor, deluded Shawondasee!
-âT was no woman that you gazed at,
-âT was no maiden that you sighed for,
-âT was the prairie dandelion
+’T was no woman that you gazed at,
+’T was no maiden that you sighed for,
+’T was the prairie dandelion
 That through all the dreamy Summer
 You had gazed at with such longing,
 You had sighed for with such passion,
@@ -781,7 +781,7 @@ Kept the mighty Mudjekeewis.
 
 
 III
-Hiawathaâs Childhood
+Hiawatha’s Childhood
 
 
 Downward through the evening twilight,
@@ -801,8 +801,8 @@ And Nokomis fell affrighted
 Downward through the evening twilight,
 On the Muskoday, the meadow,
 On the prairie full of blossoms.
-âSee! a star falls!â said the people;
-âFrom the sky a star is falling!â
+“See! a star falls!” said the people;
+“From the sky a star is falling!”
 
 There among the ferns and mosses,
 There among the prairie lilies,
@@ -819,17 +819,17 @@ With the beauty of the starlight.
 
 And Nokomis warned her often,
 Saying oft, and oft repeating,
-âOh, beware of Mudjekeewis,
+“Oh, beware of Mudjekeewis,
 Of the West-Wind, Mudjekeewis;
 Listen not to what he tells you;
 Lie not down upon the meadow,
 Stoop not down among the lilies,
-Lest the West-Wind come and harm you!â
+Lest the West-Wind come and harm you!”
 
 But she heeded not the warning,
 Heeded not those words of wisdom,
 And the West-Wind came at evening,
-Walking lightly oâer the prairie,
+Walking lightly o’er the prairie,
 Whispering to the leaves and blossoms,
 Bending low the flowers and grasses,
 Found the beautiful Wenonah,
@@ -842,17 +842,17 @@ Bore a son of love and sorrow.
 Thus was born my Hiawatha,
 Thus was born the child of wonder;
 But the daughter of Nokomis,
-Hiawathaâs gentle mother,
+Hiawatha’s gentle mother,
 In her anguish died deserted
 By the West-Wind, false and faithless,
 By the heartless Mudjekeewis.
 
 For her daughter long and loudly
 Wailed and wept the sad Nokomis;
-âOh that I were dead!â she murmured,
-âOh that I were dead, as thou art!
+“Oh that I were dead!” she murmured,
+“Oh that I were dead, as thou art!
 No more work, and no more weeping,
-Wahonowin! Wahonowin!â
+Wahonowin! Wahonowin!”
 
 By the shores of Gitche Gumee,
 By the shining Big-Sea-Water,
@@ -871,12 +871,12 @@ Rocked him in his linden cradle,
 Bedded soft in moss and rushes,
 Safely bound with reindeer sinews;
 Stilled his fretful wail by saying,
-âHush! the Naked Bear will hear thee!â
+“Hush! the Naked Bear will hear thee!”
 Lulled him into slumber, singing,
-âEwa-yea! my little owlet!
+“Ewa-yea! my little owlet!
 Who is this, that lights the wigwam?
 With his great eyes lights the wigwam?
-Ewa-yea! my little owlet!â
+Ewa-yea! my little owlet!”
 
 Many things Nokomis taught him
 Of the stars that shine in heaven;
@@ -896,8 +896,8 @@ Sat the little Hiawatha;
 Heard the whispering of the pine-trees,
 Heard the lapping of the waters,
 Sounds of music, words of wonder;
-âMinne-wawa!â said the Pine-trees,
-âMudway-aushka!â said the water.
+“Minne-wawa!” said the Pine-trees,
+“Mudway-aushka!” said the water.
 
 Saw the fire-fly, Wah-wah-taysee,
 Flitting through the dusk of evening,
@@ -905,50 +905,50 @@ With the twinkle of its candle
 Lighting up the brakes and bushes,
 And he sang the song of children,
 Sang the song Nokomis taught him:
-âWah-wah-taysee, little fire-fly,
+“Wah-wah-taysee, little fire-fly,
 Little, flitting, white-fire insect,
 Little, dancing, white-fire creature,
 Light me with your little candle,
 Ere upon my bed I lay me,
-Ere in sleep I close my eyelids!â
+Ere in sleep I close my eyelids!”
 
 Saw the moon rise from the water
 Rippling, rounding from the water,
 Saw the flecks and shadows on it,
-Whispered, âWhat is that, Nokomis?â
+Whispered, “What is that, Nokomis?”
 And the good Nokomis answered:
-âOnce a warrior, very angry,
+“Once a warrior, very angry,
 Seized his grandmother, and threw her
 Up into the sky at midnight;
 Right against the moon he threw her;
-âT is her body that you see there.â
+’T is her body that you see there.”
 
 Saw the rainbow in the heaven,
 In the eastern sky, the rainbow,
-Whispered, âWhat is that, Nokomis?â
+Whispered, “What is that, Nokomis?”
 And the good Nokomis answered:
-ââT is the heaven of flowers you see there;
+“’T is the heaven of flowers you see there;
 All the wild-flowers of the forest,
 All the lilies of the prairie,
 When on earth they fade and perish,
-Blossom in that heaven above us.â
+Blossom in that heaven above us.”
 
 When he heard the owls at midnight,
 Hooting, laughing in the forest,
-âWhat is that?â he cried in terror,
-âWhat is that,â he said, âNokomis?â
+“What is that?” he cried in terror,
+“What is that,” he said, “Nokomis?”
 And the good Nokomis answered:
-âThat is but the owl and owlet,
+“That is but the owl and owlet,
 Talking in their native language,
-Talking, scolding at each other.â
+Talking, scolding at each other.”
 
 Then the little Hiawatha
 Learned of every bird its language,
 Learned their names and all their secrets,
 How they built their nests in Summer,
 Where they hid themselves in Winter,
-Talked with them wheneâer he met them,
-Called them âHiawathaâs Chickens.â
+Talked with them whene’er he met them,
+Called them “Hiawatha’s Chickens.”
 
 Of all beasts he learned the language,
 Learned their names and all their secrets,
@@ -956,8 +956,8 @@ How the beavers built their lodges,
 Where the squirrels hid their acorns,
 How the reindeer ran so swiftly,
 Why the rabbit was so timid,
-Talked with them wheneâer he met them,
-Called them âHiawathaâs Brothers.â
+Talked with them whene’er he met them,
+Called them “Hiawatha’s Brothers.”
 
 Then Iagoo, the great boaster,
 He the marvellous story-teller,
@@ -970,33 +970,33 @@ Tipped with flint, and winged with feathers,
 And the cord he made of deer-skin.
 
 Then he said to Hiawatha:
-âGo, my son, into the forest,
+“Go, my son, into the forest,
 Where the red deer herd together,
 Kill for us a famous roebuck,
-Kill for us a deer with antlers!â
+Kill for us a deer with antlers!”
 
 Forth into the forest straightway
 All alone walked Hiawatha
 Proudly, with his bow and arrows;
-And the birds sang round him, oâer him,
-âDo not shoot us, Hiawatha!â
+And the birds sang round him, o’er him,
+“Do not shoot us, Hiawatha!”
 Sang the robin, the Opechee,
 Sang the bluebird, the Owaissa,
-âDo not shoot us, Hiawatha!â
+“Do not shoot us, Hiawatha!”
 
 Up the oak-tree, close beside him,
 Sprang the squirrel, Adjidaumo,
 In and out among the branches,
 Coughed and chattered from the oak-tree,
 Laughed, and said between his laughing,
-âDo not shoot me, Hiawatha!â
+“Do not shoot me, Hiawatha!”
 
 And the rabbit from his pathway
 Leaped aside, and at a distance
 Sat erect upon his haunches,
 Half in fear and half in frolic,
 Saying to the little hunter,
-âDo not shoot me, Hiawatha!â
+“Do not shoot me, Hiawatha!”
 
 But he heeded not, nor heard them,
 For his thoughts were with the red deer;
@@ -1037,9 +1037,9 @@ As he bore the red deer homeward,
 And Iagoo and Nokomis
 Hailed his coming with applauses.
 
-From the red deerâs hide Nokomis
+From the red deer’s hide Nokomis
 Made a cloak for Hiawatha,
-From the red deerâs flesh Nokomis
+From the red deer’s flesh Nokomis
 Made a banquet to his honor.
 All the village came and feasted,
 All the guests praised Hiawatha,
@@ -1090,10 +1090,10 @@ And his heart was hot within him,
 Like a living coal his heart was.
 
 Then he said to old Nokomis,
-âI will go to Mudjekeewis,
+“I will go to Mudjekeewis,
 See how fares it with my father,
 At the doorways of the West-Wind,
-At the portals of the Sunset!â
+At the portals of the Sunset!”
 
 From his lodge went Hiawatha,
 Dressed for travel, armed for hunting;
@@ -1109,14 +1109,14 @@ With his mittens, Minjekahwun,
 With his moccasins enchanted.
 
 Warning said the old Nokomis,
-âGo not forth, O Hiawatha!
+“Go not forth, O Hiawatha!
 To the kingdom of the West-Wind,
 To the realms of Mudjekeewis,
 Lest he harm you with his magic,
-Lest he kill you with his cunning!â
+Lest he kill you with his cunning!”
 
 But the fearless Hiawatha
-Heeded not her womanâs warning;
+Heeded not her woman’s warning;
 Forth he strode into the forest,
 At each stride a mile he measured;
 Lurid seemed the sky above him,
@@ -1156,14 +1156,14 @@ In the face of Hiawatha,
 Saw the beauty of Wenonah
 From the grave rise up before him.
 
-âWelcome!â said he, âHiawatha,
+“Welcome!” said he, “Hiawatha,
 To the kingdom of the West-Wind
 Long have I been waiting for you
 Youth is lovely, age is lonely,
 Youth is fiery, age is frosty;
 You bring back the days departed,
 You bring back my youth of passion,
-And the beautiful Wenonah!â
+And the beautiful Wenonah!”
 
 Many days they talked together,
 Questioned, listened, waited, answered;
@@ -1174,63 +1174,63 @@ His indomitable courage,
 His invulnerable body.
 
 Patiently sat Hiawatha,
-Listening to his fatherâs boasting;
+Listening to his father’s boasting;
 With a smile he sat and listened,
 Uttered neither threat nor menace,
 Neither word nor look betrayed him,
 But his heart was hot within him,
 Like a living coal his heart was.
 
-Then he said, âO Mudjekeewis,
+Then he said, “O Mudjekeewis,
 Is there nothing that can harm you?
-Nothing that you are afraid of?â
+Nothing that you are afraid of?”
 And the mighty Mudjekeewis,
 Grand and gracious in his boasting,
-Answered, saying, âThere is nothing,
+Answered, saying, “There is nothing,
 Nothing but the black rock yonder,
-Nothing but the fatal Wawbeek!â
+Nothing but the fatal Wawbeek!”
 
 And he looked at Hiawatha
 With a wise look and benignant,
 With a countenance paternal,
 Looked with pride upon the beauty
 Of his tall and graceful figure,
-Saying, âO my Hiawatha!
+Saying, “O my Hiawatha!
 Is there anything can harm you?
-Anything you are afraid of?â
+Anything you are afraid of?”
 
 But the wary Hiawatha
 Paused awhile, as if uncertain,
 Held his peace, as if resolving,
-And then answered, âThere is nothing,
+And then answered, “There is nothing,
 Nothing but the bulrush yonder,
-Nothing but the great Apukwa!â
+Nothing but the great Apukwa!”
 
 And as Mudjekeewis, rising,
 Stretched his hand to pluck the bulrush,
 Hiawatha cried in terror,
 Cried in well-dissembled terror,
-âKago! kago! do not touch it!â
-âAh, kaween!â said Mudjekeewis,
-âNo indeed, I will not touch it!â
+“Kago! kago! do not touch it!”
+“Ah, kaween!” said Mudjekeewis,
+“No indeed, I will not touch it!”
 
 Then they talked of other matters;
-First of Hiawathaâs brothers,
+First of Hiawatha’s brothers,
 First of Wabun, of the East-Wind,
 Of the South-Wind, Shawondasee,
 Of the North, Kabibonokka;
-Then of Hiawathaâs mother,
+Then of Hiawatha’s mother,
 Of the beautiful Wenonah,
 Of her birth upon the meadow,
 Of her death, as old Nokomis
 Had remembered and related.
 
-And he cried, âO Mudjekeewis,
+And he cried, “O Mudjekeewis,
 It was you who killed Wenonah,
 Took her young life and her beauty,
 Broke the Lily of the Prairie,
 Trampled it beneath your footsteps;
-You confess it! you confess it!â
+You confess it! you confess it!”
 And the mighty Mudjekeewis
 Tossed upon the wind his tresses,
 Bowed his hoary head in anguish,
@@ -1274,30 +1274,30 @@ Till the earth shook with the tumult
 And confusion of the battle,
 And the air was full of shoutings,
 And the thunder of the mountains,
-Starting, answered, âBaim-wawa!â
+Starting, answered, “Baim-wawa!”
 
 Back retreated Mudjekeewis,
-Rushing westward oâer the mountains,
+Rushing westward o’er the mountains,
 Stumbling westward down the mountains,
 Three whole days retreated fighting,
 Still pursued by Hiawatha
 To the doorways of the West-Wind,
 To the portals of the Sunset,
-To the earthâs remotest border,
+To the earth’s remotest border,
 Where into the empty spaces
 Sinks the sun, as a flamingo
 Drops into her nest at nightfall
 In the melancholy marshes.
 
-âHold!â at length cried Mudjekeewis,
-âHold, my son, my Hiawatha!
-âT is impossible to kill me,
+“Hold!” at length cried Mudjekeewis,
+“Hold, my son, my Hiawatha!
+’T is impossible to kill me,
 For you cannot kill the immortal
 I have put you to this trial,
 But to know and prove your courage;
 Now receive the prize of valor!
 
-âGo back to your home and people,
+“Go back to your home and people,
 Live among them, toil among them,
 Cleanse the earth from all that harms it,
 Clear the fishing-grounds and rivers,
@@ -1307,20 +1307,20 @@ All the serpents, the Kenabeeks,
 As I slew the Mishe-Mokwa,
 Slew the Great Bear of the mountains.
 
-âAnd at last when Death draws near you,
+“And at last when Death draws near you,
 When the awful eyes of Pauguk
 Glare upon you in the darkness,
 I will share my kingdom with you,
 Ruler shall you be thenceforward
 Of the Northwest-Wind, Keewaydin,
-Of the home-wind, the Keewaydin.â
+Of the home-wind, the Keewaydin.”
 
 Thus was fought that famous battle
 In the dreadful days of Shah-shah,
 In the days long since departed,
 In the kingdom of the West-Wind.
 Still the hunter sees its traces
-Scattered far oâer hill and valley;
+Scattered far o’er hill and valley;
 Sees the giant bulrush growing
 By the ponds and water-courses,
 Sees the masses of the Wawbeek
@@ -1392,7 +1392,7 @@ Not a word of Laughing Water.
 
 
 V
-Hiawathaâs Fasting
+Hiawatha’s Fasting
 
 
 You shall hear how Hiawatha
@@ -1424,21 +1424,21 @@ Building nests among the pinetrees,
 And in flocks the wild-goose, Wawa,
 Flying to the fen-lands northward,
 Whirring, wailing far above him.
-âMaster of Life!â he cried, desponding,
-âMust our lives depend on these things?â
+“Master of Life!” he cried, desponding,
+“Must our lives depend on these things?”
 
 On the next day of his fasting
-By the riverâs brink he wandered,
+By the river’s brink he wandered,
 Through the Muskoday, the meadow,
 Saw the wild rice, Mahnomonee,
 Saw the blueberry, Meenahga,
 And the strawberry, Odahmin,
 And the gooseberry, Shahbomin,
 And the grape-vine, the Bemahgut,
-Trailing oâer the alder-branches,
+Trailing o’er the alder-branches,
 Filling all the air with fragrance!
-âMaster of Life!â he cried, desponding,
-âMust our lives depend on these things?â
+“Master of Life!” he cried, desponding,
+“Must our lives depend on these things?”
 
 On the third day of his fasting
 By the lake he sat and pondered,
@@ -1450,8 +1450,8 @@ Like a sunbeam in the water,
 Saw the pike, the Maskenozha,
 And the herring, Okahahwis,
 And the Shawgashee, the crawfish!
-âMaster of Life!â he cried, desponding,
-âMust our lives depend on these things?â
+“Master of Life!” he cried, desponding,
+“Must our lives depend on these things?”
 
 On the fourth day of his fasting
 In his lodge he lay exhausted;
@@ -1466,7 +1466,7 @@ And he saw a youth approaching,
 Dressed in garments green and yellow,
 Coming through the purple twilight,
 Through the splendor of the sunset;
-Plumes of green bent oâer his forehead,
+Plumes of green bent o’er his forehead,
 And his hair was soft and golden.
 
 Standing at the open doorway,
@@ -1475,7 +1475,7 @@ Looked with pity and compassion
 On his wasted form and features,
 And, in accents like the sighing
 Of the South-Wind in the tree-tops,
-Said he, âO my Hiawatha!
+Said he, “O my Hiawatha!
 All your prayers are heard in heaven,
 For you pray not like the others;
 Not for greater skill in hunting,
@@ -1485,13 +1485,13 @@ Nor renown among the warriors,
 But for profit of the people,
 For advantage of the nations.
 
-âFrom the Master of Life descending,
+“From the Master of Life descending,
 I, the friend of man, Mondamin,
 Come to warn you and instruct you,
 How by struggle and by labor
 You shall gain what you have prayed for.
 Rise up from your bed of branches,
-Rise, O youth, and wrestle with me!â
+Rise, O youth, and wrestle with me!”
 
 Faint with famine, Hiawatha
 Started from his bed of branches,
@@ -1513,10 +1513,10 @@ From her nest among the pine-trees,
 Gave a cry of lamentation,
 Gave a scream of pain and famine.
 
-ââT is enough!â then said Mondamin,
+“’T is enough!” then said Mondamin,
 Smiling upon Hiawatha,
-âBut tomorrow, when the sun sets,
-I will come again to try you.â
+“But tomorrow, when the sun sets,
+I will come again to try you.”
 And he vanished, and was seen not;
 Whether sinking as the rain sinks,
 Whether rising as the mists rise,
@@ -1555,16 +1555,16 @@ Waved and nodded with his breathing,
 And the sweat of the encounter
 Stood like drops of dew upon him.
 
-And he cried, âO Hiawatha!
+And he cried, “O Hiawatha!
 Bravely have you wrestled with me,
 Thrice have wrestled stoutly with me,
 And the Master of Life, who sees us,
-He will give to you the triumph!â
+He will give to you the triumph!”
 
-Then he smiled, and said: âTo-morrow
+Then he smiled, and said: “To-morrow
 Is the last day of your conflict,
 Is the last day of your fasting.
-You will conquer and oâercome me;
+You will conquer and o’ercome me;
 Make a bed for me to lie in,
 Where the rain may fall upon me,
 Where the sun may come and warm me;
@@ -1573,13 +1573,13 @@ Strip this nodding plumage from me,
 Lay me in the earth, and make it
 Soft and loose and light above me.
 
-âLet no hand disturb my slumber,
+“Let no hand disturb my slumber,
 Let no weed nor worm molest me,
 Let not Kahgahgee, the raven,
 Come to haunt me and molest me,
 Only come yourself to watch me,
 Till I wake, and start, and quicken,
-Till I leap into the sunshineâ
+Till I leap into the sunshine”
 
 And thus saying, he departed;
 Peacefully slept Hiawatha,
@@ -1600,16 +1600,16 @@ On the morrow came Nokomis,
 On the seventh day of his fasting,
 Came with food for Hiawatha,
 Came imploring and bewailing,
-Lest his hunger should oâercome him,
+Lest his hunger should o’ercome him,
 Lest his fasting should be fatal.
 
 But he tasted not, and touched not,
-Only said to her, âNokomis,
+Only said to her, “Nokomis,
 Wait until the sun is setting,
 Till the darkness falls around us,
 Till the heron, the Shuh-shuh-gah,
 Crying from the desolate marshes,
-Tells us that the day is ended.â
+Tells us that the day is ended.”
 
 Homeward weeping went Nokomis,
 Sorrowing for her Hiawatha,
@@ -1692,8 +1692,8 @@ Stood the maize in all its beauty,
 With its shining robes about it,
 And its long, soft, yellow tresses;
 And in rapture Hiawatha
-Cried aloud, âIt is Mondamin!
-Yes, the friend of man, Mondamin!â
+Cried aloud, “It is Mondamin!
+Yes, the friend of man, Mondamin!”
 
 Then he called to old Nokomis
 And Iagoo, the great boaster,
@@ -1718,7 +1718,7 @@ This new gift of the Great Spirit.
 
 
 VI
-Hiawathaâs Friends
+Hiawatha’s Friends
 
 
 Two good friends had Hiawatha,
@@ -1735,7 +1735,7 @@ Singing birds, that utter falsehoods,
 Story-tellers, mischief-makers,
 Found no eager ear to listen,
 Could not breed ill-will between them,
-For they kept each otherâs counsel,
+For they kept each other’s counsel,
 Spake with naked hearts together,
 Pondering much and much contriving
 How the tribes of men might prosper.
@@ -1766,24 +1766,24 @@ And the rabbit, the Wabasso,
 Sat upright to look and listen.
 
 Yes, the brook, the Sebowisha,
-Pausing, said, âO Chibiabos,
+Pausing, said, “O Chibiabos,
 Teach my waves to flow in music,
-Softly as your words in singing!â
+Softly as your words in singing!”
 
 Yes, the bluebird, the Owaissa,
-Envious, said, âO Chibiabos,
+Envious, said, “O Chibiabos,
 Teach me tones as wild and wayward,
-Teach me songs as full of frenzy!â
+Teach me songs as full of frenzy!”
 
 Yes, the robin, the Opechee,
-Joyous, said, âO Chibiabos,
+Joyous, said, “O Chibiabos,
 Teach me tones as sweet and tender,
-Teach me songs as full of gladness!â
+Teach me songs as full of gladness!”
 
 And the whippoorwill, Wawonaissa,
-Sobbing, said, âO Chibiabos,
+Sobbing, said, “O Chibiabos,
 Teach me tones as melancholy,
-Teach me songs as full of sadness!â
+Teach me songs as full of sadness!”
 
 All the many sounds of nature
 Borrowed sweetness from his singing;
@@ -1819,19 +1819,19 @@ But they saw that much he fasted,
 Much his Manito entreated,
 Much besought his Guardian Spirit.
 
-âLazy Kwasind!â said his mother,
-âIn my work you never help me!
+“Lazy Kwasind!” said his mother,
+“In my work you never help me!
 In the Summer you are roaming
 Idly in the fields and forests;
 In the Winter you are cowering
-Oâer the firebrands in the wigwam!
+O’er the firebrands in the wigwam!
 In the coldest days of Winter
 I must break the ice for fishing;
 With my nets you never help me!
 At the door my nets are hanging,
 Dripping, freezing with the water;
 Go and wring them, Yenadizze!
-Go and dry them in the sunshine!â
+Go and dry them in the sunshine!”
 
 Slowly, from the ashes, Kwasind
 Rose, but made no angry answer;
@@ -1843,12 +1843,12 @@ Like a wisp of straw he broke them,
 Could not wring them without breaking,
 Such the strength was in his fingers.
 
-âLazy Kwasind!â said his father,
-âIn the hunt you never help me;
+“Lazy Kwasind!” said his father,
+“In the hunt you never help me;
 Every bow you touch is broken,
 Snapped asunder every arrow;
 Yet come with me to the forest,
-You shall bring the hunting homeward.â
+You shall bring the hunting homeward.”
 
 Down a narrow pass they wandered,
 Where a brooklet led them onward,
@@ -1860,10 +1860,10 @@ By the trunks of trees uprooted,
 Lying lengthwise, lying crosswise,
 And forbidding further passage.
 
-âWe must go back,â said the old man,
-âOâer these logs we cannot clamber;
+“We must go back,” said the old man,
+“O’er these logs we cannot clamber;
 Not a woodchuck could get through them,
-Not a squirrel clamber oâer them!â
+Not a squirrel clamber o’er them!”
 And straightway his pipe he lighted,
 And sat down to smoke and ponder.
 But before his pipe was finished,
@@ -1873,12 +1873,12 @@ To the right hand, to the left hand,
 Shot the pine-trees swift as arrows,
 Hurled the cedars light as lances.
 
-âLazy Kwasind!â said the young men,
+“Lazy Kwasind!” said the young men,
 As they sported in the meadow:
-âWhy stand idly looking at us,
+“Why stand idly looking at us,
 Leaning on the rock behind you?
 Come and wrestle with the others,
-Let us pitch the quoit together!â
+Let us pitch the quoit together!”
 
 Lazy Kwasind made no answer,
 To their challenge made no answer,
@@ -1905,8 +1905,8 @@ Through the whirlpools chased the beaver,
 Followed him among the islands,
 Stayed so long beneath the water,
 That his terrified companions
-Cried, âAlas! good-by to Kwasind!
-We shall never more see Kwasind!â
+Cried, “Alas! good-by to Kwasind!
+We shall never more see Kwasind!”
 But he reappeared triumphant,
 And upon his shining shoulders
 Brought the beaver, dead and dripping,
@@ -1925,10 +1925,10 @@ How the tribes of men might prosper.
 
 
 VII
-Hiawathaâs Sailing
+Hiawatha’s Sailing
 
 
-âGive me of your bark, O Birch-tree!
+“Give me of your bark, O Birch-tree!
 Of your yellow bark, O Birch-tree!
 Growing by the rushing river,
 Tall and stately in the valley!
@@ -1938,11 +1938,11 @@ That shall float upon the river,
 Like a yellow leaf in Autumn,
 Like a yellow water-lily!
 
-âLay aside your cloak, O Birch-tree!
+“Lay aside your cloak, O Birch-tree!
 Lay aside your white-skin wrapper,
 For the Summer-time is coming,
 And the sun is warm in heaven,
-And you need no white-skin wrapper!â
+And you need no white-skin wrapper!”
 
 Thus aloud cried Hiawatha
 In the solitary forest,
@@ -1950,13 +1950,13 @@ By the rushing Taquamenaw,
 When the birds were singing gayly,
 In the Moon of Leaves were singing,
 And the sun, from sleep awaking,
-Started up and said, âBehold me!
-Gheezis, the great Sun, behold me!â
+Started up and said, “Behold me!
+Gheezis, the great Sun, behold me!”
 
 And the tree with all its branches
 Rustled in the breeze of morning,
 Saying, with a sigh of patience,
-âTake my cloak, O Hiawatha!â
+“Take my cloak, O Hiawatha!”
 
 With his knife the tree he girdled;
 Just beneath its lowest branches,
@@ -1967,69 +1967,69 @@ Sheer he cleft the bark asunder,
 With a wooden wedge he raised it,
 Stripped it from the trunk unbroken.
 
-âGive me of your boughs, O Cedar!
+“Give me of your boughs, O Cedar!
 Of your strong and pliant branches,
 My canoe to make more steady,
-Make more strong and firm beneath me!â
+Make more strong and firm beneath me!”
 
 Through the summit of the Cedar
 Went a sound, a cry of horror,
 Went a murmur of resistance;
 But it whispered, bending downward,
-âTake my boughs, O Hiawatha!â
+“Take my boughs, O Hiawatha!”
 
 Down he hewed the boughs of cedar,
 Shaped them straightway to a frame-work,
 Like two bows he formed and shaped them,
 Like two bended bows together.
 
-âGive me of your roots, O Tamarack!
+“Give me of your roots, O Tamarack!
 Of your fibrous roots, O Larch-tree!
 My canoe to bind together,
 So to bind the ends together
 That the water may not enter,
-That the river may not wet me!â
+That the river may not wet me!”
 
 And the Larch, with all its fibres,
 Shivered in the air of morning,
 Touched his forehead with its tassels,
 Slid, with one long sigh of sorrow.
-âTake them all, O Hiawatha!â
+“Take them all, O Hiawatha!”
 
 From the earth he tore the fibres,
 Tore the tough roots of the Larch-tree,
 Closely sewed the bark together,
 Bound it closely to the frame-work.
 
-âGive me of your balm, O Fir-tree!
+“Give me of your balm, O Fir-tree!
 Of your balsam and your resin,
 So to close the seams together
 That the water may not enter,
-That the river may not wet me!â
+That the river may not wet me!”
 
 And the Fir-tree, tall and sombre,
 Sobbed through all its robes of darkness,
 Rattled like a shore with pebbles,
 Answered wailing, answered weeping,
-âTake my balm, O Hiawatha!â
+“Take my balm, O Hiawatha!”
 
 And he took the tears of balsam,
 Took the resin of the Fir-tree,
 Smeared therewith each seam and fissure,
 Made each crevice safe from water.
 
-âGive me of your quills, O Hedgehog!
+“Give me of your quills, O Hedgehog!
 All your quills, O Kagh, the Hedgehog!
 I will make a necklace of them,
 Make a girdle for my beauty,
-And two stars to deck her bosom!â
+And two stars to deck her bosom!”
 
 From a hollow tree the Hedgehog
 With his sleepy eyes looked at him,
 Shot his shining quills, like arrows,
 Saying with a drowsy murmur,
 Through the tangle of his whiskers,
-âTake my quills, O Hiawatha!â
+“Take my quills, O Hiawatha!”
 
 From the ground the quills he gathered,
 All the little shining arrows,
@@ -2043,11 +2043,11 @@ On its breast two stars resplendent.
 Thus the Birch Canoe was builded
 In the valley, by the river,
 In the bosom of the forest;
-And the forestâs life was in it,
+And the forest’s life was in it,
 All its mystery and its magic,
 All the lightness of the birch-tree,
 All the toughness of the cedar,
-All the larchâs supple sinews;
+All the larch’s supple sinews;
 And it floated on the river
 Like a yellow leaf in Autumn,
 Like a yellow water-lily.
@@ -2061,8 +2061,8 @@ Veered to right or left at pleasure.
 
 Then he called aloud to Kwasind,
 To his friend, the strong man, Kwasind,
-Saying, âHelp me clear this river
-Of its sunken logs and sand-bars.â
+Saying, “Help me clear this river
+Of its sunken logs and sand-bars.”
 
 Straight into the river Kwasind
 Plunged as if he were an otter,
@@ -2095,7 +2095,7 @@ To the bay of Taquamenaw.
 
 
 VIII
-Hiawathaâs Fishing
+Hiawatha’s Fishing
 
 
 Forth upon the Gitche Gumee,
@@ -2146,17 +2146,17 @@ As above him Hiawatha
 In his birch canoe came sailing,
 With his fishing-line of cedar.
 
-âTake my bait,â cried Hiawatha,
+“Take my bait,” cried Hiawatha,
 Dawn into the depths beneath him,
-âTake my bait, O Sturgeon, Nahma!
+“Take my bait, O Sturgeon, Nahma!
 Come up from below the water,
-Let us see which is the stronger!â
+Let us see which is the stronger!”
 And he dropped his line of cedar
 Through the clear, transparent water,
 Waited vainly for an answer,
 Long sat waiting for an answer,
 And repeating loud and louder,
-âTake my bait, O King of Fishes!â
+“Take my bait, O King of Fishes!”
 
 Quiet lay the sturgeon, Nahma,
 Fanning slowly in the water,
@@ -2166,8 +2166,8 @@ His unnecessary tumult,
 Till he wearied of the shouting;
 And he said to the Kenozha,
 To the pike, the Maskenozha,
-âTake the bait of this rude fellow,
-Break the line of Hiawatha!â
+“Take the bait of this rude fellow,
+Break the line of Hiawatha!”
 
 In his fingers Hiawatha
 Felt the loose line jerk and tighten,
@@ -2182,18 +2182,18 @@ When he saw the fish rise upward,
 Saw the pike, the Maskenozha,
 Coming nearer, nearer to him,
 And he shouted through the water,
-âEsa! esa! shame upon you!
+“Esa! esa! shame upon you!
 You are but the pike, Kenozha,
 You are not the fish I wanted,
-You are not the King of Fishes!â
+You are not the King of Fishes!”
 
 Reeling downward to the bottom
 Sank the pike in great confusion,
 And the mighty sturgeon, Nahma,
 Said to Ugudwash, the sun-fish,
 To the bream, with scales of crimson,
-âTake the bait of this great boaster,
-Break the line of Hiawatha!â
+“Take the bait of this great boaster,
+Break the line of Hiawatha!”
 
 Slowly upward, wavering, gleaming,
 Rose the Ugudwash, the sun-fish,
@@ -2211,10 +2211,10 @@ But when Hiawatha saw him
 Slowly rising through the water,
 Lifting up his disk refulgent,
 Loud he shouted in derision,
-âEsa! esa! shame upon you!
+“Esa! esa! shame upon you!
 You are Ugudwash, the sun-fish,
 You are not the fish I wanted,
-You are not the King of Fishes!â
+You are not the King of Fishes!”
 
 Slowly downward, wavering, gleaming,
 Sank the Ugudwash, the sun-fish,
@@ -2262,13 +2262,13 @@ Toiled and tugged with Hiawatha
 Till the labor was completed.
 
 Then said Hiawatha to him,
-âO my little friend, the squirrel,
+“O my little friend, the squirrel,
 Bravely have you toiled to help me;
 Take the thanks of Hiawatha,
 And the name which now he gives you;
 For hereafter and forever
 Boys shall call you Adjidaumo,
-Tail-in-air the boys shall call you!â
+Tail-in-air the boys shall call you!”
 
 And again the sturgeon, Nahma,
 Gasped and quivered in the water,
@@ -2290,11 +2290,11 @@ Saw the glittering eyes of sea-gulls,
 Of Kayoshk, the sea-gulls, peering,
 Gazing at him through the opening,
 Heard them saying to each other,
-ââT is our brother, Hiawatha!â
+“’T is our brother, Hiawatha!”
 
 And he shouted from below them,
 Cried exulting from the caverns:
-âO ye sea-gulls! O my brothers!
+“O ye sea-gulls! O my brothers!
 I have slain the sturgeon, Nahma;
 Make the rifts a little larger,
 With your claws the openings widen,
@@ -2302,7 +2302,7 @@ Set me free from this dark prison,
 And henceforward and forever
 Men shall speak of your achievements,
 Calling you Kayoshk, the sea-gulls,
-Yes, Kayoshk, the Noble Scratchers!â
+Yes, Kayoshk, the Noble Scratchers!”
 
 And the wild and clamorous sea-gulls
 Toiled with beak and claws together,
@@ -2321,9 +2321,9 @@ Pointed to the sturgeon, Nahma,
 Lying lifeless on the pebbles,
 With the sea-gulls feeding on him.
 
-âI have slain the Mishe-Nahma,
-Slain the King of Fishes!â said he;
-âLook! the sea-gulls feed upon him,
+“I have slain the Mishe-Nahma,
+Slain the King of Fishes!” said he;
+“Look! the sea-gulls feed upon him,
 Yes, my friends Kayoshk, the sea-gulls;
 Drive them not away, Nokomis,
 They have saved me from great peril
@@ -2333,7 +2333,7 @@ Till their craws are full with feasting,
 Till they homeward fly, at sunset,
 To their nests among the marshes;
 Then bring all your pots and kettles,
-And make oil for us in Winter.â
+And make oil for us in Winter.”
 
 And she waited till the sun set,
 Till the pallid moon, the Night-sun,
@@ -2372,7 +2372,7 @@ On the shores of Gitche Gumee,
 Of the shining Big-Sea-Water,
 Stood Nokomis, the old woman,
 Pointing with her finger westward,
-Oâer the water pointing westward,
+O’er the water pointing westward,
 To the purple clouds of sunset.
 
 Fiercely the red sun descending
@@ -2389,7 +2389,7 @@ With its glare upon his features.
 And Nokomis, the old woman,
 Pointing with her finger westward,
 Spake these words to Hiawatha:
-âYonder dwells the great Pearl-Feather,
+“Yonder dwells the great Pearl-Feather,
 Megissogwon, the Magician,
 Manito of Wealth and Wampum,
 Guarded by his fiery serpents,
@@ -2401,7 +2401,7 @@ You can see the black pitch-water
 Stretching far away beyond them,
 To the purple clouds of sunset!
 
-âHe it was who slew my father,
+“He it was who slew my father,
 By his wicked wiles and cunning,
 When he from the moon descended,
 When he came on earth to seek me.
@@ -2412,7 +2412,7 @@ Sends the poisonous exhalations,
 Sends the white fog from the fen-lands,
 Sends disease and death among us!
 
-âTake your bow, O Hiawatha,
+“Take your bow, O Hiawatha,
 Take your arrows, jasper-headed,
 Take your war-club, Puggawaugun,
 And your mittens, Minjekahwun,
@@ -2423,16 +2423,16 @@ You may pass the black pitch-water;
 Slay this merciless magician,
 Save the people from the fever
 That he breathes across the fen-lands,
-And avenge my fatherâs murder!â
+And avenge my father’s murder!”
 
 Straightway then my Hiawatha
 Armed himself with all his war-gear,
 Launched his birch-canoe for sailing;
 With his palm its sides he patted,
-Said with glee, âCheemaun, my darling,
+Said with glee, “Cheemaun, my darling,
 O my Birch-canoe! leap forward,
 Where you see the fiery serpents,
-Where you see the black pitch-water!â
+Where you see the black pitch-water!”
 
 Forward leaped Cheemaun exulting,
 And the noble Hiawatha
@@ -2453,12 +2453,12 @@ So that none could pass beyond them.
 
 But the fearless Hiawatha
 Cried aloud, and spake in this wise,
-âLet me pass my way, Kenabeek,
-Let me go upon my journey!â
+“Let me pass my way, Kenabeek,
+Let me go upon my journey!”
 And they answered, hissing fiercely,
 With their fiery breath made answer:
-âBack, go back! O Shaugodaya!
-Back to old Nokomis, Faint-heart!â
+“Back, go back! O Shaugodaya!
+Back to old Nokomis, Faint-heart!”
 
 Then the angry Hiawatha
 Raised his mighty bow of ash-tree,
@@ -2473,8 +2473,8 @@ Weltering in the bloody water,
 Dead lay all the fiery serpents,
 And among them Hiawatha
 Harmless sailed, and cried exulting:
-âOnward, O Cheemaun, my darling!
-Onward to the black pitch-water!â
+“Onward, O Cheemaun, my darling!
+Onward to the black pitch-water!”
 
 Then he took the oil of Nahma,
 And the bows and sides anointed,
@@ -2488,7 +2488,7 @@ Black with rotting water-rushes,
 Rank with flags and leaves of lilies,
 Stagnant, lifeless, dreary, dismal,
 Lighted by the shimmering moonlight,
-And by will-oâ-the-wisps illumined,
+And by will-o’-the-wisps illumined,
 Fires by ghosts of dead men kindled,
 In their weary night-encampments.
 
@@ -2506,7 +2506,7 @@ And anon a thousand whistles,
 Answered over all the fen-lands,
 And the heron, the Shuh-shuh-gah,
 Far off on the reedy margin,
-Heralded the heroâs coming.
+Heralded the hero’s coming.
 
 Westward thus fared Hiawatha,
 Toward the realm of Megissogwon,
@@ -2521,7 +2521,7 @@ Of the Manito of Wampum,
 Of the mightiest of Magicians.
 
 Then once more Cheemaun he patted,
-To his birch-canoe said, âOnward!â
+To his birch-canoe said, “Onward!”
 And it stirred in all its fibres,
 And with one great bound of triumph
 Leaped across the water-lilies,
@@ -2538,8 +2538,8 @@ Shot it at the Shining Wigwam,
 Sent it singing as a herald,
 As a bearer of his message,
 Of his challenge loud and lofty:
-âCome forth from your lodge, Pearl-Feather!
-Hiawatha waits your coming!â
+“Come forth from your lodge, Pearl-Feather!
+Hiawatha waits your coming!”
 
 Straightway from the Shining Wigwam
 Came the mighty Megissogwon,
@@ -2552,27 +2552,27 @@ Streaked with crimson, blue, and yellow,
 Crested with great eagle-feathers,
 Streaming upward, streaming outward.
 
-âWell I know you, Hiawatha!â
+“Well I know you, Hiawatha!”
 Cried he in a voice of thunder,
 In a tone of loud derision.
-âHasten back, O Shaugodaya!
+“Hasten back, O Shaugodaya!
 Hasten back among the women,
 Back to old Nokomis, Faint-heart!
 I will slay you as you stand there,
-As of old I slew her father!â
+As of old I slew her father!”
 
 But my Hiawatha answered,
 Nothing daunted, fearing nothing:
-âBig words do not smite like war-clubs,
+“Big words do not smite like war-clubs,
 Boastful breath is not a bow-string,
 Taunts are not so sharp as arrows,
 Deeds are better things than words are,
-Actions mightier than boastings!â
+Actions mightier than boastings!”
 
 Then began the greatest battle
 That the sun had ever looked on,
 That the war-birds ever witnessed.
-All a Summerâs day it lasted,
+All a Summer’s day it lasted,
 From the sunrise to the sunset;
 For the shafts of Hiawatha
 Harmless hit the shirt of wampum,
@@ -2592,19 +2592,19 @@ And three useless arrows only,
 Paused to rest beneath a pine-tree,
 From whose branches trailed the mosses,
 And whose trunk was coated over
-With the Dead-manâs Moccasin-leather,
+With the Dead-man’s Moccasin-leather,
 With the fungus white and yellow.
 
 Suddenly from the boughs above him
 Sang the Mama, the woodpecker:
-âAim your arrows, Hiawatha,
+“Aim your arrows, Hiawatha,
 At the head of Megissogwon,
 Strike the tuft of hair upon it,
 At their roots the long black tresses;
-There alone can he be wounded!â
+There alone can he be wounded!”
 
 Winged with feathers, tipped with jasper,
-Swift flew Hiawathaâs arrow,
+Swift flew Hiawatha’s arrow,
 Just as Megissogwon, stooping,
 Raised a heavy stone to throw it.
 Full upon the crown it struck him,
@@ -2674,17 +2674,17 @@ With a shout and song of triumph.
 On the shore stood old Nokomis,
 On the shore stood Chibiabos,
 And the very strong man, Kwasind,
-Waiting for the heroâs coming,
+Waiting for the hero’s coming,
 Listening to his songs of triumph.
 And the people of the village
 Welcomed him with songs and dances,
 Made a joyous feast, and shouted:
-âHonor be to Hiawatha!
+“Honor be to Hiawatha!
 He has slain the great Pearl-Feather,
 Slain the mightiest of Magicians,
 Him, who sent the fiery fever,
 Sent the white fog from the fen-lands,
-Sent disease and death among us!â
+Sent disease and death among us!”
 
 Ever dear to Hiawatha
 Was the memory of Mama!
@@ -2702,14 +2702,14 @@ Shared it equally among them.
 
 
 X
-Hiawathaâs Wooing
+Hiawatha’s Wooing
 
 
-âAs unto the bow the cord is,
+“As unto the bow the cord is,
 So unto the man is woman;
 Though she bends him, she obeys him,
 Though she draws him, yet she follows;
-Useless each without the other!â
+Useless each without the other!”
 
 Thus the youthful Hiawatha
 Said within himself and pondered,
@@ -2719,54 +2719,54 @@ Dreaming still of Minnehaha,
 Of the lovely Laughing Water,
 In the land of the Dacotahs.
 
-âWed a maiden of your people,â
+“Wed a maiden of your people,”
 Warning said the old Nokomis;
-âGo not eastward, go not westward,
+“Go not eastward, go not westward,
 For a stranger, whom we know not!
 Like a fire upon the hearth-stone
-Is a neighborâs homely daughter,
+Is a neighbor’s homely daughter,
 Like the starlight or the moonlight
-Is the handsomest of strangers!â
+Is the handsomest of strangers!”
 
 Thus dissuading spake Nokomis,
 And my Hiawatha answered
-Only this: âDear old Nokomis,
+Only this: “Dear old Nokomis,
 Very pleasant is the firelight,
 But I like the starlight better,
-Better do I like the moonlight!â
+Better do I like the moonlight!”
 
 Gravely then said old Nokomis:
-âBring not here an idle maiden,
+“Bring not here an idle maiden,
 Bring not here a useless woman,
 Hands unskilful, feet unwilling;
 Bring a wife with nimble fingers,
 Heart and hand that move together,
-Feet that run on willing errands!â
+Feet that run on willing errands!”
 
 Smiling answered Hiawatha:
-âIn the land of the Dacotahs
-Lives the Arrow-makerâs daughter,
+“In the land of the Dacotahs
+Lives the Arrow-maker’s daughter,
 Minnehaha, Laughing Water,
 Handsomest of all the women.
 I will bring her to your wigwam,
 She shall run upon your errands,
 Be your starlight, moonlight, firelight,
-Be the sunlight of my people!â
+Be the sunlight of my people!”
 
 Still dissuading said Nokomis:
-âBring not to my lodge a stranger
+“Bring not to my lodge a stranger
 From the land of the Dacotahs!
 Very fierce are the Dacotahs,
 Often is there war between us,
 There are feuds yet unforgotten,
-Wounds that ache and still may open!â
+Wounds that ache and still may open!”
 
 Laughing answered Hiawatha:
-âFor that reason, if no other,
+“For that reason, if no other,
 Would I wed the fair Dacotah,
 That our tribes might be united,
 That old feuds might be forgotten,
-And old wounds be healed forever!â
+And old wounds be healed forever!”
 
 Thus departed Hiawatha
 To the land of the Dacotahs,
@@ -2780,18 +2780,18 @@ At each stride a mile he measured;
 Yet the way seemed long before him,
 And his heart outran his footsteps;
 And he journeyed without resting,
-Till he heard the cataractâs laughter,
+Till he heard the cataract’s laughter,
 Heard the Falls of Minnehaha
 Calling to him through the silence.
-âPleasant is the sound!â he murmured,
-âPleasant is the voice that calls me!â
+“Pleasant is the sound!” he murmured,
+“Pleasant is the voice that calls me!”
 
 On the outskirts of the forests,
-âTwixt the shadow and the sunshine,
+’Twixt the shadow and the sunshine,
 Herds of fallow deer were feeding,
 But they saw not Hiawatha;
-To his bow he whispered, âFail not!â
-To his arrow whispered, âSwerve not!â
+To his bow he whispered, “Fail not!”
+To his arrow whispered, “Swerve not!”
 Sent it singing on its errand,
 To the red heart of the roebuck;
 Threw the deer across his shoulder,
@@ -2806,8 +2806,8 @@ At his side, in all her beauty,
 Sat the lovely Minnehaha,
 Sat his daughter, Laughing Water,
 Plaiting mats of flags and rushes
-Of the past the old manâs thoughts were,
-And the maidenâs of the future.
+Of the past the old man’s thoughts were,
+And the maiden’s of the future.
 
 He was thinking, as he sat there,
 Of the days when with such arrows
@@ -2827,7 +2827,7 @@ She was thinking of a hunter,
 From another tribe and country,
 Young and tall and very handsome,
 Who one morning, in the Spring-time,
-Came to buy her fatherâs arrows,
+Came to buy her father’s arrows,
 Sat and rested in the wigwam,
 Lingered long about the doorway,
 Looking back as he departed.
@@ -2850,7 +2850,7 @@ Looked up gravely from his labor,
 Laid aside the unfinished arrow,
 Bade him enter at the doorway,
 Saying, as he rose to meet him,
-âHiawatha, you are welcome!â
+“Hiawatha, you are welcome!”
 
 At the feet of Laughing Water
 Hiawatha laid his burden,
@@ -2858,7 +2858,7 @@ Threw the red deer from his shoulders;
 And the maiden looked up at him,
 Looked up from her mat of rushes,
 Said with gentle look and accent,
-âYou are welcome, Hiawatha!â
+“You are welcome, Hiawatha!”
 
 Very spacious was the wigwam,
 Made of deer-skins dressed and whitened,
@@ -2892,18 +2892,18 @@ And of happiness and plenty
 In the land of the Ojibways,
 In the pleasant land and peaceful.
 
-âAfter many years of warfare,
+“After many years of warfare,
 Many years of strife and bloodshed,
 There is peace between the Ojibways
-And the tribe of the Dacotahs.â
+And the tribe of the Dacotahs.”
 Thus continued Hiawatha,
 And then added, speaking slowly,
-âThat this peace may last forever,
+“That this peace may last forever,
 And our hands be clasped more closely,
 And our hearts be more united,
 Give me as my wife this maiden,
 Minnehaha, Laughing Water,
-Loveliest of Dacotah women!â
+Loveliest of Dacotah women!”
 
 And the ancient Arrow-maker
 Paused a moment ere he answered,
@@ -2911,8 +2911,8 @@ Smoked a little while in silence,
 Looked at Hiawatha proudly,
 Fondly looked at Laughing Water,
 And made answer very gravely:
-âYes, if Minnehaha wishes;
-Let your heart speak, Minnehaha!â
+“Yes, if Minnehaha wishes;
+Let your heart speak, Minnehaha!”
 
 And the lovely Laughing Water
 Seemed more lovely as she stood there,
@@ -2920,9 +2920,9 @@ Neither willing nor reluctant,
 As she went to Hiawatha,
 Softly took the seat beside him,
 While she said, and blushed to say it,
-âI will follow you, my husband!â
+“I will follow you, my husband!”
 
-This was Hiawathaâs wooing!
+This was Hiawatha’s wooing!
 Thus it was he won the daughter
 Of the ancient Arrow-maker,
 In the land of the Dacotahs!
@@ -2936,13 +2936,13 @@ At the doorway of his wigwam,
 Heard the Falls of Minnehaha
 Calling to them from the distance,
 Crying to them from afar off,
-âFare thee well, O Minnehaha!â
+“Fare thee well, O Minnehaha!”
 
 And the ancient Arrow-maker
 Turned again unto his labor,
 Sat down by his sunny doorway,
 Murmuring to himself, and saying:
-âThus it is our daughters leave us,
+“Thus it is our daughters leave us,
 Those we love, and those who love us!
 Just when they have learned to help us,
 When we are old and lean upon them,
@@ -2951,7 +2951,7 @@ With his flute of reeds, a stranger
 Wanders piping through the village,
 Beckons to the fairest maiden,
 And she follows where he leads her,
-Leaving all things for the stranger!â
+Leaving all things for the stranger!”
 
 Pleasant was the journey homeward,
 Through interminable forests,
@@ -2974,7 +2974,7 @@ And a fire before the doorway
 With the dry cones of the pine-tree.
 
 All the travelling winds went with them,
-Oâer the meadows, through the forest;
+O’er the meadows, through the forest;
 All the stars of night looked at them,
 Watched with sleepless eyes their slumber;
 From his ambush in the oak-tree
@@ -2988,28 +2988,28 @@ Watched with curious eyes the lovers.
 
 Pleasant was the journey homeward!
 All the birds sang loud and sweetly
-Songs of happiness and heartâs-ease;
+Songs of happiness and heart’s-ease;
 Sang the bluebird, the Owaissa,
-âHappy are you, Hiawatha,
-Having such a wife to love you!â
+“Happy are you, Hiawatha,
+Having such a wife to love you!”
 Sang the robin, the Opechee,
-âHappy are you, Laughing Water,
-Having such a noble husband!â
+“Happy are you, Laughing Water,
+Having such a noble husband!”
 
 From the sky the sun benignant
 Looked upon them through the branches,
-Saying to them, âO my children,
+Saying to them, “O my children,
 Love is sunshine, hate is shadow,
 Life is checkered shade and sunshine,
-Rule by love, O Hiawatha!â
+Rule by love, O Hiawatha!”
 
 From the sky the moon looked at them,
 Filled the lodge with mystic splendors,
-Whispered to them, âO my children,
+Whispered to them, “O my children,
 Day is restless, night is quiet,
 Man imperious, woman feeble;
 Half is mine, although I follow;
-Rule by patience, Laughing Water!â
+Rule by patience, Laughing Water!”
 
 Thus it was they journeyed homeward;
 Thus it was that Hiawatha
@@ -3025,12 +3025,12 @@ In the land of handsome women.
 
 
 XI
-Hiawathaâs Wedding-Feast
+Hiawatha’s Wedding-Feast
 
 
 You shall hear how Pau-Puk-Keewis,
 How the handsome Yenadizze
-Danced at Hiawathaâs wedding;
+Danced at Hiawatha’s wedding;
 How the gentle Chibiabos,
 He the sweetest of musicians,
 Sang his songs of love and longing;
@@ -3042,7 +3042,7 @@ That the time might pass more gayly,
 And the guests be more contented.
 
 Sumptuous was the feast Nokomis
-Made at Hiawathaâs wedding;
+Made at Hiawatha’s wedding;
 All the bowls were made of bass-wood,
 White and polished very smoothly,
 All the spoons of horn of bison,
@@ -3082,12 +3082,12 @@ With tobacco from the South-land,
 Mixed with bark of the red willow,
 And with herbs and leaves of fragrance.
 
-Then she said, âO Pau-Puk-Keewis,
+Then she said, “O Pau-Puk-Keewis,
 Dance for us your merry dances,
-Dance the Beggarâs Dance to please us,
+Dance the Beggar’s Dance to please us,
 That the feast may be more joyous,
 That the time may pass more gayly,
-And our guests be more contented!â
+And our guests be more contented!”
 
 Then the handsome Pau-Puk-Keewis,
 He the idle Yenadizze,
@@ -3117,7 +3117,7 @@ He was dressed in deer-skin leggings,
 Fringed with hedgehog quills and ermine,
 And in moccasins of buck-skin,
 Thick with quills and beads embroidered.
-On his head were plumes of swanâs down,
+On his head were plumes of swan’s down,
 On his heels were tails of foxes,
 In one hand a fan of feathers,
 And a pipe was in the other.
@@ -3126,7 +3126,7 @@ Barred with streaks of red and yellow,
 Streaks of blue and bright vermilion,
 Shone the face of Pau-Puk-Keewis.
 From his forehead fell his tresses,
-Smooth, and parted like a womanâs,
+Smooth, and parted like a woman’s,
 Shining bright with oil, and plaited,
 Hung with braids of scented grasses,
 As among the guests assembled,
@@ -3142,7 +3142,7 @@ Through the shadows and the sunshine,
 Treading softly like a panther.
 Then more swiftly and still swifter,
 Whirling, spinning round in circles,
-Leaping oâer the guests assembled,
+Leaping o’er the guests assembled,
 Eddying round and round the wigwam,
 Till the leaves went whirling with him,
 Till the dust and wind together
@@ -3155,12 +3155,12 @@ Stamped upon the sand, and tossed it
 Wildly in the air around him;
 Till the wind became a whirlwind,
 Till the sand was blown and sifted
-Like great snowdrifts oâer the landscape,
+Like great snowdrifts o’er the landscape,
 Heaping all the shores with Sand Dunes,
 Sand Hills of the Nagow Wudjoo!
 
 Thus the merry Pau-Puk-Keewis
-Danced his Beggarâs Dance to please them,
+Danced his Beggar’s Dance to please them,
 And, returning, sat down laughing
 There among the guests assembled,
 Sat and fanned himself serenely
@@ -3170,11 +3170,11 @@ Then they said to Chibiabos,
 To the friend of Hiawatha,
 To the sweetest of all singers,
 To the best of all musicians,
-âSing to us, O Chibiabos!
+“Sing to us, O Chibiabos!
 Songs of love and songs of longing,
 That the feast may be more joyous,
 That the time may pass more gayly,
-And our guests be more contented!â
+And our guests be more contented!”
 
 And the gentle Chibiabos
 Sang in accents sweet and tender,
@@ -3184,50 +3184,50 @@ Looking still at Hiawatha,
 Looking at fair Laughing Water,
 Sang he softly, sang in this wise:
 
-âOnaway! Awake, beloved!
+“Onaway! Awake, beloved!
 Thou the wild-flower of the forest!
 Thou the wild-bird of the prairie!
 Thou with eyes so soft and fawn-like!
 
-âIf thou only lookest at me,
+“If thou only lookest at me,
 I am happy, I am happy,
 As the lilies of the prairie,
 When they feel the dew upon them!
 
-âSweet thy breath is as the fragrance
+“Sweet thy breath is as the fragrance
 Of the wild-flowers in the morning,
 As their fragrance is at evening,
 In the Moon when leaves are falling.
 
-âDoes not all the blood within me
+“Does not all the blood within me
 Leap to meet thee, leap to meet thee,
 As the springs to meet the sunshine,
 In the Moon when nights are brightest?
 
-âOnaway! my heart sings to thee,
+“Onaway! my heart sings to thee,
 Sings with joy when thou art near me,
 As the sighing, singing branches
 In the pleasant Moon of Strawberries!
 
-âWhen thou art not pleased, beloved,
+“When thou art not pleased, beloved,
 Then my heart is sad and darkened,
 As the shining river darkens
 When the clouds drop shadows on it!
 
-âWhen thou smilest, my beloved,
+“When thou smilest, my beloved,
 Then my troubled heart is brightened,
 As in sunshine gleam the ripples
 That the cold wind makes in rivers.
 
-âSmiles the earth, and smile the waters,
+“Smiles the earth, and smile the waters,
 Smile the cloudless skies above us,
 But I lose the way of smiling
 When thou art no longer near me!
 
-âI myself, myself! behold me!
+“I myself, myself! behold me!
 Blood of my beating heart, behold me!
 Oh awake, awake, beloved!
-Onaway! awake, beloved!â
+Onaway! awake, beloved!”
 
 Thus the gentle Chibiabos
 Sang his song of love and longing;
@@ -3267,12 +3267,12 @@ As this wonderful Iagoo,
 As this marvellous story-teller!
 Thus his name became a by-word
 And a jest among the people;
-And wheneâer a boastful hunter
+And whene’er a boastful hunter
 Praised his own address too highly,
 Or a warrior, home returning,
 Talked too much of his achievements,
-All his hearers cried, âIagoo!
-Hereâs Iagoo come among us!â
+All his hearers cried, “Iagoo!
+Here’s Iagoo come among us!”
 
 He it was who carved the cradle
 Of the little Hiawatha,
@@ -3283,22 +3283,22 @@ How to make his bows and arrows,
 How to make the bows of ash-tree,
 And the arrows of the oak-tree.
 So among the guests assembled
-At my Hiawathaâs wedding
+At my Hiawatha’s wedding
 Sat Iagoo, old and ugly,
 Sat the marvellous story-teller.
 
-And they said, âO good Iagoo,
+And they said, “O good Iagoo,
 Tell us now a tale of wonder,
 Tell us of some strange adventure,
 That the feast may be more joyous,
 That the time may pass more gayly,
-And our guests be more contented!â
+And our guests be more contented!”
 
 And Iagoo answered straightway,
-âYou shall hear a tale of wonder,
+“You shall hear a tale of wonder,
 You shall hear the strange adventures
 Of Osseo, the Magician,
-From the Evening Star descending.â
+From the Evening Star descending.”
 
 
 
@@ -3308,7 +3308,7 @@ The Son of the Evening Star
 
 
 Can it be the sun descending
-Oâer the level plain of water?
+O’er the level plain of water?
 Or the Red Swan floating, flying,
 Wounded by the magic arrow,
 Staining all the waves with crimson,
@@ -3334,13 +3334,13 @@ As he passes through the twilight,
 Walks in silence through the heavens.
 
 This with joy beheld Iagoo
-And he said in haste: âBehold it!
+And he said in haste: “Behold it!
 See the sacred Star of Evening!
 You shall hear a tale of wonder,
 Hear the story of Osseo,
 Son of the Evening Star, Osseo!
 
-âOnce, in days no more remembered,
+“Once, in days no more remembered,
 Ages nearer the beginning,
 When the heavens were closer to us,
 And the Gods were more familiar,
@@ -3352,7 +3352,7 @@ She the wilful and the wayward,
 She the silent, dreamy maiden,
 Was the fairest of the sisters.
 
-âAll these women married warriors,
+“All these women married warriors,
 Married brave and haughty husbands;
 Only Oweenee, the youngest,
 Laughed and flouted all her lovers,
@@ -3362,7 +3362,7 @@ Old Osseo, poor and ugly,
 Broken with age and weak with coughing,
 Always coughing like a squirrel.
 
-âAh, but beautiful within him
+“Ah, but beautiful within him
 Was the spirit of Osseo,
 From the Evening Star descended,
 Star of Evening, Star of Woman,
@@ -3372,18 +3372,18 @@ All its beauty in his spirit,
 All its mystery in his being,
 All its splendor in his language!
 
-âAnd her lovers, the rejected,
+“And her lovers, the rejected,
 Handsome men with belts of wampum,
 Handsome men with paint and feathers.
 Pointed at her in derision,
 Followed her with jest and laughter.
-But she said: âI care not for you,
+But she said: ‘I care not for you,
 Care not for your belts of wampum,
 Care not for your paint and feathers,
 Care not for your jests and laughter;
-I am happy with Osseo!â
+I am happy with Osseo!’
 
-âOnce to some great feast invited,
+“Once to some great feast invited,
 Through the damp and dusk of evening,
 Walked together the ten sisters,
 Walked together with their husbands;
@@ -3392,24 +3392,24 @@ With fair Oweenee beside him;
 All the others chatted gayly,
 These two only walked in silence.
 
-âAt the western sky Osseo
+“At the western sky Osseo
 Gazed intent, as if imploring,
 Often stopped and gazed imploring
 At the trembling Star of Evening,
 At the tender Star of Woman;
 And they heard him murmur softly,
-âAh, showain nemeshin, Nosa!
-Pity, pity me, my father!â
+‘Ah, showain nemeshin, Nosa!
+Pity, pity me, my father!’
 
-ââListen!â said the eldest sister,
-âHe is praying to his father!
+“‘Listen!’ said the eldest sister,
+‘He is praying to his father!
 What a pity that the old man
 Does not stumble in the pathway,
-Does not break his neck by falling!â
+Does not break his neck by falling!’
 And they laughed till all the forest
 Rang with their unseemly laughter.
 
-âOn their pathway through the woodlands
+“On their pathway through the woodlands
 Lay an oak, by storms uprooted,
 Lay the great trunk of an oak-tree,
 Buried half in leaves and mosses,
@@ -3422,7 +3422,7 @@ Wasted, wrinkled, old, and ugly;
 From the other came a young man,
 Tall and straight and strong and handsome.
 
-âThus Osseo was transfigured,
+“Thus Osseo was transfigured,
 Thus restored to youth and beauty;
 But, alas for good Osseo,
 And for Oweenee, the faithful!
@@ -3434,7 +3434,7 @@ And the sisters and their husbands
 Laughed until the echoing forest
 Rang with their unseemly laughter.
 
-âBut Osseo turned not from her,
+“But Osseo turned not from her,
 Walked with slower step beside her,
 Took her hand, as brown and withered
 As an oak-leaf is in Winter,
@@ -3445,7 +3445,7 @@ Till they sat down in the wigwam,
 Sacred to the Star of Evening,
 To the tender Star of Woman.
 
-âWrapt in visions, lost in dreaming,
+“Wrapt in visions, lost in dreaming,
 At the banquet sat Osseo;
 All were merry, all were happy,
 All were joyous but Osseo.
@@ -3456,18 +3456,18 @@ Looking dreamily and sadly,
 First at Oweenee, then upward
 At the gleaming sky above them.
 
-âThen a voice was heard, a whisper,
+“Then a voice was heard, a whisper,
 Coming from the starry distance,
 Coming from the empty vastness,
 Low, and musical, and tender;
-And the voice said: âO Osseo!
+And the voice said: ‘O Osseo!
 O my son, my best beloved!
 Broken are the spells that bound you,
 All the charms of the magicians,
 All the magic powers of evil;
 Come to me; ascend, Osseo!
 
-ââTaste the food that stands before you:
+“‘Taste the food that stands before you:
 It is blessed and enchanted,
 It has magic virtues in it,
 It will change you to a spirit.
@@ -3478,14 +3478,14 @@ And the kettles shall be silver;
 They shall shine like shells of scarlet,
 Like the fire shall gleam and glimmer.
 
-ââAnd the women shall no longer
+“‘And the women shall no longer
 Bear the dreary doom of labor,
 But be changed to birds, and glisten
 With the beauty of the starlight,
 Painted with the dusky splendors
-Of the skies and clouds of evening!â
+Of the skies and clouds of evening!’
 
-âWhat Osseo heard as whispers,
+“What Osseo heard as whispers,
 What as words he comprehended,
 Was but music to the others,
 Music as of birds afar off,
@@ -3493,7 +3493,7 @@ Of the whippoorwill afar off,
 Of the lonely Wawonaissa
 Singing in the darksome forest.
 
-âThen the lodge began to tremble,
+“Then the lodge began to tremble,
 Straight began to shake and tremble,
 And they felt it rising, rising,
 Slowly through the air ascending,
@@ -3509,7 +3509,7 @@ Were as glittering rods of silver,
 And the roof of bark upon them
 As the shining shards of beetles.
 
-âThen Osseo gazed around him,
+“Then Osseo gazed around him,
 And he saw the nine fair sisters,
 All the sisters and their husbands,
 Changed to birds of various plumage.
@@ -3520,7 +3520,7 @@ Perked and fluttered all their feathers,
 Strutted in their shining plumage,
 And their tails like fans unfolded.
 
-âOnly Oweenee, the youngest,
+“Only Oweenee, the youngest,
 Was not changed, but sat in silence,
 Wasted, wrinkled, old, and ugly,
 Looking sadly at the others;
@@ -3528,13 +3528,13 @@ Till Osseo, gazing upward,
 Gave another cry of anguish,
 Such a cry as he had uttered
 By the oak-tree in the forest.
-âThen returned her youth and beauty,
+“Then returned her youth and beauty,
 And her soiled and tattered garments
 Were transformed to robes of ermine,
 And her staff became a feather,
 Yes, a shining silver feather!
 
-âAnd again the wigwam trembled,
+“And again the wigwam trembled,
 Swayed and rushed through airy currents,
 Through transparent cloud and vapor,
 And amid celestial splendors
@@ -3543,21 +3543,21 @@ As a snow-flake falls on snow-flake,
 As a leaf drops on a river,
 As the thistledown on water.
 
-âForth with cheerful words of welcome
+“Forth with cheerful words of welcome
 Came the father of Osseo,
 He with radiant locks of silver,
 He with eyes serene and tender.
-And he said: âMy son, Osseo,
+And he said: ‘My son, Osseo,
 Hang the cage of birds you bring there,
 Hang the cage with rods of silver,
 And the birds with glistening feathers,
-At the doorway of my wigwam.â
+At the doorway of my wigwam.’
 
-âAt the door he hung the bird-cage,
+“At the door he hung the bird-cage,
 And they entered in and gladly
-Listened to Osseoâs father,
+Listened to Osseo’s father,
 Ruler of the Star of Evening,
-As he said: âO my Osseo!
+As he said: ‘O my Osseo!
 I have had compassion on you,
 Given you back your youth and beauty,
 Into birds of various plumage
@@ -3570,7 +3570,7 @@ Could not see your youth immortal;
 Only Oweenee, the faithful,
 Saw your naked heart and loved you.
 
-ââIn the lodge that glimmers yonder,
+“‘In the lodge that glimmers yonder,
 In the little star that twinkles
 Through the vapors, on the left hand,
 Lives the envious Evil Spirit,
@@ -3579,9 +3579,9 @@ Who transformed you to an old man.
 Take heed lest his beams fall on you,
 For the rays he darts around him
 Are the power of his enchantment,
-Are the arrows that he uses.â
+Are the arrows that he uses.’
 
-âMany years, in peace and quiet,
+“Many years, in peace and quiet,
 On the peaceful Star of Evening
 Dwelt Osseo with his father;
 Many years, in song and flutter,
@@ -3592,7 +3592,7 @@ Bore a son unto Osseo,
 With the beauty of his mother,
 With the courage of his father.
 
-âAnd the boy grew up and prospered,
+“And the boy grew up and prospered,
 And Osseo, to delight him,
 Made him little bows and arrows,
 Opened the great cage of silver,
@@ -3600,7 +3600,7 @@ And let loose his aunts and uncles,
 All those birds with glossy feathers,
 For his little son to shoot at.
 
-âRound and round they wheeled and darted,
+“Round and round they wheeled and darted,
 Filled the Evening Star with music,
 With their songs of joy and freedom
 Filled the Evening Star with splendor,
@@ -3611,12 +3611,12 @@ Shot a swift and fatal arrow,
 And a bird, with shining feathers,
 At his feet fell wounded sorely.
 
-âBut, O wondrous transformation!
-âT was no bird he saw before him,
-âT was a beautiful young woman,
+“But, O wondrous transformation!
+’T was no bird he saw before him,
+’T was a beautiful young woman,
 With the arrow in her bosom!
 
-âWhen her blood fell on the planet,
+“When her blood fell on the planet,
 On the sacred Star of Evening,
 Broken was the spell of magic,
 Powerless was the strange enchantment,
@@ -3629,7 +3629,7 @@ Till he rested on an island,
 On an island, green and grassy,
 Yonder in the Big-Sea-Water.
 
-âAfter him he saw descending
+“After him he saw descending
 All the birds with shining feathers,
 Fluttering, falling, wafted downward,
 Like the painted leaves of Autumn;
@@ -3641,7 +3641,7 @@ Slowly sank upon the island,
 Bringing back the good Osseo,
 Bringing Oweenee, the faithful.
 
-âThen the birds, again transfigured,
+“Then the birds, again transfigured,
 Reassumed the shape of mortals,
 Took their shape, but not their stature;
 They remained as Little People,
@@ -3649,73 +3649,73 @@ Like the pygmies, the Puk-Wudjies,
 And on pleasant nights of Summer,
 When the Evening Star was shining,
 Hand in hand they danced together
-On the islandâs craggy headlands,
+On the island’s craggy headlands,
 On the sand-beach low and level.
 
-âStill their glittering lodge is seen there,
+“Still their glittering lodge is seen there,
 On the tranquil Summer evenings,
 And upon the shore the fisher
 Sometimes hears their happy voices,
-Sees them dancing in the starlight !â
+Sees them dancing in the starlight !”
 
 When the story was completed,
 When the wondrous tale was ended,
 Looking round upon his listeners,
 Solemnly Iagoo added:
-âThere are great men, I have known such,
+“There are great men, I have known such,
 Whom their people understand not,
 Whom they even make a jest of,
 Scoff and jeer at in derision.
 From the story of Osseo
-Let us learn the fate of jesters!â
+Let us learn the fate of jesters!”
 
 All the wedding guests delighted
 Listened to the marvellous story,
 Listened laughing and applauding,
 And they whispered to each other:
-âDoes he mean himself, I wonder?
-And are we the aunts and uncles?â
+“Does he mean himself, I wonder?
+And are we the aunts and uncles?”
 
 Then again sang Chibiabos,
 Sang a song of love and longing,
 In those accents sweet and tender,
 In those tones of pensive sadness,
-Sang a maidenâs lamentation
+Sang a maiden’s lamentation
 For her lover, her Algonquin.
 
-âWhen I think of my beloved,
+“When I think of my beloved,
 Ah me! think of my beloved,
 When my heart is thinking of him,
 O my sweetheart, my Algonquin!
 
-âAh me! when I parted from him,
+“Ah me! when I parted from him,
 Round my neck he hung the wampum,
 As a pledge, the snow-white wampum,
 O my sweetheart, my Algonquin!
 
-ââI will go with you,â he whispered,
-âAh me! to your native country;
-Let me go with you,â he whispered,
-âO my sweetheart, my Algonquin!â
-âFar away, away,â I answered,
-âVery far away,â I answered,
-âAh me! is my native country,
-O my sweetheart, my Algonquin!â
+“‘I will go with you,’ he whispered,
+‘Ah me! to your native country;
+Let me go with you,’ he whispered,
+‘O my sweetheart, my Algonquin!’
+‘Far away, away,’ I answered,
+‘Very far away,’ I answered,
+‘Ah me! is my native country,
+O my sweetheart, my Algonquin!’
 
-âWhen I looked back to behold him,
+“When I looked back to behold him,
 Where we parted, to behold him,
 After me he still was gazing,
 O my sweetheart, my Algonquin!
 
-âBy the tree he still was standing,
+“By the tree he still was standing,
 By the fallen tree was standing,
 That had dropped into the water,
 O my sweetheart, my Algonquin!
-âWhen I think of my beloved,
+“When I think of my beloved,
 Ah me! think of my beloved,
 When my heart is thinking of him,
-O my sweetheart, my Algonquin!â
-Such was Hiawathaâs Wedding,
+O my sweetheart, my Algonquin!”
+Such was Hiawatha’s Wedding,
 Such the dance of Pau-Puk-Keewis,
 Such the story of Iagoo,
 Such the songs of Chibiabos;
@@ -3757,10 +3757,10 @@ Stood the maize-fields, green and shining,
 Waved the green plumes of Mondamin,
 Waved his soft and sunny tresses,
 Filling all the land with plenty.
-âT was the women who in Spring-time
+’T was the women who in Spring-time
 Planted the broad fields and fruitful,
 Buried in the earth Mondamin;
-âT was the women who in Autumn
+’T was the women who in Autumn
 Stripped the yellow husks of harvest,
 Stripped the garments from Mondamin,
 Even as Hiawatha taught them.
@@ -3769,14 +3769,14 @@ Once, when all the maize was planted,
 Hiawatha, wise and thoughtful,
 Spake and said to Minnehaha,
 To his wife, the Laughing Water:
-âYou shall bless to-night the cornfields,
+“You shall bless to-night the cornfields,
 Draw a magic circle round them,
 To protect them from destruction,
 Blast of mildew, blight of insect,
 Wagemin, the thief of cornfields,
 Paimosaid, who steals the maize-ear.
 
-âIn the night, when all is silence,â
+“In the night, when all is silence,’
 In the night, when all is darkness,
 When the Spirit of Sleep, Nepahwin,
 Shuts the doors of all the wigwams,
@@ -3789,18 +3789,18 @@ Round the borders of the cornfields,
 Covered by your tresses only,
 Robed with darkness as a garment.
 
-âThus the fields shall be more fruitful,
+“Thus the fields shall be more fruitful,
 And the passing of your footsteps
 Draw a magic circle round them,
 So that neither blight nor mildew,
 Neither burrowing worm nor insect,
-Shall pass oâer the magic circle;
+Shall pass o’er the magic circle;
 Not the dragon-fly, Kwo-ne-she,
 Nor the spider, Subbekashe,
 Nor the grasshopper, Pah-puk-keena;
 Nor the mighty caterpillar,
 Way-muk-kwana, with the bear-skin,
-King of all the caterpillars!â
+King of all the caterpillars!”
 
 On the tree-tops near the cornfields
 Sat the hungry crows and ravens,
@@ -3810,11 +3810,11 @@ And they laughed at Hiawatha,
 Till the tree-tops shook with laughter,
 With their melancholy laughter,
 At the words of Hiawatha.
-âHear him!â said they; âhear the Wise Man,
-Hear the plots of Hiawatha!â
+“Hear him!” said they; “hear the Wise Man,
+Hear the plots of Hiawatha!”
 
 When the noiseless night descended
-Broad and dark oâer field and forest,
+Broad and dark o’er field and forest,
 When the mournful Wawonaissa
 Sorrowing sang among the hemlocks,
 And the Spirit of Sleep, Nepahwin,
@@ -3834,7 +3834,7 @@ Heard the panting of her bosom
 Guskewau, the darkness, wrapped her
 Closely in his sacred mantle,
 So that none might see her beauty,
-So that none might boast, âI saw her!â
+So that none might boast, “I saw her!”
 
 On the morrow, as the day dawned,
 Kahgahgee, the King of Ravens,
@@ -3845,24 +3845,24 @@ And descended, fast and fearless,
 On the fields of Hiawatha,
 On the grave of the Mondamin.
 
-âWe will drag Mondamin,â said they,
-âFrom the grave where he is buried,
+“We will drag Mondamin,” said they,
+“From the grave where he is buried,
 Spite of all the magic circles
 Laughing Water draws around it,
 Spite of all the sacred footprints
-Minnehaha stamps upon it!â
+Minnehaha stamps upon it!”
 
 But the wary Hiawatha,
 Ever thoughtful, careful, watchful,
-Had oâerheard the scornful laughter
+Had o’erheard the scornful laughter
 When they mocked him from the tree-tops.
-âKaw!â he said, âmy friends the ravens!
+“Kaw!” he said, “my friends the ravens!
 Kahgahgee, my King of Ravens!
 I will teach you all a lesson
-That shall not be soon forgotten!â
+That shall not be soon forgotten!”
 
 He had risen before the daybreak,
-He had spread oâer all the cornfields
+He had spread o’er all the cornfields
 Snares to catch the black marauders,
 And was lying now in ambush
 In the neighboring grove of pine-trees,
@@ -3903,13 +3903,13 @@ Led him captive to his wigwam,
 Tied him fast with cords of elm-bark
 To the ridge-pole of his wigwam.
 
-âKahgahgee, my raven!â said he,
-âYou the leader of the robbers,
+“Kahgahgee, my raven!” said he,
+“You the leader of the robbers,
 You the plotter of this mischief,
 The contriver of this outrage,
 I will keep you, I will hold you,
 As a hostage for your people,
-As a pledge of good behavior!â
+As a pledge of good behavior!”
 
 And he left him, grim and sulky,
 Sitting in the morning sunshine
@@ -3920,7 +3920,7 @@ Vainly struggling for his freedom,
 Vainly calling on his people!
 
 Summer passed, and Shawondasee
-Breathed his sighs oâer all the landscape,
+Breathed his sighs o’er all the landscape,
 From the South-land sent his ardor,
 Wafted kisses warm and tender;
 And the maize-field grew and ripened,
@@ -3933,13 +3933,13 @@ Gleamed from bursting sheaths of verdure.
 Then Nokomis, the old woman,
 Spake, and said to Minnehaha:
 
-ââT is the Moon when, leaves are falling;
+“’T is the Moon when, leaves are falling;
 All the wild rice has been gathered,
 And the maize is ripe and ready;
 Let us gather in the harvest,
 Let us wrestle with Mondamin,
 Strip him of his plumes and tassels,
-Of his garments green and yellow!â
+Of his garments green and yellow!”
 
 And the merry Laughing Water
 Went rejoicing from the wigwam,
@@ -3962,16 +3962,16 @@ Heard them chattering like the magpies,
 Heard them laughing like the blue-jays,
 Heard them singing like the robins.
 
-And wheneâer some lucky maiden
+And whene’er some lucky maiden
 Found a red ear in the husking,
 Found a maize-ear red as blood is,
-âNushka!â cried they all together,
-âNushka! you shall have a sweetheart,
-You shall have a handsome husband!â
-âUgh!â the old men all responded
+“Nushka!” cried they all together,
+“Nushka! you shall have a sweetheart,
+You shall have a handsome husband!”
+“Ugh!” the old men all responded
 From their seats beneath the pine-trees.
 
-And wheneâer a youth or maiden
+And whene’er a youth or maiden
 Found a crooked ear in husking,
 Found a maize-ear in the husking
 Blighted, mildewed, or misshapen,
@@ -3980,16 +3980,16 @@ Crept and limped about the cornfields,
 Mimicked in their gait and gestures
 Some old man, bent almost double,
 Singing singly or together:
-âWagemin, the thief of cornfields!
-Paimosaid, who steals the maize-ear!â
+“Wagemin, the thief of cornfields!
+Paimosaid, who steals the maize-ear!”
 
 Till the cornfields rang with laughter,
-Till from Hiawathaâs wigwam
+Till from Hiawatha’s wigwam
 Kahgahgee, the King of Ravens,
 Screamed and quivered in his anger,
 And from all the neighboring tree-tops
 Cawed and croaked the black marauders.
-âUgh!â the old men all responded,
+“Ugh!” the old men all responded,
 From their seats beneath the pine-trees!
 
 
@@ -4000,7 +4000,7 @@ Picture-Writing
 
 
 In those days said Hiawatha,
-âLo! how all things fade and perish!
+“Lo! how all things fade and perish!
 From the memory of the old men
 Pass away the great traditions,
 The achievements of the warriors,
@@ -4010,7 +4010,7 @@ All the craft of the Wabenos,
 All the marvellous dreams and visions
 Of the Jossakeeds, the Prophets!
 
-âGreat men die and are forgotten,
+“Great men die and are forgotten,
 Wise men speak; their words of wisdom
 Perish in the ears that hear them,
 Do not reach the generations
@@ -4018,7 +4018,7 @@ That, as yet unborn, are waiting
 In the great, mysterious darkness
 Of the speechless days that shall be!
 
-âOn the grave-posts of our fathers
+“On the grave-posts of our fathers
 Are no signs, no figures painted;
 Who are in those graves we know not,
 Only know they are our fathers.
@@ -4028,14 +4028,14 @@ Be it Eagle, Bear, or Beaver,
 They descended, this we know not,
 Only know they are our fathers.
 
-âFace to face we speak together,
+“Face to face we speak together,
 But we cannot speak when absent,
 Cannot send our voices from us
 To the friends that dwell afar off;
 Cannot send a secret message,
 But the bearer learns our secret,
 May pervert it, may betray it,
-May reveal it unto others.â
+May reveal it unto others.”
 Thus said Hiawatha, walking
 In the solitary forest,
 Pondering, musing in the forest,
@@ -4090,13 +4090,13 @@ Were a hostile sign and symbol.
 All these things did Hiawatha
 Show unto his wondering people,
 And interpreted their meaning,
-And he said: âBehold, your grave-posts
+And he said: “Behold, your grave-posts
 Have no mark, no sign, nor symbol,
 Go and paint them all with figures;
 Each one with its household symbol,
 With its own ancestral Totem;
 So that those who follow after
-May distinguish them and know them.â
+May distinguish them and know them.”
 
 And they painted on the grave-posts
 On the graves yet unforgotten,
@@ -4152,51 +4152,51 @@ Symbol and interpretation.
 
 First a human figure standing,
 Painted in the brightest scarlet;
-âT is the lover, the musician,
-And the meaning is, âMy painting
-Makes me powerful over others.â
+’T is the lover, the musician,
+And the meaning is, “My painting
+Makes me powerful over others.”
 
 Then the figure seated, singing,
 Playing on a drum of magic,
-And the interpretation, âListen!
-âT is my voice you hear, my singing!â
+And the interpretation, “Listen!
+’T is my voice you hear, my singing!”
 
 Then the same red figure seated
 In the shelter of a wigwam,
 And the meaning of the symbol,
-âI will come and sit beside you
-In the mystery of my passion!â
+“I will come and sit beside you
+In the mystery of my passion!”
 
 Then two figures, man and woman,
 Standing hand in hand together
 With their hands so clasped together
 That they seemed in one united,
 And the words thus represented
-Are, âI see your heart within you,
-And your cheeks are red with blushes!â
+Are, “I see your heart within you,
+And your cheeks are red with blushes!”
 
 Next the maiden on an island,
 In the centre of an Island;
 And the song this shape suggested
-Was, âThough you were at a distance,
+Was, “Though you were at a distance,
 Were upon some far-off island,
 Such the spell I cast upon you,
 Such the magic power of passion,
-I could straightway draw you to me!â
+I could straightway draw you to me!”
 
 Then the figure of the maiden
 Sleeping, and the lover near her,
 Whispering to her in her slumbers,
-Saying, âThough you were far from me
+Saying, “Though you were far from me
 In the land of Sleep and Silence,
-Still the voice of love would reach you!â
+Still the voice of love would reach you!”
 
 And the last of all the figures
 Was a heart within a circle,
 Drawn within a magic circle;
 And the image had this meaning:
-âNaked lies your heart before me,
-To your naked heart I whisper!â
+“Naked lies your heart before me,
+To your naked heart I whisper!”
 
 Thus it was that Hiawatha,
 In his wisdom, taught the people
@@ -4210,12 +4210,12 @@ On the grave-posts of the village.
 
 
 XV
-Hiawathaâs Lamentation
+Hiawatha’s Lamentation
 
 
 In those days the Evil Spirits,
 All the Manitos of mischief,
-Fearing Hiawathaâs wisdom,
+Fearing Hiawatha’s wisdom,
 And his love for Chibiabos,
 Jealous of their faithful friendship,
 And their noble words and actions,
@@ -4224,13 +4224,13 @@ To molest them and destroy them.
 
 Hiawatha, wise and wary,
 Often said to Chibiabos,
-âO my brother! do not leave me,
-Lest the Evil Spirits harm you!â
+“O my brother! do not leave me,
+Lest the Evil Spirits harm you!”
 Chibiabos, young and heedless,
 Laughing shook his coal-black tresses,
 Answered ever sweet and childlike,
-âDo not fear for me, O brother!
-Harm and evil come not near me!â
+“Do not fear for me, O brother!
+Harm and evil come not near me!”
 
 Once when Peboan, the Winter,
 Roofed with ice the Big-Sea-Water,
@@ -4239,7 +4239,7 @@ Hissed among the withered oak-leaves,
 Changed the pine-trees into wigwams,
 Covered all the earth with silence,
 Armed with arrows, shod with snow-shoes,
-Heeding not his brotherâs warning,
+Heeding not his brother’s warning,
 Fearing not the Evil Spirits,
 Forth to hunt the deer with antlers
 All alone went Chibiabos.
@@ -4247,7 +4247,7 @@ All alone went Chibiabos.
 Right across the Big-Sea-Water
 Sprang with speed the deer before him.
 With the wind and snow he followed,
-Oâer the treacherous ice he followed,
+O’er the treacherous ice he followed,
 Wild with all the fierce commotion
 And the rapture of the hunting.
 
@@ -4267,7 +4267,7 @@ Such a fearful lamentation,
 That the bison paused to listen,
 And the wolves howled from the prairies,
 And the thunder in the distance
-Starting answered âBaim-wawa!â
+Starting answered “Baim-wawa!”
 
 Then his face with black he painted,
 With his robe his head he covered,
@@ -4275,13 +4275,13 @@ In his wigwam sat lamenting,
 Seven long weeks he sat lamenting,
 Uttering still this moan of sorrow:
 
-âHe is dead, the sweet musician!
+“He is dead, the sweet musician!
 He the sweetest of all singers!
 He has gone from us forever,
 He has moved a little nearer
 To the Master of all music,
 To the Master of all singing!
-O my brother, Chibiabos!â
+O my brother, Chibiabos!”
 
 And the melancholy fir-trees
 Waved their dark green fans above him,
@@ -4297,20 +4297,20 @@ Sighed the rushes in the meadow.
 
 From the tree-tops sang the bluebird,
 Sang the bluebird, the Owaissa,
-âChibiabos! Chibiabos!
-He is dead, the sweet musician!â
+“Chibiabos! Chibiabos!
+He is dead, the sweet musician!”
 
 From the wigwam sang the robin,
 Sang the robin, the Opechee,
-âChibiabos! Chibiabos!
-He is dead, the sweetest singer!â
+“Chibiabos! Chibiabos!
+He is dead, the sweetest singer!”
 
 And at night through all the forest
 Went the whippoorwill complaining,
 Wailing went the Wawonaissa,
-âChibiabos! Chibiabos!
+“Chibiabos! Chibiabos!
 He is dead, the sweet musician!
-He the sweetest of all singers!â
+He the sweetest of all singers!”
 
 Then the Medicine-men, the Medas,
 The magicians, the Wabenos,
@@ -4342,43 +4342,43 @@ Beat their drums, and shook their rattles;
 Chanted singly and in chorus,
 Mystic songs like these, they chanted.
 
-âI myself, myself! behold me!
-âT is the great Gray Eagle talking;
+“I myself, myself! behold me!
+’T is the great Gray Eagle talking;
 Come, ye white crows, come and hear him!
 The loud-speaking thunder helps me;
 All the unseen spirits help me;
 I can hear their voices calling,
 All around the sky I hear them!
 I can blow you strong, my brother,
-I can heal you, Hiawatha!â
+I can heal you, Hiawatha!”
 
-âHi-au-ha!â replied the chorus,
-âWayha-way!â the mystic chorus.
+“Hi-au-ha!” replied the chorus,
+“Wayha-way!” the mystic chorus.
 
 Friends of mine are all the serpents!
 Hear me shake my skin of hen-hawk!
 Mahng, the white loon, I can kill him;
 I can shoot your heart and kill it!
 I can blow you strong, my brother,
-I can heal you, Hiawatha !â
+I can heal you, Hiawatha !”
 
-âHi-au-ha!â replied the chorus,
-âWayhaway!â the mystic chorus.
+“Hi-au-ha!” replied the chorus,
+“Wayhaway!” the mystic chorus.
 
-âI myself, myself! the prophet!
+“I myself, myself! the prophet!
 When I speak the wigwam trembles,
 Shakes the Sacred Lodge with terror,
 Hands unseen begin to shake it!
 When I walk, the sky I tread on
 Bends and makes a noise beneath me!
 I can blow you strong, my brother!
-Rise and speak, O Hiawatha!â
+Rise and speak, O Hiawatha!”
 
-âHi-au-ha!â replied the chorus,
-âWay-ha-way!â the mystic chorus.
+“Hi-au-ha!” replied the chorus,
+“Way-ha-way!” the mystic chorus.
 
 Then they shook their medicine-pouches
-Oâer the head of Hiawatha,
+O’er the head of Hiawatha,
 Danced their medicine-dance around him;
 And upstarting wild and haggard,
 Like a man from dreams awakened,
@@ -4393,7 +4393,7 @@ All his sorrow and affliction.
 Then they summoned Chibiabos
 From his grave beneath the waters,
 From the sands of Gitche Gumee
-Summoned Hiawathaâs brother.
+Summoned Hiawatha’s brother.
 And so mighty was the magic
 Of that cry and invocation,
 That he heard it as he lay there
@@ -4407,7 +4407,7 @@ But to enter they forbade him.
 Through a chink a coal they gave him,
 Through the door a burning fire-brand;
 Ruler in the Land of Spirits,
-Ruler oâer the dead, they made him,
+Ruler o’er the dead, they made him,
 Telling him a fire to kindle
 For all those that died thereafter,
 Camp-fires for their night encampments
@@ -4427,7 +4427,7 @@ Made no sound beneath his footstep.
 
 Four whole days he journeyed onward
 Down the pathway of the dead men;
-On the dead-manâs strawberry feasted,
+On the dead-man’s strawberry feasted,
 Crossed the melancholy river,
 On the swinging log he crossed it,
 Came unto the Lake of Silver,
@@ -4443,12 +4443,12 @@ Robes of fur, and pots and kettles,
 And with food that friends had given
 For that solitary journey.
 
-âAy! why do the living,â said they,
-âLay such heavy burdens on us!
+“Ay! why do the living,” said they,
+“Lay such heavy burdens on us!
 Better were it to go naked,
 Better were it to go fasting,
 Than to bear such heavy burdens
-On our long and weary journey!â
+On our long and weary journey!”
 Forth then issued Hiawatha,
 Wandered eastward, wandered westward,
 Teaching men the use of simples
@@ -4483,8 +4483,8 @@ Whirled these drifting sands together,
 On the dunes of Nagow Wudjoo,
 When, among the guests assembled,
 He so merrily and madly
-Danced at Hiawathaâs wedding,
-Danced the Beggarâs Dance to please them.
+Danced at Hiawatha’s wedding,
+Danced the Beggar’s Dance to please them.
 
 Now, in search of new adventures,
 From his lodge went Pau-Puk-Keewis,
@@ -4512,8 +4512,8 @@ Made him ready for the encounter,
 Bent his knees down, like a squirrel,
 Drew his arms back, like a cricket.
 
-âOnce he leaped,â said old Iagoo,
-âOnce he leaped, and lo! above him
+“Once he leaped,” said old Iagoo,
+“Once he leaped, and lo! above him
 Bent the sky, as ice in rivers
 When the waters rise beneath it;
 Twice he leaped, and lo! above him
@@ -4523,15 +4523,15 @@ Thrice he leaped, and lo! above him
 Broke the shattered sky asunder,
 And he disappeared within it,
 And Ojeeg, the Fisher Weasel,
-With a bound went in behind him!â
+With a bound went in behind him!”
 
-âHark you!â shouted Pau-Puk-Keewis
+“Hark you!” shouted Pau-Puk-Keewis
 As he entered at the doorway;
-âI am tired of all this talking,
-Tired of old Iagooâs stories,
-Tired of Hiawathaâs wisdom.
+“I am tired of all this talking,
+Tired of old Iagoo’s stories,
+Tired of Hiawatha’s wisdom.
 Here is something to amuse you,
-Better than this endless talking.â
+Better than this endless talking.”
 
 Then from out his pouch of wolf-skin
 Forth he drew, with solemn manner,
@@ -4554,20 +4554,20 @@ In a wooden bowl he placed them,
 Shook and jostled them together,
 Threw them on the ground before him,
 Thus exclaiming and explaining:
-âRed side up are all the pieces,
+“Red side up are all the pieces,
 And one great Kenabeek standing
 On the bright side of a brass piece,
 On a burnished Ozawabeek;
-Thirteen tens and eight are counted.â
+Thirteen tens and eight are counted.”
 
 Then again he shook the pieces,
 Shook and jostled them together,
 Threw them on the ground before him,
 Still exclaiming and explaining:
-âWhite are both the great Kenabeeks,
+“White are both the great Kenabeeks,
 White the Ininewug, the wedge-men,
 Red are all the other pieces;
-Five tens and an eight are counted.â
+Five tens and an eight are counted.”
 
 Thus he taught the game of hazard,
 Thus displayed it and explained it,
@@ -4576,8 +4576,8 @@ Various changes, various meanings:
 Twenty curious eyes stared at him,
 Full of eagerness stared at him.
 
-âMany games,â said old Iagoo,
-âMany games of skill and hazard
+“Many games,” said old Iagoo,
+“Many games of skill and hazard
 Have I seen in different nations,
 Have I played in different countries.
 He who plays with old Iagoo
@@ -4585,7 +4585,7 @@ Must have very nimble fingers;
 Though you think yourself so skilful,
 I can beat you, Pau-Puk-Keewis,
 I can even give you lessons
-In your game of Bowl and Counters!â
+In your game of Bowl and Counters!”
 
 So they sat and played together,
 All the old men and the young men,
@@ -4602,7 +4602,7 @@ Twenty eyes glared wildly at him,
 Like the eyes of wolves glared at him.
 
 Said the lucky Pau-Puk-Keewis:
-âIn my wigwam I am lonely,
+“In my wigwam I am lonely,
 In my wanderings and adventures
 I have need of a companion,
 Fain would have a Meshinauwa,
@@ -4611,17 +4611,17 @@ I will venture all these winnings,
 All these garments heaped about me,
 All this wampum, all these feathers,
 On a single throw will venture
-All against the young man yonder!â
-âT was a youth of sixteen summers,
-âT was a nephew of Iagoo;
+All against the young man yonder!”
+’T was a youth of sixteen summers,
+’T was a nephew of Iagoo;
 Face-in-a-Mist, the people called him.
 
 As the fire burns in a pipe-head
 Dusky red beneath the ashes,
 So beneath his shaggy eyebrows
 Glowed the eyes of old Iagoo.
-âUgh!â he answered very fiercely;
-âUgh!â they answered all and each one.
+“Ugh!” he answered very fiercely;
+“Ugh!” they answered all and each one.
 
 Seized the wooden bowl the old man,
 Closely in his bony fingers
@@ -4647,7 +4647,7 @@ And upright among the others
 One Ininewug was standing,
 Even as crafty Pau-Puk-Keewis
 Stood alone among the players,
-Saying, âFive tens! mine the game is,â
+Saying, “Five tens! mine the game is,”
 
 Twenty eyes glared at him fiercely,
 Like the eyes of wolves glared at him,
@@ -4659,10 +4659,10 @@ Bearing in his arms the winnings,
 Shirts of deer-skin, robes of ermine,
 Belts of wampum, pipes and weapons.
 
-âCarry them,â said Pau-Puk-Keewis,
+“Carry them,” said Pau-Puk-Keewis,
 Pointing with his fan of feathers,
-âTo my wigwam far to eastward,
-On the dunes of Nagow Wudjoo!â
+“To my wigwam far to eastward,
+On the dunes of Nagow Wudjoo!”
 
 Hot and red with smoke and gambling
 Were the eyes of Pau-Puk-Keewis
@@ -4676,7 +4676,7 @@ Beat with triumph like the streamlets,
 As he wandered through the village,
 In the early gray of morning,
 With his fan of turkey-feathers,
-With his plumes and tufts of swanâs down,
+With his plumes and tufts of swan’s down,
 Till he reached the farthest wigwam,
 Reached the lodge of Hiawatha.
 
@@ -4691,13 +4691,13 @@ Kahgahgee, the King of Ravens,
 Sat with fiery eyes, and, screaming,
 Flapped his wings at Pau-Puk-Keewis.
 
-âAll are gone! the lodge is empty!â
+“All are gone! the lodge is empty!”
 Thus it was spake Pau-Puk-Keewis,
 In his heart resolving mischief
-âGone is wary Hiawatha,
+“Gone is wary Hiawatha,
 Gone the silly Laughing Water,
 Gone Nokomis, the old woman,
-And the lodge is left unguarded!â
+And the lodge is left unguarded!”
 
 By the neck he seized the raven,
 Whirled it round him like a rattle,
@@ -4728,7 +4728,7 @@ Who from out the leafy darkness
 Answered with a song as merry.
 
 Then he climbed the rocky headlands,
-Looking oâer the Gitche Gumee,
+Looking o’er the Gitche Gumee,
 Perched himself upon their summit,
 Waiting full of mirth and mischief
 The return of Hiawatha.
@@ -4739,7 +4739,7 @@ Plashed and washed the dreamy waters;
 Far above him swam the heavens,
 Swam the dizzy, dreamy heavens;
 Round him hovered, fluttered, rustled
-Hiawathaâs mountain chickens,
+Hiawatha’s mountain chickens,
 Flock-wise swept and wheeled about him,
 Almost brushed him with their pinions.
 
@@ -4749,10 +4749,10 @@ Threw their bodies down the headland,
 Threw them on the beach below him,
 Till at length Kayoshk, the sea-gull,
 Perched upon a crag above them,
-Shouted: âIt is Pau-Puk-Keewis!
+Shouted: “It is Pau-Puk-Keewis!
 He is slaying us by hundreds!
 Send a message to our brother,
-Tidings send to Hiawatha!â
+Tidings send to Hiawatha!”
 
 
 
@@ -4772,12 +4772,12 @@ Hard his breath came through his nostrils,
 Through his teeth he buzzed and muttered
 Words of anger and resentment,
 Hot and humming, like a hornet.
-âI will slay this Pau-Puk-Keewis,
-Slay this mischief-maker!â said he.
-âNot so long and wide the world is,
+“I will slay this Pau-Puk-Keewis,
+Slay this mischief-maker!” said he.
+“Not so long and wide the world is,
 Not so rude and rough the way is,
 That my wrath shall not attain him,
-That my vengeance shall not reach him!â
+That my vengeance shall not reach him!”
 
 Then in swift pursuit departed
 Hiawatha and the hunters
@@ -4797,10 +4797,10 @@ Made a gesture of defiance,
 Made a gesture of derision;
 And aloud cried Hiawatha,
 From the summit of the mountains:
-âNot so long and wide the world is,
+“Not so long and wide the world is,
 Not so rude and rough the way is,
 But my wrath shall overtake you,
-And my vengeance shall attain you!â
+And my vengeance shall attain you!”
 
 Over rock and over river,
 Through bush, and brake, and forest,
@@ -4819,35 +4819,35 @@ Where the rushes waved and whispered.
 On the dam stood Pau-Puk-Keewis,
 On the dam of trunks and branches,
 Through whose chinks the water spouted,
-Oâer whose summit flowed the streamlet.
+O’er whose summit flowed the streamlet.
 From the bottom rose the beaver,
 Looked with two great eyes of wonder,
 Eyes that seemed to ask a question,
 At the stranger, Pau-Puk-Keewis.
 
 On the dam stood Pau-Puk-Keewis,
-Oâer his ankles flowed the streamlet,
+O’er his ankles flowed the streamlet,
 Flowed the bright and silvery water,
 And he spake unto the beaver,
 With a smile he spake in this wise:
 
-âO my friend Ahmeek, the beaver,
+“O my friend Ahmeek, the beaver,
 Cool and pleasant is the water;
 Let me dive into the water,
 Let me rest there in your lodges;
-Change me, too, into a beaver!â
+Change me, too, into a beaver!”
 
 Cautiously replied the beaver,
 With reserve he thus made answer:
-âLet me first consult the others,
-Let me ask the other beavers.â
+“Let me first consult the others,
+Let me ask the other beavers.”
 Down he sank into the water,
 Heavily sank he, as a stone sinks,
 Down among the leaves and branches,
 Brown and matted at the bottom.
 
 On the dam stood Pau-Puk-Keewis,
-Oâer his ankles flowed the streamlet,
+O’er his ankles flowed the streamlet,
 Spouted through the chinks below him,
 Dashed upon the stones beneath him,
 Spread serene and calm before him,
@@ -4864,16 +4864,16 @@ Full of black and shining faces.
 
 To the beavers Pau-Puk-Keewis
 Spake entreating, said in this wise:
-âVery pleasant is your dwelling,
+“Very pleasant is your dwelling,
 O my friends! and safe from danger;
 Can you not, with all your cunning,
 All your wisdom and contrivance,
-Change me, too, into a beaver?â
+Change me, too, into a beaver?”
 
-âYes!â replied Ahmeek, the beaver,
+“Yes!” replied Ahmeek, the beaver,
 He the King of all the beavers,
-âLet yourself slide down among us,
-Down into the tranquil water.â
+“Let yourself slide down among us,
+Down into the tranquil water.”
 
 Down into the pond among them
 Silently sank Pau-Puk-Keewis;
@@ -4883,13 +4883,13 @@ In a broad black tail behind him
 Spread his fox-tails and his fringes;
 He was changed into a beaver.
 
-âMake me large,â said Pau-Puk-Keewis,
-âMake me large and make me larger,
-Larger than the other beavers.â
-âYes,â the beaver chief responded,
-âWhen our lodge below you enter,
+“Make me large,” said Pau-Puk-Keewis,
+“Make me large and make me larger,
+Larger than the other beavers.”
+“Yes,” the beaver chief responded,
+“When our lodge below you enter,
 In our wigwam we will make you
-Ten times larger than the others.â
+Ten times larger than the others.”
 
 Thus into the clear, brown water
 Silently sank Pau-Puk-Keewis:
@@ -4903,25 +4903,25 @@ Leading into spacious chambers.
 Here they made him large and larger,
 Made him largest of the beavers,
 Ten times larger than the others.
-âYou shall be our ruler,â said they;
-âChief and King of all the beavers.â
+“You shall be our ruler,” said they;
+“Chief and King of all the beavers.”
 
 But not long had Pau-Puk-Keewis
 Sat in state among the beavers,
 When there came a voice, of warning
 From the watchman at his station
 In the water-flags and lilies,
-Saying, âHere is Hiawatha!
-Hiawatha with his hunters!â
+Saying, “Here is Hiawatha!
+Hiawatha with his hunters!”
 
 Then they heard a cry above them,
 Heard a shouting and a tramping,
 Heard a crashing and a rushing,
-And the water round and oâer them
+And the water round and o’er them
 Sank and sucked away in eddies,
 And they knew their dam was broken.
 
-On the lodgeâs roof the hunters
+On the lodge’s roof the hunters
 Leaped, and broke it all asunder;
 Streamed the sunshine through the crevice,
 Sprang the beavers through the doorway,
@@ -4933,10 +4933,10 @@ He was puffed with pride and feeding,
 He was swollen like a bladder.
 
 Through the roof looked Hiawatha,
-Cried aloud, âO Pau-Puk-Keewis
+Cried aloud, “O Pau-Puk-Keewis
 Vain are all your craft and cunning,
 Vain your manifold disguises!
-Well I know you, Pau-Puk-Keewis!â
+Well I know you, Pau-Puk-Keewis!”
 With their clubs they beat and bruised him,
 Beat to death poor Pau-Puk-Keewis,
 Pounded him as maize is pounded,
@@ -4983,12 +4983,12 @@ Now they plunged beneath the water,
 Now they darkened in the shadow,
 Now they brightened in the sunshine.
 
-âPishnekuh!â cried Pau-Puk-Keewis,
-âPishnekuh! my brothers!â said he,
-âChange me to a brant with plumage,
+“Pishnekuh!” cried Pau-Puk-Keewis,
+“Pishnekuh! my brothers!” said he,
+“Change me to a brant with plumage,
 With a shining neck and feathers,
 Make me large, and make me larger,
-Ten times larger than the others.â
+Ten times larger than the others.”
 
 Straightway to a brant they changed him,
 With two huge and dusky pinions,
@@ -5004,10 +5004,10 @@ With a whir and beat of pinions,
 Rose up from the reedy Islands,
 From the water-flags and lilies.
 And they said to Pau-Puk-Keewis:
-âIn your flying, look not downward,
+“In your flying, look not downward,
 Take good heed and look not downward,
 Lest some strange mischance should happen,
-Lest some great mishap befall you!â
+Lest some great mishap befall you!”
 
 Fast and far they fled to northward,
 Fast and far through mist and sunshine,
@@ -5060,10 +5060,10 @@ Took again the form and features
 Of the handsome Yenadizze,
 And again went rushing onward,
 Followed fast by Hiawatha,
-Crying: âNot so wide the world is,
+Crying: “Not so wide the world is,
 Not so long and rough the way is,
 But my wrath shall overtake you,
-But my vengeance shall attain you!â
+But my vengeance shall attain you!”
 
 And so near he came, so near him,
 That his hand was stretched to seize him,
@@ -5105,7 +5105,7 @@ Found the doorways closed against him,
 With his mittens, Minjekahwun,
 Smote great caverns in the sandstone,
 Cried aloud in tones of thunder,
-âOpen! I am Hiawatha!â
+“Open! I am Hiawatha!”
 But the Old Man of the Mountain
 Opened not, and made no answer
 From the silent crags of sandstone,
@@ -5129,7 +5129,7 @@ With his war-club smote the doorways,
 Smote the jutting crags of sandstone,
 And the thunder, Annemeekee,
 Shouted down into the caverns,
-Saying, âWhere is Pau-Puk-Keewis!â
+Saying, “Where is Pau-Puk-Keewis!”
 And the crags fell, and beneath them
 Dead among the rocky ruins
 Lay the cunning Pau-Puk-Keewis,
@@ -5145,7 +5145,7 @@ All his wooing of the maidens.
 
 Then the noble Hiawatha
 Took his soul, his ghost, his shadow,
-Spake and said: âO Pau-Puk-Keewis,
+Spake and said: “O Pau-Puk-Keewis,
 Never more in human figure
 Shall you search for new adventures;
 Never more with jest and laughter
@@ -5155,7 +5155,7 @@ You shall soar and sail in circles;
 I will change you to an eagle,
 To Keneu, the great war-eagle,
 Chief of all the fowls with feathers,
-Chief of Hiawathaâs chickens.â
+Chief of Hiawatha’s chickens.”
 
 And the name of Pau-Puk-Keewis
 Lingers still among the people,
@@ -5164,10 +5164,10 @@ And among the story-tellers;
 And in Winter, when the snow-flakes
 Whirl in eddies round the lodges,
 When the wind in gusty tumult
-Oâer the smoke-flue pipes and whistles,
-âThere,â they cry, âcomes Pau-Puk-Keewis,
+O’er the smoke-flue pipes and whistles,
+“There,” they cry, “comes Pau-Puk-Keewis,
 He is dancing through the village,
-He is gathering in his harvest!â
+He is gathering in his harvest!”
 
 
 
@@ -5185,8 +5185,8 @@ They the envious Little People,
 They the fairies and the pygmies,
 Plotted and conspired against him.
 
-âIf this hateful Kwasind,â said they,
-âIf this great, outrageous fellow
+“If this hateful Kwasind,” said they,
+“If this great, outrageous fellow
 Goes on thus a little longer,
 Tearing everything he touches,
 Rending everything to pieces,
@@ -5197,7 +5197,7 @@ He will tread us down like mushrooms,
 Drive us all into the water,
 Give our bodies to be eaten
 By the wicked Nee-ba-naw-baigs,
-By the Spirits of the water!â
+By the Spirits of the water!”
 
 So the angry Little People
 All conspired against the Strong Man,
@@ -5217,7 +5217,7 @@ Even there the only weapon
 That could wound him, that could slay him,
 Was the seed-cone of the pine-tree,
 Was the blue cone of the fir-tree.
-This was Kwasindâs fatal secret,
+This was Kwasind’s fatal secret,
 Known to no man among mortals;
 But the cunning Little People,
 The Puk-Wudjies, knew the secret,
@@ -5227,14 +5227,14 @@ So they gathered cones together,
 Gathered seed-cones of the pine-tree,
 Gathered blue cones of the fir-tree,
 In the woods by Taquamenaw,
-Brought them to the riverâs margin,
+Brought them to the river’s margin,
 Heaped them in great piles together,
 Where the red rocks from the margin
 Jutting overhang the river.
 There they lay in wait for Kwasind,
 The malicious Little People.
 
-âT was an afternoon in Summer;
+’T was an afternoon in Summer;
 Very hot and still the air was,
 Very smooth the gliding river,
 Motionless the sleeping shadows:
@@ -5258,7 +5258,7 @@ His invisible attendants,
 Came the Spirit of Sleep, Nepahwin;
 Like a burnished Dush-kwo-ne-she,
 Like a dragon-fly, he hovered
-Oâer the drowsy head of Kwasind.
+O’er the drowsy head of Kwasind.
 
 To his ear there came a murmur
 As of waves upon a sea-shore,
@@ -5290,7 +5290,7 @@ There they stood, all armed and waiting,
 Hurled the pine-cones down upon him,
 Struck him on his brawny shoulders,
 On his crown defenceless struck him.
-âDeath to Kwasind!â was the sudden
+“Death to Kwasind!” was the sudden
 War-cry of the Little People.
 
 And he sideways swayed and tumbled,
@@ -5308,8 +5308,8 @@ And whenever through the forest
 Raged and roared the wintry tempest,
 And the branches, tossed and troubled,
 Creaked and groaned and split asunder,
-âKwasind!â cried they; âthat is Kwasind!
-He is gathering in his fire-wood!â
+“Kwasind!” cried they; “that is Kwasind!
+He is gathering in his fire-wood!”
 
 
 
@@ -5331,14 +5331,14 @@ Till the air is dark with pinions.
 
 So disasters come not singly;
 But as if they watched and waited,
-Scanning one anotherâs motions,
+Scanning one another’s motions,
 When the first descends, the others
 Follow, follow, gathering flock-wise
 Round their victim, sick and wounded,
 First a shadow, then a sorrow,
 Till the air is dark with anguish.
 
-Now, oâer all the dreary North-land,
+Now, o’er all the dreary North-land,
 Mighty Peboan, the Winter,
 Breathing on the lakes and rivers,
 Into stone had changed their waters.
@@ -5395,10 +5395,10 @@ Muttering down into the wigwam?
 Was it the owl, the Koko-koho,
 Hooting from the dismal forest?
 Sure a voice said in the silence:
-âThese are corpses clad in garments,
+“These are corpses clad in garments,
 These are ghosts that come to haunt you,
 From the kingdom of Ponemah,
-From the land of the Hereafter!â
+From the land of the Hereafter!”
 
 Homeward now came Hiawatha
 From his hunting in the forest,
@@ -5414,8 +5414,8 @@ As a promise of the future.
 
 Then he turned and saw the strangers,
 Cowering, crouching with the shadows;
-Said within himself, âWho are they?
-What strange guests has Minnehaha?â
+Said within himself, “Who are they?
+What strange guests has Minnehaha?”
 But he questioned not the strangers,
 Only spake to bid them welcome
 To his lodge, his food, his fireside.
@@ -5436,11 +5436,11 @@ In the corner of the wigwam.
 Not a word spake Hiawatha,
 Not a motion made Nokomis,
 Not a gesture Laughing Water;
-Not a change came oâer their features;
+Not a change came o’er their features;
 Only Minnehaha softly
-Whispered, saying, âThey are famished;
+Whispered, saying, “They are famished;
 Let them do what best delights them;
-Let them eat, for they are famished.â
+Let them eat, for they are famished.”
 
 Many a daylight dawned and darkened,
 Many a night shook off the daylight
@@ -5491,24 +5491,24 @@ Saw the pallid guests, the shadows,
 Sitting upright on their couches,
 Weeping in the silent midnight.
 
-And he said: âO guests! why is it
+And he said: “O guests! why is it
 That your hearts are so afflicted,
 That you sob so in the midnight?
 Has perchance the old Nokomis,
 Has my wife, my Minnehaha,
 Wronged or grieved you by unkindness,
-Failed in hospitable duties?â
+Failed in hospitable duties?”
 
 Then the shadows ceased from weeping,
 Ceased from sobbing and lamenting,
 And they said, with gentle voices:
-âWe are ghosts of the departed,
+“We are ghosts of the departed,
 Souls of those who once were with you.
 From the realms of Chibiabos
 Hither have we come to try you,
 Hither have we come to warn you.
 
-âCries of grief and lamentation
+“Cries of grief and lamentation
 Reach us in the Blessed Islands;
 Cries of anguish from the living,
 Calling back their friends departed,
@@ -5519,14 +5519,14 @@ We are but a burden to you,
 And we see that the departed
 Have no place among the living.
 
-âThink of this, O Hiawatha!
+“Think of this, O Hiawatha!
 Speak of it to all the people,
 That henceforward and forever
 They no more with lamentations
 Sadden the souls of the departed
 In the Islands of the Blessed.
 
-âDo not lay such heavy burdens
+“Do not lay such heavy burdens
 In the graves of those you bury,
 Not such weight of furs and wampum,
 Not such weight of pots and kettles,
@@ -5534,7 +5534,7 @@ For the spirits faint beneath them.
 Only give them food to carry,
 Only give them fire to light them.
 
-âFour days is the spiritâs journey
+“Four days is the spirit’s journey
 To the land of ghosts and shadows,
 Four its lonely night encampments;
 Four times must their fires be lighted.
@@ -5545,14 +5545,14 @@ That the soul upon its journey
 May not lack the cheerful firelight,
 May not grope about in darkness.
 
-âFarewell, noble Hiawatha!
+“Farewell, noble Hiawatha!
 We have put you to the trial,
 To the proof have put your patience,
 By the insult of our presence,
 By the outrage of our actions.
 We have found you great and noble.
 Fail not in the greater trial,
-Faint not in the harder struggle.â
+Faint not in the harder struggle.”
 
 When they ceased, a sudden darkness
 Fell and filled the silent wigwam.
@@ -5579,7 +5579,7 @@ Oh the cold and cruel Winter!
 Ever thicker, thicker, thicker
 Froze the ice on lake and river,
 Ever deeper, deeper, deeper
-Fell the snow oâer all the landscape,
+Fell the snow o’er all the landscape,
 Fell the covering snow, and drifted
 Through the forest, round the village.
 Hardly from his buried wigwam
@@ -5605,7 +5605,7 @@ Hungry was the sky above them,
 And the hungry stars in heaven
 Like the eyes of wolves glared at them!
 
-Into Hiawathaâs wigwam
+Into Hiawatha’s wigwam
 Came two other guests, as silent
 As the ghosts were, and as gloomy,
 Waited not to be invited
@@ -5615,10 +5615,10 @@ In the seat of Laughing Water;
 Looked with haggard eyes and hollow
 At the face of Laughing Water.
 
-And the foremost said: âBehold me!
-I am Famine, Bukadawin!â
-And the other said: âBehold me!
-I am Fever, Ahkosewin!â
+And the foremost said: “Behold me!
+I am Famine, Bukadawin!”
+And the other said: “Behold me!
+I am Fever, Ahkosewin!”
 
 And the lovely Minnehaha
 Shuddered as they looked upon her,
@@ -5643,13 +5643,13 @@ With his mittens, Minjekahwun,
 Into the vast and vacant forest
 On his snow-shoes strode he forward.
 
-âGitche Manito, the Mighty!â
+“Gitche Manito, the Mighty!”
 Cried he with his face uplifted
 In that bitter hour of anguish,
-âGive your children food, O father!
+“Give your children food, O father!
 Give us food, or we must perish!
 Give me food for Minnehaha,
-For my dying Minnehaha!â
+For my dying Minnehaha!”
 
 Through the far-resounding forest,
 Through the forest vast and vacant
@@ -5657,13 +5657,13 @@ Rang that cry of desolation,
 But there came no other answer
 Than the echo of his crying,
 Than the echo of the woodlands,
-âMinnehaha! Minnehaha!â
+“Minnehaha! Minnehaha!”
 
 All day long roved Hiawatha
 In that melancholy forest,
 Through the shadow of whose thickets,
 In the pleasant days of Summer,
-Of that neâer forgotten Summer,
+Of that ne’er forgotten Summer,
 He had brought his young wife homeward
 From the land of the Dacotahs;
 When the birds sang in the thickets,
@@ -5671,7 +5671,7 @@ And the streamlets laughed and glistened,
 And the air was full of fragrance,
 And the lovely Laughing Water
 Said with voice that did not tremble,
-âI will follow you, my husband!â
+“I will follow you, my husband!”
 
 In the wigwam with Nokomis,
 With those gloomy guests that watched her,
@@ -5679,23 +5679,23 @@ With the Famine and the Fever,
 She was lying, the Beloved,
 She, the dying Minnehaha.
 
-âHark!â she said; âI hear a rushing,
+“Hark!” she said; “I hear a rushing,
 Hear a roaring and a rushing,
 Hear the Falls of Minnehaha
-Calling to me from a distance!â
-âNo, my child!â said old Nokomis,
-ââT is the night-wind in the pine-trees!â
-âLook!â she said; âI see my father
+Calling to me from a distance!”
+“No, my child!” said old Nokomis,
+“’T is the night-wind in the pine-trees!”
+“Look!” she said; “I see my father
 Standing lonely at his doorway,
 Beckoning to me from his wigwam
-In the land of the Dacotahs!â
-âNo, my child!â said old Nokomis.
-ââT is the smoke, that waves and beckons!â
-âAh!â said she, âthe eyes of Pauguk
+In the land of the Dacotahs!”
+“No, my child!” said old Nokomis.
+“’T is the smoke, that waves and beckons!”
+“Ah!” said she, “the eyes of Pauguk
 Glare upon me in the darkness,
 I can feel his icy fingers
 Clasping mine amid the darkness!
-Hiawatha! Hiawatha!â
+Hiawatha! Hiawatha!”
 
 And the desolate Hiawatha,
 Far away amid the forest,
@@ -5703,17 +5703,17 @@ Miles away among the mountains,
 Heard that sudden cry of anguish,
 Heard the voice of Minnehaha
 Calling to him in the darkness,
-âHiawatha! Hiawatha!â
+“Hiawatha! Hiawatha!”
 
 Over snow-fields waste and pathless,
 Under snow-encumbered branches,
 Homeward hurried Hiawatha,
 Empty-handed, heavy-hearted,
 Heard Nokomis moaning, wailing:
-âWahonowin! Wahonowin!
+“Wahonowin! Wahonowin!
 Would that I had perished for you,
 Would that I were dead as you are!
-Wahonowin! Wahonowin!â
+Wahonowin! Wahonowin!”
 
 And he rushed into the wigwam,
 Saw the old Nokomis slowly
@@ -5761,7 +5761,7 @@ Stood and watched it at the doorway,
 That it might not be extinguished,
 
 Might not leave her in the darkness.
-âFarewell!â said he, âMinnehaha!
+“Farewell!” said he, “Minnehaha!
 Farewell, O my Laughing Water!
 All my heart is buried with you,
 All my thoughts go onward with you!
@@ -5773,13 +5773,13 @@ Soon my task will be completed,
 Soon your footsteps I shall follow
 To the Islands of the Blessed,
 To the Kingdom of Ponemah,
-To the Land of the Hereafter!â
+To the Land of the Hereafter!”
 
 
 
 
 XXI
-The White Manâs Foot
+The White Man’s Foot
 
 
 In his lodge beside a river,
@@ -5808,15 +5808,15 @@ Filling all the lodge with sunshine,
 In his hand a bunch of blossoms
 Filling all the lodge with sweetness.
 
-âAh, my son!â exclaimed the old man,
-âHappy are my eyes to see you.
+“Ah, my son!” exclaimed the old man,
+“Happy are my eyes to see you.
 Sit here on the mat beside me,
 Sit here by the dying embers,
 Let us pass the night together,
 Tell me of your strange adventures,
 Of the lands where you have travelled;
 I will tell you of my prowess,
-Of my many deeds of wonder.â
+Of my many deeds of wonder.”
 
 From his pouch he drew his peace-pipe,
 Very old and strangely fashioned;
@@ -5826,20 +5826,20 @@ Filled the pipe with bark of willow,
 Placed a burning coal upon it,
 Gave it to his guest, the stranger,
 And began to speak in this wise:
-âWhen I blow my breath about me,
+“When I blow my breath about me,
 When I breathe upon the landscape,
 Motionless are all the rivers,
-Hard as stone becomes the water!â
+Hard as stone becomes the water!”
 
 And the young man answered, smiling:
-âWhen I blow my breath about me,
+“When I blow my breath about me,
 When I breathe upon the landscape,
-Flowers spring up oâer all the meadows,
-Singing, onward rush the rivers!â
+Flowers spring up o’er all the meadows,
+Singing, onward rush the rivers!”
 
-âWhen I shake my hoary tresses,â
+“When I shake my hoary tresses,”
 Said the old man darkly frowning,
-âAll the land with snow is covered;
+“All the land with snow is covered;
 All the leaves from all the branches
 Fall and fade and die and wither,
 For I breathe, and lo! they are not.
@@ -5847,32 +5847,32 @@ From the waters and the marshes,
 Rise the wild goose and the heron,
 Fly away to distant regions,
 For I speak, and lo! they are not.
-And whereâer my footsteps wander,
+And where’er my footsteps wander,
 All the wild beasts of the forest
 Hide themselves in holes and caverns,
-And the earth becomes as flintstone!â
+And the earth becomes as flintstone!”
 
-âWhen I shake my flowing ringlets,â
+“When I shake my flowing ringlets,”
 Said the young man, softly laughing,
-âShowers of rain fall warm and welcome,
+“Showers of rain fall warm and welcome,
 Plants lift up their heads rejoicing,
 Back unto their lakes and marshes
 Come the wild goose and the heron,
 Homeward shoots the arrowy swallow,
 Sing the bluebird and the robin,
-And whereâer my footsteps wander,
+And where’er my footsteps wander,
 All the meadows wave with blossoms,
 All the woodlands ring with music,
-All the trees are dark with foliage!â
+All the trees are dark with foliage!”
 
 While they spake, the night departed:
 From the distant realms of Wabun,
 From his shining lodge of silver,
 Like a warrior robed and painted,
-Came the sun, and said, âBehold me
-Gheezis, the great sun, behold me!â
+Came the sun, and said, “Behold me
+Gheezis, the great sun, behold me!”
 
-Then the old manâs tongue was speechless
+Then the old man’s tongue was speechless
 And the air grew warm and pleasant,
 And upon the wigwam sweetly
 Sang the bluebird and the robin,
@@ -5943,8 +5943,8 @@ And the people of the village
 Listened to him as he told them
 Of his marvellous adventures,
 Laughing answered him in this wise:
-âUgh! it is indeed Iagoo!
-No one else beholds such wonders!â
+“Ugh! it is indeed Iagoo!
+No one else beholds such wonders!”
 
 He had seen, he said, a water
 Bigger than the Big-Sea-Water,
@@ -5952,24 +5952,24 @@ Broader than the Gitche Gumee,
 Bitter so that none could drink it!
 At each other looked the warriors,
 Looked the women at each other,
-Smiled, and said, âIt cannot be so!â
-Kaw!â they said, âit cannot be so!â
+Smiled, and said, “It cannot be so!”
+Kaw!” they said, “it cannot be so!”
 
-Oâer it, said he, oâer this water
+O’er it, said he, o’er this water
 Came a great canoe with pinions,
 A canoe with wings came flying,
 Bigger than a grove of pine-trees,
 Taller than the tallest tree-tops!
 And the old men and the women
 Looked and tittered at each other;
-âKaw!â they said, âwe donât believe it!â
+“Kaw!” they said, “we don’t believe it!”
 
 From its mouth, he said, to greet him,
 Came Waywassimo, the lightning,
 Came the thunder, Annemeekee!
 And the warriors and the women
 Laughed aloud at poor Iagoo;
-âKaw!â they said, âwhat tales you tell us!â
+“Kaw!” they said, “what tales you tell us!”
 
 In it, said he, came a people,
 In the great canoe with pinions
@@ -5980,13 +5980,13 @@ And the warriors and the women
 Laughed and shouted in derision,
 Like the ravens on the tree-tops,
 Like the crows upon the hemlocks.
-âKaw!â they said, âwhat lies you tell us!
-Do not think that we believe them!â
+“Kaw!” they said, “what lies you tell us!
+Do not think that we believe them!”
 
 Only Hiawatha laughed not,
 But he gravely spake and answered
 To their jeering and their jesting:
-âTrue is all Iagoo tells us;
+“True is all Iagoo tells us;
 I have seen it in a vision,
 Seen the great canoe with pinions,
 Seen the people with white faces,
@@ -5995,25 +5995,25 @@ People of the wooden vessel
 From the regions of the morning,
 From the shining land of Wabun.
 
-âGitche Manito, the Mighty,
+“Gitche Manito, the Mighty,
 The Great Spirit, the Creator,
 Sends them hither on his errand.
 Sends them to us with his message.
-Wheresoeâer they move, before them
+Wheresoe’er they move, before them
 Swarms the stinging fly, the Ahmo,
 Swarms the bee, the honey-maker;
-Wheresoeâer they tread, beneath them
+Wheresoe’er they tread, beneath them
 Springs a flower unknown among us,
-Springs the White-manâs Foot in blossom.
+Springs the White-man’s Foot in blossom.
 
-âLet us welcome, then, the strangers,
+“Let us welcome, then, the strangers,
 Hail them as our friends and brothers,
-And the heartâs right hand of friendship
+And the heart’s right hand of friendship
 Give them when they come to see us.
 Gitche Manito, the Mighty,
 Said this to me in my vision.
 
-âI beheld, too, in that vision
+“I beheld, too, in that vision
 All the secrets of the future,
 Of the distant days that shall be.
 I beheld the westward marches
@@ -6027,7 +6027,7 @@ Smoked their towns in all the valleys,
 Over all the lakes and rivers
 Rushed their great canoes of thunder.
 
-âThen a darker, drearier vision
+“Then a darker, drearier vision
 Passed before me, vague and cloud-like;
 I beheld our nation scattered,
 All forgetful of my counsels,
@@ -6035,13 +6035,13 @@ Weakened, warring with each other:
 Saw the remnants of our people
 Sweeping westward, wild and woful,
 Like the cloud-rack of a tempest,
-Like the withered leaves of Autumn!â
+Like the withered leaves of Autumn!”
 
 
 
 
 XXII
-Hiawathaâs Departure
+Hiawatha’s Departure
 
 
 By the shore of Gitche Gumee,
@@ -6084,7 +6084,7 @@ Flecked with light his naked shoulders,
 As it falls and flecks an oak-tree
 Through the rifted leaves and branches.
 
-Oâer the water floating, flying,
+O’er the water floating, flying,
 Something in the hazy distance,
 Something in the mists of morning,
 Loomed and lifted from the water,
@@ -6100,7 +6100,7 @@ From its glossy neck and feathers?
 
 It was neither goose nor diver,
 Neither pelican nor heron,
-Oâer the water floating, flying,
+O’er the water floating, flying,
 Through the shining mist of morning,
 But a birch canoe with paddles,
 Rising, sinking on the water,
@@ -6125,14 +6125,14 @@ Landed on the sandy margin.
 
 Then the joyous Hiawatha
 Cried aloud and spake in this wise:
-âBeautiful is the sun, O strangers,
+“Beautiful is the sun, O strangers,
 When you come so far to see us!
 All our town in peace awaits you,
 All our doors stand open for you;
 You shall enter all our wigwams,
-For the heartâs right hand we give you.
+For the heart’s right hand we give you.
 
-âNever bloomed the earth so gayly,
+“Never bloomed the earth so gayly,
 Never shone the sun so brightly,
 As to-day they shine and blossom
 When you come so far to see us!
@@ -6140,20 +6140,20 @@ Never was our lake so tranquil,
 Nor so free from rocks, and sand-bars;
 For your birch canoe in passing
 Has removed both rock and sand-bar.
-âNever before had our tobacco
+“Never before had our tobacco
 Such a sweet and pleasant flavor,
 Never the broad leaves of our cornfields
 Were so beautiful to look on,
 As they seem to us this morning,
-When you come so far to see us!â
+When you come so far to see us!’
 
 And the Black-Robe chief made answer,
 Stammered in his speech a little,
 Speaking words yet unfamiliar:
-âPeace be with you, Hiawatha,
+“Peace be with you, Hiawatha,
 Peace be with you and your people,
 Peace of prayer, and peace of pardon,
-Peace of Christ, and joy of Mary!â
+Peace of Christ, and joy of Mary!”
 
 Then the generous Hiawatha
 Led the strangers to his wigwam,
@@ -6171,8 +6171,8 @@ All the Jossakeeds, the Prophets,
 The magicians, the Wabenos,
 And the Medicine-men, the Medas,
 Came to bid the strangers welcome;
-âIt is wellâ, they said, âO brothers,
-That you come so far to see us!â
+“It is well”, they said, “O brothers,
+That you come so far to see us!”
 
 In a circle round the doorway,
 With their pipes they sat in silence,
@@ -6182,8 +6182,8 @@ Till the Black-Robe chief, the Pale-face,
 From the wigwam came to greet them,
 Stammering in his speech a little,
 Speaking words yet unfamiliar;
-âIt is well,â they said, âO brother,
-That you come so far to see us!â
+“It is well,” they said, “O brother,
+That you come so far to see us!”
 
 Then the Black-Robe chief, the Prophet,
 Told his message to the people,
@@ -6200,11 +6200,11 @@ Walked again with his disciples,
 And ascended into heaven.
 
 And the chiefs made answer, saying:
-âWe have listened to your message,
+“We have listened to your message,
 We have heard your words of wisdom,
 We will think on what you tell us.
 It is well for us, O brothers,
-That you come so far to see us!â
+That you come so far to see us!”
 
 Then they rose up and departed
 Each one homeward to his wigwam,
@@ -6225,8 +6225,8 @@ And the guests of Hiawatha,
 Weary with the heat of Summer,
 Slumbered in the sultry wigwam.
 
-Slowly oâer the simmering landscape
-Fell the eveningâs dusk and coolness,
+Slowly o’er the simmering landscape
+Fell the evening’s dusk and coolness,
 And the long and level sunbeams
 Shot their spears into the forest,
 Breaking through its shields of shadow,
@@ -6240,7 +6240,7 @@ Bade farewell to old Nokomis,
 Spake in whispers, spake in this wise,
 Did not wake the guests, that slumbered.
 
-âI am going, O Nokomis,
+“I am going, O Nokomis,
 On a long and distant journey,
 To the portals of the Sunset.
 To the regions of the home-wind,
@@ -6251,14 +6251,14 @@ See that never harm comes near them,
 See that never fear molests them,
 Never danger nor suspicion,
 Never want of food or shelter,
-In the lodge of Hiawatha!â
+In the lodge of Hiawatha!”
 
 Forth into the village went he,
 Bade farewell to all the warriors,
 Bade farewell to all the young men,
 Spake persuading, spake in this wise:
 
-âI am going, O my people,
+“I am going, O my people,
 On a long and distant journey;
 Many moons and many winters
 Will have come, and will have vanished,
@@ -6267,7 +6267,7 @@ But my guests I leave behind me;
 Listen to their words of wisdom,
 Listen to the truth they tell you,
 For the Master of Life has sent them
-From the land of light and morning!â
+From the land of light and morning!”
 
 On the shore stood Hiawatha,
 Turned and waved his hand at parting;
@@ -6275,7 +6275,7 @@ On the clear and luminous water
 Launched his birch canoe for sailing,
 From the pebbles of the margin
 Shoved it forth into the water;
-Whispered to it, âWestward! westward!â
+Whispered to it, “Westward! westward!”
 And with speed it darted forward.
 
 And the evening sun descending
@@ -6297,17 +6297,17 @@ Till it sank into the vapors
 Like the new moon slowly, slowly
 Sinking in the purple distance.
 
-And they said, âFarewell forever!â
-Said, âFarewell, O Hiawatha!â
+And they said, “Farewell forever!”
+Said, “Farewell, O Hiawatha!”
 And the forests, dark and lonely,
 Moved through all their depths of darkness,
-Sighed, âFarewell, O Hiawatha!â
+Sighed, “Farewell, O Hiawatha!”
 And the waves upon the margin
 Rising, rippling on the pebbles,
-Sobbed, âFarewell, O Hiawatha!â
+Sobbed, “Farewell, O Hiawatha!”
 And the heron, the Shuh-shuh-gah,
 From her haunts among the fen-lands,
-Screamed, âFarewell, O Hiawatha!â
+Screamed, “Farewell, O Hiawatha!”
 
 Thus departed Hiawatha,
 Hiawatha the Beloved,
@@ -6325,142 +6325,142 @@ To the Land of the Hereafter!
 VOCABULARY
 
 
-Adjidauâmo, the red squirrel
-Ahdeekâ, the reindeer
-Ahmeekâ, the beaver
-Annemeeâkee, the thunder
-Apukâwa, a bulrush
-Baim-waâwa, the sound of the thunder
-Bemahâgut, the grape-vine
-Chemaunâ, a birch canoe
-Chetowaikâ, the plover
-Chibiaâbos, a musician; friend of Hiawatha;
+Adjidau’mo, the red squirrel
+Ahdeek’, the reindeer
+Ahmeek’, the beaver
+Annemee’kee, the thunder
+Apuk’wa, a bulrush
+Baim-wa’wa, the sound of the thunder
+Bemah’gut, the grape-vine
+Chemaun’, a birch canoe
+Chetowaik’, the plover
+Chibia’bos, a musician; friend of Hiawatha;
 ruler of the Land of Spirits
-Dahinâda, the bull frog
-Dush-kwo-neâ-she or Kwo-neâ-she,
+Dahin’da, the bull frog
+Dush-kwo-ne’-she or Kwo-ne’-she,
 the dragon fly
 Esa, shame upon you
-Ewa-yeaâ, lullaby
-Gitche Guâmee, The Big-Sea-Water,
+Ewa-yea’, lullaby
+Gitche Gu’mee, The Big-Sea-Water,
 Lake Superior
-Gitche Manâito, the Great Spirit,
+Gitche Man’ito, the Great Spirit,
 the Master of Life
-Gushkewauâ, the darkness
-Hiawaâtha, the Prophet, the Teacher,
+Gushkewau’, the darkness
+Hiawa’tha, the Prophet, the Teacher,
 son of Mudjekeewis, the West-Wind and Wenonah,
 daughter of Nokomis
-Iaâgoo, a great boaster and story-teller
-Ininâewug, men, or pawns in the Game of the Bowl
-Ishkoodahâ, fire, a comet
-Jeeâbi, a ghost, a spirit
-Jossâakeed, a prophet
-Kabibonokâka, the North-Wind
-Kaâgo, do not
-Kahgahgeeâ, the raven
+Ia’goo, a great boaster and story-teller
+Inin’ewug, men, or pawns in the Game of the Bowl
+Ishkoodah’, fire, a comet
+Jee’bi, a ghost, a spirit
+Joss’akeed, a prophet
+Kabibonok’ka, the North-Wind
+Ka’go, do not
+Kahgahgee’, the raven
 Kaw, no
-Kaweenâ, no indeed
-Kayoshkâ, the sea-gull
-Keeâgo, a fish
-Keewayâdin, the Northwest wind, the Home-wind
-Kenaâbeek, a serpent
-Keneuâ, the great war-eagle
-Kenoâzha, the pickerel
-Koâko-koâho, the owl
-Kuntasooâ, the Game of Plumstones
-Kwaâsind, the Strong Man
-Kwo-neâ-she, or Dush-kwo-neâ-she, the dragon-fly
-Mahnahbeâzee, the swan
+Kaween’, no indeed
+Kayoshk’, the sea-gull
+Kee’go, a fish
+Keeway’din, the Northwest wind, the Home-wind
+Kena’beek, a serpent
+Keneu’, the great war-eagle
+Keno’zha, the pickerel
+Ko’ko-ko’ho, the owl
+Kuntasoo’, the Game of Plumstones
+Kwa’sind, the Strong Man
+Kwo-ne’-she, or Dush-kwo-ne’-she, the dragon-fly
+Mahnahbe’zee, the swan
 Mahng, the loon
-Mahnomoânee, wild rice
-Maâma, the woodpecker
-Meâda, a medicine-man
-Meenahâga, the blueberry
-Megissogâwon, the great Pearl-Feather,
+Mahnomo’nee, wild rice
+Ma’ma, the woodpecker
+Me’da, a medicine-man
+Meenah’ga, the blueberry
+Megissog’won, the great Pearl-Feather,
 a magician, and the Manito of Wealth
-Meshinauâwa, a pipe-bearer
-Minjekahâwun, Hiawathaâs mittens
-Minnehaâha, Laughing Water; wife of Hiawatha;
+Meshinau’wa, a pipe-bearer
+Minjekah’wun, Hiawatha’s mittens
+Minneha’ha, Laughing Water; wife of Hiawatha;
 a water-fall in a stream running into the
 Mississippi between Fort Snelling and the
 Falls of St. Anthony
-Minne-waâwa, a pleasant sound, as of the wind
+Minne-wa’wa, a pleasant sound, as of the wind
 in the trees
-Mishe-Moâkwa, the Great Bear
-Mishe-Nahâma, the Great Sturgeon
-Miskodeedâ, the Spring-Beauty, the Claytonia Virginica
-Mondaâmin, Indian corn
+Mishe-Mo’kwa, the Great Bear
+Mishe-Nah’ma, the Great Sturgeon
+Miskodeed’, the Spring-Beauty, the Claytonia Virginica
+Monda’min, Indian corn
 Moon of Bright Nights, April
 Moon of Leaves, May
 Moon of Strawberries, June
 Moon of the Falling Leaves, September
 Moon of Snow-shoes, November
-Mudjekeeâwis, the West-Wind; father of Hiawatha
-Mudway-aushâka, sound of waves on a shore
-Mushkodaâsa, the grouse
-Nahâma, the sturgeon
-Nahâma-wusk, spearmint
-Naâgow Wudjâoo, the Sand Dunes of Lake Superior
-Nee-ba-nawâ-baigs, water-spirits
-Nenemooâsha, sweetheart
-Nepahâwin, sleep
-Nokoâmis, a grandmother, mother of Wenonah
-Noâsa, my father
-Nushâka, look! look!
-Odahâmin, the strawberry
-Okahhaâwis, the fresh-water herring
-Omeâmee, the pigeon
-Onaâgon, a bowl
-Opecheeâ, the robin
-Osseâo, Son of the Evening Star
-Owaisâsa, the blue-bird
-Oweeneeâ, wife of Osseo
-Ozawaâbeek, a round piece of brass or copper in the Game of the Bowl
-Pah-puk-keeâna, the grasshopper
-Pauâguk, death
-Pau-Puk-Keeâwis, the handsome Yenadizze,
+Mudjekee’wis, the West-Wind; father of Hiawatha
+Mudway-aush’ka, sound of waves on a shore
+Mushkoda’sa, the grouse
+Nah’ma, the sturgeon
+Nah’ma-wusk, spearmint
+Na’gow Wudj’oo, the Sand Dunes of Lake Superior
+Nee-ba-naw’-baigs, water-spirits
+Nenemoo’sha, sweetheart
+Nepah’win, sleep
+Noko’mis, a grandmother, mother of Wenonah
+No’sa, my father
+Nush’ka, look! look!
+Odah’min, the strawberry
+Okahha’wis, the fresh-water herring
+Ome’mee, the pigeon
+Ona’gon, a bowl
+Opechee’, the robin
+Osse’o, Son of the Evening Star
+Owais’sa, the blue-bird
+Oweenee’, wife of Osseo
+Ozawa’beek, a round piece of brass or copper in the Game of the Bowl
+Pah-puk-kee’na, the grasshopper
+Pau’guk, death
+Pau-Puk-Kee’wis, the handsome Yenadizze,
 the son of Storm Fool
-Peâboan, Winter
-Pemâican, meat of the deer or buffalo dried and pounded
-Pezhekeeâ, the bison
-Pishnekuhâ, the brant
-Poneâmah, hereafter
-Puggawauâgun, a war-club
-Puk-Wudjâies, little wild men of the woods; pygmies
-Sah-sah-jeâwun, rapids
-Segwunâ, Spring
-Shaâda, the pelican
-Shahboâmin, the gooseberry
+Pe’boan, Winter
+Pem’ican, meat of the deer or buffalo dried and pounded
+Pezhekee’, the bison
+Pishnekuh’, the brant
+Pone’mah, hereafter
+Puggawau’gun, a war-club
+Puk-Wudj’ies, little wild men of the woods; pygmies
+Sah-sah-je’wun, rapids
+Segwun’, Spring
+Sha’da, the pelican
+Shahbo’min, the gooseberry
 Shah-shah, long ago
-Shaugodaâya, a coward
-Shawgasheeâ, the craw-fish
-Shawondaâsee, the South-Wind
+Shaugoda’ya, a coward
+Shawgashee’, the craw-fish
+Shawonda’see, the South-Wind
 Shaw-shaw, the swallow
-Sheshâebwug, ducks; pieces in the Game
+Shesh’ebwug, ducks; pieces in the Game
 of the Bowl
-Shinâgebis, the diver, or grebe
-Showainânemeâshin, pity me
-Shuh-shuh-gahâ, the blue heron
-Soan-ge-taâha, strong-hearted
-Subbekaâshe, the spider
-Suggeâme, the mosquito
-Toâtem, family coat-of-arms
+Shin’gebis, the diver, or grebe
+Showain’neme’shin, pity me
+Shuh-shuh-gah’, the blue heron
+Soan-ge-ta’ha, strong-hearted
+Subbeka’she, the spider
+Sugge’me, the mosquito
+To’tem, family coat-of-arms
 Ugh, yes
-Ugudwashâ, the sun-fish
-Unktaheeâ, the God of Water
-Wabasâso, the rabbit, the North
-Wabeâno, a magician, a juggler
-Wabeâno-wusk, yarrow
-Waâbun, the East-Wind
-Waâbun Anânung, the Star of the East, the Morning Star
-Wahonoâwin, a cry of lamentation
-Wah-wah-tayâsee, the fire-fly
-Waubewyâon, a white skin wrapper
-Waâwa, the wild goose
-Waw-be-waâwa, the white goose
-Wawonaisâsa, the whippoorwill
-Way-muk-kwaâna, the caterpillar
-Wenoânah, the eldest daughter; Hiawathaâs mother, daughter of Nokomis
-Yenadizâze, an idler and gambler; an Indian dandy
+Ugudwash’, the sun-fish
+Unktahee’, the God of Water
+Wabas’so, the rabbit, the North
+Wabe’no, a magician, a juggler
+Wabe’no-wusk, yarrow
+Wa’bun, the East-Wind
+Wa’bun An’nung, the Star of the East, the Morning Star
+Wahono’win, a cry of lamentation
+Wah-wah-tay’see, the fire-fly
+Waubewy’on, a white skin wrapper
+Wa’wa, the wild goose
+Waw-be-wa’wa, the white goose
+Wawonais’sa, the whippoorwill
+Way-muk-kwa’na, the caterpillar
+Weno’nah, the eldest daughter; Hiawatha’s mother, daughter of Nokomis
+Yenadiz’ze, an idler and gambler; an Indian dandy
 
 The End
 

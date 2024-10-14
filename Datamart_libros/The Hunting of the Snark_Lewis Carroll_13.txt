@@ -1,4 +1,4 @@
-ï»¿The Project Gutenberg eBook of The Hunting of the Snark, by Lewis Carroll
+﻿The Project Gutenberg eBook of The Hunting of the Snark, by Lewis Carroll
 
 This eBook is for the use of anyone anywhere in the United States and
 most other parts of the world at no cost and with almost no restrictions
@@ -60,7 +60,7 @@ Ah, happy he who owns that tenderest joy,
     The heart-love of a child!
 
 Away, fond thoughts, and vex my soul no more!
-    Work claims my wakeful nights, my busy daysâ
+    Work claims my wakeful nights, my busy days—
 Albeit bright memories of that sunlit shore
     Yet haunt my dreaming gaze!
 
@@ -71,12 +71,12 @@ Contents
 
    PREFACE
    Fit the First THE LANDING
-   Fit the Second THE BELLMANâS SPEECH
-   Fit the Third THE BAKERâS TALE
+   Fit the Second THE BELLMAN’S SPEECH
+   Fit the Third THE BAKER’S TALE
    Fit the fourth THE HUNTING
-   Fit the Fifth THE BEAVERâS LESSON
-   Fit the Sixth THE BARRISTERâS DREAM
-   Fit the Seventh THE BANKERâS FATE
+   Fit the Fifth THE BEAVER’S LESSON
+   Fit the Sixth THE BARRISTER’S DREAM
+   Fit the Seventh THE BANKER’S FATE
    Fit the Eighth THE VANISHING
 
 
@@ -88,7 +88,7 @@ If--and the thing is wildly possible--the charge of writing nonsense
 were ever brought against the author of this brief but instructive
 poem, it would be based, I feel convinced, on the line (in p.4)
 
-          âThen the bowsprit got mixed with the rudder sometimes.â
+          “Then the bowsprit got mixed with the rudder sometimes.”
 
 In view of this painful possibility, I will not (as I might) appeal
 indignantly to my other writings as a proof that I am incapable of
@@ -106,41 +106,41 @@ about it--he would only refer to his Naval Code, and read out in
 pathetic tones Admiralty Instructions which none of them had ever been
 able to understand--so it generally ended in its being fastened on,
 anyhow, across the rudder. The helmsman used to stand by with tears in
-his eyes; he knew it was all wrong, but alas! Rule 42 of the Code, âNo
-one shall speak to the Man at the Helm,â had been completed by the
-Bellman himself with the words âand the Man at the Helm shall speak to
-no one.â So remonstrance was impossible, and no steering could be done
+his eyes; he knew it was all wrong, but alas! Rule 42 of the Code, “No
+one shall speak to the Man at the Helm,” had been completed by the
+Bellman himself with the words “and the Man at the Helm shall speak to
+no one.” So remonstrance was impossible, and no steering could be done
 till the next varnishing day. During these bewildering intervals the
 ship usually sailed backwards.
 
 As this poem is to some extent connected with the lay of the Jabberwock,
 let me take this opportunity of answering a question that has often been
-asked me, how to pronounce âslithy toves.â The âiâ in âslithyâ is long,
-as in âwritheâ; and âtovesâ is pronounced so as to rhyme with âgroves.â
- Again, the first âoâ in âborogovesâ is pronounced like the âoâ in
-âborrow.â I have heard people try to give it the sound of the âoâ in
-âworryâ. Such is Human Perversity.
+asked me, how to pronounce “slithy toves.” The “i” in “slithy” is long,
+as in “writhe”; and “toves” is pronounced so as to rhyme with “groves.”
+ Again, the first “o” in “borogoves” is pronounced like the “o” in
+“borrow.” I have heard people try to give it the sound of the “o” in
+“worry”. Such is Human Perversity.
 
 This also seems a fitting occasion to notice the other hard words in
-that poem. Humpty-Dumptyâs theory, of two meanings packed into one word
+that poem. Humpty-Dumpty’s theory, of two meanings packed into one word
 like a portmanteau, seems to me the right explanation for all.
 
-For instance, take the two words âfumingâ and âfurious.â Make up your
+For instance, take the two words “fuming” and “furious.” Make up your
 mind that you will say both words, but leave it unsettled which you will
 first. Now open your mouth and speak. If your thoughts incline
-ever so little towards âfuming,â you will say âfuming-furious;â if they
-turn, by even a hairâs breadth, towards âfurious,â you will say
-âfurious-fuming;â but if you have the rarest of gifts, a perfectly
-balanced mind, you will say âfrumious.â
+ever so little towards “fuming,” you will say “fuming-furious;” if they
+turn, by even a hair’s breadth, towards “furious,” you will say
+“furious-fuming;” but if you have the rarest of gifts, a perfectly
+balanced mind, you will say “frumious.”
 
 Supposing that, when Pistol uttered the well-known words--
 
-          âUnder which king, Bezonian? Speak or die!â
+          “Under which king, Bezonian? Speak or die!”
 
 Justice Shallow had felt certain that it was either William or Richard,
 but had not been able to settle which, so that he could not possibly say
 either name before the other, can it be doubted that, rather than die,
-he would have gasped out âRilchiam!â
+he would have gasped out “Rilchiam!”
 
 
 
@@ -149,15 +149,15 @@ he would have gasped out âRilchiam!â
                   THE LANDING
 
 
-     âJust the place for a Snark!â the Bellman cried,
+     “Just the place for a Snark!” the Bellman cried,
           As he landed his crew with care;
      Supporting each man on the top of the tide
           By a finger entwined in his hair.
 
-     âJust the place for a Snark! I have said it twice:
+     “Just the place for a Snark! I have said it twice:
           That alone should encourage the crew.
      Just the place for a Snark! I have said it thrice:
-          What I tell you three times is true.â
+          What I tell you three times is true.”
 
      The crew was complete: it included a Boots--
           A maker of Bonnets and Hoods--
@@ -189,25 +189,25 @@ he would have gasped out âRilchiam!â
      With three pairs of boots--but the worst of it was,
           He had wholly forgotten his name.
 
-     He would answer to âHi!â or to any loud cry,
-          Such as âFry me!â or âFritter my wig!â
-      To âWhat-you-may-call-um!â or âWhat-was-his-name!â
-           But especially âThing-um-a-jig!â
+     He would answer to “Hi!” or to any loud cry,
+          Such as “Fry me!” or “Fritter my wig!”
+      To “What-you-may-call-um!” or “What-was-his-name!”
+           But especially “Thing-um-a-jig!”
 
      While, for those who preferred a more forcible word,
           He had different names from these:
-     His intimate friends called him âCandle-ends,â
-           And his enemies âToasted-cheese.â
+     His intimate friends called him “Candle-ends,”
+           And his enemies “Toasted-cheese.”
 
-     âHis form is ungainly--his intellect small--â
+     “His form is ungainly--his intellect small--”
            (So the Bellman would often remark)
-     âBut his courage is perfect! And that, after all,
-          Is the thing that one needs with a Snark.â
+     “But his courage is perfect! And that, after all,
+          Is the thing that one needs with a Snark.”
 
      He would joke with hyenas, returning their stare
           With an impudent wag of the head:
      And he once went a walk, paw-in-paw, with a bear,
-          âJust to keep up its spirits,â he said.
+          “Just to keep up its spirits,” he said.
 
      He came as a Baker: but owned, when too late--
           And it drove the poor Bellman half-mad--
@@ -216,7 +216,7 @@ he would have gasped out âRilchiam!â
 
      The last of the crew needs especial remark,
           Though he looked an incredible dunce:
-     He had just one idea--but, that one being âSnark,â
+     He had just one idea--but, that one being “Snark,”
            The good Bellman engaged him at once.
 
      He came as a Butcher: but gravely declared,
@@ -244,7 +244,7 @@ he would have gasped out âRilchiam!â
      And he feared he must really decline, for his part,
           Undertaking another as well.
 
-     The Beaverâs best course was, no doubt, to procure
+     The Beaver’s best course was, no doubt, to procure
           A second-hand dagger-proof coat--
      So the Baker advised it--and next, to insure
           Its life in some Office of note:
@@ -263,7 +263,7 @@ he would have gasped out âRilchiam!â
 
                       Fit the Second
 
-                   THE BELLMANâS SPEECH
+                   THE BELLMAN’S SPEECH
 
 
      The Bellman himself they all praised to the skies--
@@ -276,15 +276,15 @@ he would have gasped out âRilchiam!â
      And the crew were much pleased when they found it to be
           A map they could all understand.
 
-     âWhatâs the good of Mercatorâs North Poles and Equators,
-          Tropics, Zones, and Meridian Lines?â
+     “What’s the good of Mercator’s North Poles and Equators,
+          Tropics, Zones, and Meridian Lines?”
       So the Bellman would cry: and the crew would reply
-          âThey are merely conventional signs!
+          “They are merely conventional signs!
 
-     âOther maps are such shapes, with their islands and capes!
-          But weâve got our brave Captain to thank:â
-      (So the crew would protest) âthat heâs bought us the best--
-          A perfect and absolute blank!â
+     “Other maps are such shapes, with their islands and capes!
+          But we’ve got our brave Captain to thank:”
+      (So the crew would protest) “that he’s bought us the best--
+          A perfect and absolute blank!”
 
      This was charming, no doubt; but they shortly found out
           That the Captain they trusted so well
@@ -293,13 +293,13 @@ he would have gasped out âRilchiam!â
 
      He was thoughtful and grave--but the orders he gave
           Were enough to bewilder a crew.
-     When he cried âSteer to starboard, but keep her head larboard!â
+     When he cried “Steer to starboard, but keep her head larboard!”
            What on earth was the helmsman to do?
 
      Then the bowsprit got mixed with the rudder sometimes:
           A thing, as the Bellman remarked,
      That frequently happens in tropical climes,
-          When a vessel is, so to speak, âsnarked.â
+          When a vessel is, so to speak, “snarked.”
 
      But the principal failing occurred in the sailing,
           And the Bellman, perplexed and distressed,
@@ -321,61 +321,61 @@ he would have gasped out âRilchiam!â
      And they could not but own that their Captain looked grand,
           As he stood and delivered his speech.
 
-     âFriends, Romans, and countrymen, lend me your ears!â
+     “Friends, Romans, and countrymen, lend me your ears!”
            (They were all of them fond of quotations:
      So they drank to his health, and they gave him three cheers,
           While he served out additional rations).
 
-     âWe have sailed many months, we have sailed many weeks,
+     “We have sailed many months, we have sailed many weeks,
           (Four weeks to the month you may mark),
-     But never as yet (âtis your Captain who speaks)
+     But never as yet (’tis your Captain who speaks)
           Have we caught the least glimpse of a Snark!
 
-     âWe have sailed many weeks, we have sailed many days,
+     “We have sailed many weeks, we have sailed many days,
           (Seven days to the week I allow),
      But a Snark, on the which we might lovingly gaze,
           We have never beheld till now!
 
-     âCome, listen, my men, while I tell you again
+     “Come, listen, my men, while I tell you again
           The five unmistakable marks
      By which you may know, wheresoever you go,
           The warranted genuine Snarks.
 
-     âLet us take them in order. The first is the taste,
+     “Let us take them in order. The first is the taste,
           Which is meagre and hollow, but crisp:
      Like a coat that is rather too tight in the waist,
-          With a flavour of Will-oâ-the-wisp.
+          With a flavour of Will-o’-the-wisp.
 
-     âIts habit of getting up late youâll agree
+     “Its habit of getting up late you’ll agree
           That it carries too far, when I say
-     That it frequently breakfasts at five-oâclock tea,
+     That it frequently breakfasts at five-o’clock tea,
           And dines on the following day.
 
-     âThe third is its slowness in taking a jest.
+     “The third is its slowness in taking a jest.
           Should you happen to venture on one,
      It will sigh like a thing that is deeply distressed:
           And it always looks grave at a pun.
 
-     âThe fourth is its fondness for bathing-machines,
+     “The fourth is its fondness for bathing-machines,
           Which is constantly carries about,
      And believes that they add to the beauty of scenes--
           A sentiment open to doubt.
 
-     âThe fifth is ambition. It next will be right
+     “The fifth is ambition. It next will be right
           To describe each particular batch:
      Distinguishing those that have feathers, and bite,
           And those that have whiskers, and scratch.
 
-     âFor, although common Snarks do no manner of harm,
+     “For, although common Snarks do no manner of harm,
           Yet, I feel it my duty to say,
-     Some are Boojums--â The Bellman broke off in alarm,
+     Some are Boojums--” The Bellman broke off in alarm,
           For the Baker had fainted away.
 
 
 
                       Fit the Third
 
-                     THE BAKERâS TALE
+                     THE BAKER’S TALE
 
 
      They roused him with muffins--they roused him with ice--
@@ -385,68 +385,68 @@ he would have gasped out âRilchiam!â
 
      When at length he sat up and was able to speak,
           His sad story he offered to tell;
-     And the Bellman cried âSilence! Not even a shriek!â
+     And the Bellman cried “Silence! Not even a shriek!”
            And excitedly tingled his bell.
 
      There was silence supreme! Not a shriek, not a scream,
           Scarcely even a howl or a groan,
-     As the man they called âHo!â told his story of woe
+     As the man they called “Ho!” told his story of woe
           In an antediluvian tone.
 
-     âMy father and mother were honest, though poor--â
-           âSkip all that!â cried the Bellman in haste.
-     âIf it once becomes dark, thereâs no chance of a Snark--
-          We have hardly a minute to waste!â
+     “My father and mother were honest, though poor--”
+           “Skip all that!” cried the Bellman in haste.
+     “If it once becomes dark, there’s no chance of a Snark--
+          We have hardly a minute to waste!”
 
-     âI skip forty years,â said the Baker, in tears,
-          âAnd proceed without further remark
+     “I skip forty years,” said the Baker, in tears,
+          “And proceed without further remark
      To the day when you took me aboard of your ship
           To help you in hunting the Snark.
 
-     âA dear uncle of mine (after whom I was named)
-          Remarked, when I bade him farewell--â
-      âOh, skip your dear uncle!â the Bellman exclaimed,
+     “A dear uncle of mine (after whom I was named)
+          Remarked, when I bade him farewell--”
+      “Oh, skip your dear uncle!” the Bellman exclaimed,
           As he angrily tingled his bell.
 
-     âHe remarked to me then,â said that mildest of men,
-          ââIf your Snark be a Snark, that is right:
+     “He remarked to me then,” said that mildest of men,
+          “‘If your Snark be a Snark, that is right:
      Fetch it home by all means--you may serve it with greens,
-          And itâs handy for striking a light.
+          And it’s handy for striking a light.
 
-     ââYou may seek it with thimbles--and seek it with care;
+     “‘You may seek it with thimbles--and seek it with care;
           You may hunt it with forks and hope;
      You may threaten its life with a railway-share;
-          You may charm it with smiles and soap--ââ
+          You may charm it with smiles and soap--’”
 
-     (âThatâs exactly the method,â the Bellman bold
+     (“That’s exactly the method,” the Bellman bold
           In a hasty parenthesis cried,
-     âThatâs exactly the way I have always been told
-          That the capture of Snarks should be tried!â)
+     “That’s exactly the way I have always been told
+          That the capture of Snarks should be tried!”)
 
-     ââBut oh, beamish nephew, beware of the day,
+     “‘But oh, beamish nephew, beware of the day,
           If your Snark be a Boojum! For then
      You will softly and suddenly vanish away,
-          And never be met with again!â
+          And never be met with again!’
 
-     âIt is this, it is this that oppresses my soul,
-          When I think of my uncleâs last words:
+     “It is this, it is this that oppresses my soul,
+          When I think of my uncle’s last words:
      And my heart is like nothing so much as a bowl
           Brimming over with quivering curds!
 
-     âIt is this, it is this--â âWe have had that before!â
+     “It is this, it is this--” “We have had that before!”
            The Bellman indignantly said.
-     And the Baker replied âLet me say it once more.
+     And the Baker replied “Let me say it once more.
           It is this, it is this that I dread!
 
-     âI engage with the Snark--every night after dark--
+     “I engage with the Snark--every night after dark--
           In a dreamy delirious fight:
      I serve it with greens in those shadowy scenes,
           And I use it for striking a light:
 
-     âBut if ever I meet with a Boojum, that day,
+     “But if ever I meet with a Boojum, that day,
           In a moment (of this I am sure),
      I shall softly and suddenly vanish away--
-          And the notion I cannot endure!â
+          And the notion I cannot endure!”
 
 
 
@@ -456,54 +456,54 @@ he would have gasped out âRilchiam!â
 
 
      The Bellman looked uffish, and wrinkled his brow.
-          âIf only youâd spoken before!
-     Itâs excessively awkward to mention it now,
+          “If only you’d spoken before!
+     It’s excessively awkward to mention it now,
           With the Snark, so to speak, at the door!
 
-     âWe should all of us grieve, as you well may believe,
+     “We should all of us grieve, as you well may believe,
           If you never were met with again--
      But surely, my man, when the voyage began,
           You might have suggested it then?
 
-     âItâs excessively awkward to mention it now--
-          As I think Iâve already remarked.â
-      And the man they called âHi!â replied, with a sigh,
-          âI informed you the day we embarked.
+     “It’s excessively awkward to mention it now--
+          As I think I’ve already remarked.”
+      And the man they called “Hi!” replied, with a sigh,
+          “I informed you the day we embarked.
 
-     âYou may charge me with murder--or want of sense--
+     “You may charge me with murder--or want of sense--
           (We are all of us weak at times):
      But the slightest approach to a false pretence
           Was never among my crimes!
 
-     âI said it in Hebrew--I said it in Dutch--
+     “I said it in Hebrew--I said it in Dutch--
           I said it in German and Greek:
      But I wholly forgot (and it vexes me much)
-          That English is what you speak!â
+          That English is what you speak!”
 
-     ââTis a pitiful tale,â said the Bellman, whose face
+     “’Tis a pitiful tale,” said the Bellman, whose face
           Had grown longer at every word:
-     âBut, now that youâve stated the whole of your case,
+     “But, now that you’ve stated the whole of your case,
           More debate would be simply absurd.
 
-     âThe rest of my speechâ (he explained to his men)
-          âYou shall hear when Iâve leisure to speak it.
+     “The rest of my speech” (he explained to his men)
+          “You shall hear when I’ve leisure to speak it.
      But the Snark is at hand, let me tell you again!
-          âTis your glorious duty to seek it!
+          ’Tis your glorious duty to seek it!
 
-     âTo seek it with thimbles, to seek it with care;
+     “To seek it with thimbles, to seek it with care;
           To pursue it with forks and hope;
      To threaten its life with a railway-share;
           To charm it with smiles and soap!
 
-     âFor the Snarkâs a peculiar creature, that wonât
+     “For the Snark’s a peculiar creature, that won’t
           Be caught in a commonplace way.
-     Do all that you know, and try all that you donât:
+     Do all that you know, and try all that you don’t:
           Not a chance must be wasted to-day!
 
-     âFor England expects--I forbear to proceed:
-          âTis a maxim tremendous, but trite:
-     And youâd best be unpacking the things that you need
-          To rig yourselves out for the fight.â
+     “For England expects--I forbear to proceed:
+          ’Tis a maxim tremendous, but trite:
+     And you’d best be unpacking the things that you need
+          To rig yourselves out for the fight.”
 
      Then the Banker endorsed a blank cheque (which he crossed),
           And changed his loose silver for notes.
@@ -528,28 +528,28 @@ he would have gasped out âRilchiam!â
      But the Butcher turned nervous, and dressed himself fine,
           With yellow kid gloves and a ruff--
      Said he felt it exactly like going to dine,
-          Which the Bellman declared was all âstuff.â
+          Which the Bellman declared was all “stuff.”
 
-     âIntroduce me, now thereâs a good fellow,â he said,
-          âIf we happen to meet it together!â
+     “Introduce me, now there’s a good fellow,” he said,
+          “If we happen to meet it together!”
       And the Bellman, sagaciously nodding his head,
-          Said âThat must depend on the weather.â
+          Said “That must depend on the weather.”
 
      The Beaver went simply galumphing about,
           At seeing the Butcher so shy:
      And even the Baker, though stupid and stout,
           Made an effort to wink with one eye.
 
-     âBe a man!â said the Bellman in wrath, as he heard
+     “Be a man!” said the Bellman in wrath, as he heard
           The Butcher beginning to sob.
-     âShould we meet with a Jubjub, that desperate bird,
-          We shall need all our strength for the job!â
+     “Should we meet with a Jubjub, that desperate bird,
+          We shall need all our strength for the job!”
 
 
 
                       Fit the Fifth
 
-                   THE BEAVERâS LESSON
+                   THE BEAVER’S LESSON
 
 
      They sought it with thimbles, they sought it with care;
@@ -567,7 +567,7 @@ he would have gasped out âRilchiam!â
      Yet neither betrayed, by a sign or a word,
           The disgust that appeared in his face.
 
-     Each thought he was thinking of nothing but âSnarkâ
+     Each thought he was thinking of nothing but “Snark”
            And the glorious work of the day;
      And each tried to pretend that he did not remark
           That the other was going that way.
@@ -587,15 +587,15 @@ he would have gasped out âRilchiam!â
      The sound so exactly recalled to his mind
           A pencil that squeaks on a slate!
 
-     ââTis the voice of the Jubjub!â he suddenly cried.
-          (This man, that they used to call âDunce.â)
-     âAs the Bellman would tell you,â he added with pride,
-          âI have uttered that sentiment once.
+     “’Tis the voice of the Jubjub!” he suddenly cried.
+          (This man, that they used to call “Dunce.”)
+     “As the Bellman would tell you,” he added with pride,
+          “I have uttered that sentiment once.
 
-     ââTis the note of the Jubjub! Keep count, I entreat;
+     “’Tis the note of the Jubjub! Keep count, I entreat;
           You will find I have told it you twice.
-     âTis the song of the Jubjub! The proof is complete,
-          If only Iâve stated it thrice.â
+     ’Tis the song of the Jubjub! The proof is complete,
+          If only I’ve stated it thrice.”
 
      The Beaver had counted with scrupulous care,
           Attending to every word:
@@ -607,15 +607,15 @@ he would have gasped out âRilchiam!â
      And the only thing now was to rack its poor brains
           By reckoning up the amount.
 
-     âTwo added to one--if that could but be done,â
-           It said, âwith oneâs fingers and thumbs!â
+     “Two added to one--if that could but be done,”
+           It said, “with one’s fingers and thumbs!”
       Recollecting with tears how, in earlier years,
           It had taken no pains with its sums.
 
-     âThe thing can be done,â said the Butcher, âI think.
+     “The thing can be done,” said the Butcher, “I think.
           The thing must be done, I am sure.
      The thing shall be done! Bring me paper and ink,
-          The best there is time to procure.â
+          The best there is time to procure.”
 
      The Beaver brought paper, portfolio, pens,
           And ink in unfailing supplies:
@@ -627,50 +627,50 @@ he would have gasped out âRilchiam!â
      And explained all the while in a popular style
           Which the Beaver could well understand.
 
-     âTaking Three as the subject to reason about--
+     “Taking Three as the subject to reason about--
           A convenient number to state--
      We add Seven, and Ten, and then multiply out
           By One Thousand diminished by Eight.
 
-     âThe result we proceed to divide, as you see,
+     “The result we proceed to divide, as you see,
           By Nine Hundred and Ninety Two:
      Then subtract Seventeen, and the answer must be
           Exactly and perfectly true.
 
-     âThe method employed I would gladly explain,
+     “The method employed I would gladly explain,
           While I have it so clear in my head,
      If I had but the time and you had but the brain--
           But much yet remains to be said.
 
-     âIn one moment Iâve seen what has hitherto been
+     “In one moment I’ve seen what has hitherto been
           Enveloped in absolute mystery,
      And without extra charge I will give you at large
-          A Lesson in Natural History.â
+          A Lesson in Natural History.”
 
      In his genial way he proceeded to say
           (Forgetting all laws of propriety,
      And that giving instruction, without introduction,
           Would have caused quite a thrill in Society),
 
-     âAs to temper the Jubjubâs a desperate bird,
+     “As to temper the Jubjub’s a desperate bird,
           Since it lives in perpetual passion:
      Its taste in costume is entirely absurd--
           It is ages ahead of the fashion:
 
-     âBut it knows any friend it has met once before:
+     “But it knows any friend it has met once before:
           It never will look at a bribe:
      And in charity-meetings it stands at the door,
           And collects--though it does not subscribe.
 
-     âItsâ flavour when cooked is more exquisite far
+     “Its’ flavour when cooked is more exquisite far
           Than mutton, or oysters, or eggs:
      (Some think it keeps best in an ivory jar,
           And some, in mahogany kegs:)
 
-     âYou boil it in sawdust: you salt it in glue:
+     “You boil it in sawdust: you salt it in glue:
           You condense it with locusts and tape:
      Still keeping one principal object in view--
-          To preserve its symmetrical shape.â
+          To preserve its symmetrical shape.”
 
      The Butcher would gladly have talked till next day,
           But he felt that the lesson must end,
@@ -684,12 +684,12 @@ he would have gasped out âRilchiam!â
 
      They returned hand-in-hand, and the Bellman, unmanned
           (For a moment) with noble emotion,
-     Said âThis amply repays all the wearisome days
-          We have spent on the billowy ocean!â
+     Said “This amply repays all the wearisome days
+          We have spent on the billowy ocean!”
 
      Such friends, as the Beaver and Butcher became,
           Have seldom if ever been known;
-     In winter or summer, âtwas always the same--
+     In winter or summer, ’twas always the same--
           You could never meet either alone.
 
      And when quarrels arose--as one frequently finds
@@ -701,7 +701,7 @@ he would have gasped out âRilchiam!â
 
                       Fit the Sixth
 
-                  THE BARRISTERâS DREAM
+                  THE BARRISTER’S DREAM
 
 
      They sought it with thimbles, they sought it with care;
@@ -710,7 +710,7 @@ he would have gasped out âRilchiam!â
           They charmed it with smiles and soap.
 
      But the Barrister, weary of proving in vain
-          That the Beaverâs lace-making was wrong,
+          That the Beaver’s lace-making was wrong,
      Fell asleep, and in dreams saw the creature quite plain
           That his fancy had dwelt on so long.
 
@@ -734,22 +734,22 @@ he would have gasped out âRilchiam!â
      And they all spoke at once, so that none of them knew
           One word that the others had said.
 
-     âYou must know--â said the Judge: but the Snark exclaimed âFudge!â
+     “You must know--” said the Judge: but the Snark exclaimed “Fudge!”
            That statute is obsolete quite!
      Let me tell you, my friends, the whole question depends
           On an ancient manorial right.
 
-     âIn the matter of Treason the pig would appear
+     “In the matter of Treason the pig would appear
           To have aided, but scarcely abetted:
      While the charge of Insolvency fails, it is clear,
-          If you grant the plea ânever indebted.â
+          If you grant the plea ‘never indebted.’
 
-     âThe fact of Desertion I will not dispute;
+     “The fact of Desertion I will not dispute;
           But its guilt, as I trust, is removed
      (So far as related to the costs of this suit)
           By the Alibi which has been proved.
 
-     âMy poor clientâs fate now depends on your votes.â
+     “My poor client’s fate now depends on your votes.”
            Here the speaker sat down in his place,
      And directed the Judge to refer to his notes
           And briefly to sum up the case.
@@ -761,12 +761,12 @@ he would have gasped out âRilchiam!â
 
      When the verdict was called for, the Jury declined,
           As the word was so puzzling to spell;
-     But they ventured to hope that the Snark wouldnât mind
+     But they ventured to hope that the Snark wouldn’t mind
           Undertaking that duty as well.
 
      So the Snark found the verdict, although, as it owned,
           It was spent with the toils of the day:
-     When it said the word âGUILTY!â the Jury all groaned,
+     When it said the word “GUILTY!” the Jury all groaned,
           And some of them fainted away.
 
      Then the Snark pronounced sentence, the Judge being quite
@@ -774,8 +774,8 @@ he would have gasped out âRilchiam!â
      When it rose to its feet, there was silence like night,
           And the fall of a pin might be heard.
 
-     âTransportation for lifeâ was the sentence it gave,
-          âAnd _then_ to be fined forty pound.â
+     “Transportation for life” was the sentence it gave,
+          “And _then_ to be fined forty pound.”
       The Jury all cheered, though the Judge said he feared
           That the phrase was not legally sound.
 
@@ -798,7 +798,7 @@ he would have gasped out âRilchiam!â
 
                      Fit the Seventh
 
-                    THE BANKERâS FATE
+                    THE BANKER’S FATE
 
 
      They sought it with thimbles, they sought it with care;
@@ -817,7 +817,7 @@ he would have gasped out âRilchiam!â
           For he knew it was useless to fly.
 
      He offered large discount--he offered a cheque
-          (Drawn âto bearerâ) for seven-pounds-ten:
+          (Drawn “to bearer”) for seven-pounds-ten:
      But the Bandersnatch merely extended its neck
           And grabbed at the Banker again.
 
@@ -828,7 +828,7 @@ he would have gasped out âRilchiam!â
 
      The Bandersnatch fled as the others appeared
           Led on by that fear-stricken yell:
-     And the Bellman remarked âIt is just as I feared!â
+     And the Bellman remarked “It is just as I feared!”
            And solemnly tolled on his bell.
 
      He was black in the face, and they scarcely could trace
@@ -846,10 +846,10 @@ he would have gasped out âRilchiam!â
      Words whose utter inanity proved his insanity,
           While he rattled a couple of bones.
 
-     âLeave him here to his fate--it is getting so late!â
+     “Leave him here to his fate--it is getting so late!”
            The Bellman exclaimed in a fright.
-     âWe have lost half the day. Any further delay,
-          And we shaânât catch a Snark before night!â
+     “We have lost half the day. Any further delay,
+          And we sha’n’t catch a Snark before night!”
 
 
 
@@ -868,13 +868,13 @@ he would have gasped out âRilchiam!â
      Went bounding along on the tip of its tail,
           For the daylight was nearly past.
 
-     âThere is Thingumbob shouting!â the Bellman said,
-          âHe is shouting like mad, only hark!
+     “There is Thingumbob shouting!” the Bellman said,
+          “He is shouting like mad, only hark!
      He is waving his hands, he is wagging his head,
-          He has certainly found a Snark!â
+          He has certainly found a Snark!”
 
      They gazed in delight, while the Butcher exclaimed
-          âHe was always a desperate wag!â
+          “He was always a desperate wag!”
       They beheld him--their Baker--their hero unnamed--
           On the top of a neighboring crag.
 
@@ -883,14 +883,14 @@ he would have gasped out âRilchiam!â
      (As if stung by a spasm) plunge into a chasm,
           While they waited and listened in awe.
 
-     âItâs a Snark!â was the sound that first came to their ears,
+     “It’s a Snark!” was the sound that first came to their ears,
           And seemed almost too good to be true.
      Then followed a torrent of laughter and cheers:
-          Then the ominous words âItâs a Boo-â
+          Then the ominous words “It’s a Boo-”
 
      Then, silence. Some fancied they heard in the air
           A weary and wandering sigh
-     Then sounded like â-jum!â but the others declare
+     Then sounded like “-jum!” but the others declare
           It was only a breeze that went by.
 
      They hunted till darkness came on, but they found
