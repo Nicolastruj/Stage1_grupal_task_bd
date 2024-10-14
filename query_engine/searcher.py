@@ -40,28 +40,69 @@ def get_book_metadata(book_path):
 
     return title, author, language
 
+# def get_paragraphs_from_positions(book_path, positions, search_word):
+#     """Given the list of positions, extract the surrounding paragraphs."""
+#     paragraphs = []
+
+#     try:
+#         with open(book_path, 'r', encoding='utf-8') as file:
+#             text = file.read()
+
+#         # Normalize the text by replacing newlines and splitting by double newlines for paragraphs
+#         book_paragraphs = text.split('\n\n')
+#         search_word = search_word.lower()  # Ensure we're searching in a case-insensitive manner
+
+#         for paragraph in book_paragraphs:
+#             # Check if the search word is in this paragraph
+#             if search_word in paragraph.lower():
+#                 paragraphs.append(paragraph.strip())
+
+#     except FileNotFoundError:
+#         print(f"Book file not found: {book_path}")
+
+#     return paragraphs
+
+
 def get_paragraphs_from_positions(book_path, positions, search_word):
     """Given the list of positions, extract the surrounding paragraphs."""
     paragraphs = []
-
+    
     try:
         with open(book_path, 'r', encoding='utf-8') as file:
             text = file.read()
-
+        
         # Normalize the text by replacing newlines and splitting by double newlines for paragraphs
         book_paragraphs = text.split('\n\n')
-        search_word = search_word.lower()  # Ensure we're searching in a case-insensitive manner
-
+        
+        # Prepare to keep track of word position across all paragraphs
+        word_count = 0
+        paragraph_positions = []  # Will store word count range for each paragraph
+        
+        # Iterate through paragraphs to map word positions
         for paragraph in book_paragraphs:
-            # Check if the search word is in this paragraph
-            if search_word in paragraph.lower():
-                paragraphs.append(paragraph.strip())
+            words_in_paragraph = paragraph.split()
+            paragraph_word_count = len(words_in_paragraph)
+            
+            # Append a tuple with the starting and ending word positions for each paragraph
+            paragraph_positions.append((word_count, word_count + paragraph_word_count))
+            
+            # Increment word count for the next paragraph
+            word_count += paragraph_word_count
+        
+        # Extract paragraphs where the word is found based on the positions
+        for position in positions:
+            for i, (start_pos, end_pos) in enumerate(paragraph_positions):
+                if start_pos <= position < end_pos:
+                    # Add paragraph to the result if the position falls within this paragraph
+                    paragraphs.append(book_paragraphs[i].strip())
+                    break  # Once found, no need to check further for this position
 
     except FileNotFoundError:
         print(f"Book file not found: {book_path}")
 
     return paragraphs
 
+    
 def find_book_by_id(book_id, book_folder):
     """Find the book file in the folder based on the book ID."""
     for filename in os.listdir(book_folder):
