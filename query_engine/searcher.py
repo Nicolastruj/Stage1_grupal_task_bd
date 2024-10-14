@@ -7,7 +7,6 @@ def load_json_index(word, index_folder):
     first_letter = word[0].lower()
     json_path = os.path.join(index_folder, f'indexer_{first_letter}.json')
 
-    # Debugging print: check if the correct file is being loaded
     print(f"Attempting to load index file: {json_path}")
 
     try:
@@ -19,10 +18,8 @@ def load_json_index(word, index_folder):
         return None
 
 def get_book_metadata(book_path):
-    """Extracts metadata such as Title, Author, and Language from the book."""
-    title = "Unknown"
-    author = "Unknown"
-    language = "Unknown"
+    """Extract metadata such as Title, Author, and Language from the book."""
+    title, author, language = "Unknown", "Unknown", "Unknown"
 
     try:
         with open(book_path, 'r', encoding='utf-8') as file:
@@ -55,7 +52,6 @@ def get_paragraphs_from_positions(book_path, positions):
         book_paragraphs = text.split('\n\n')
         book_text = text.replace("\n", "")  # Remove line breaks for easier position handling
 
-        # Find paragraphs around the positions
         for position in positions:
             for paragraph in book_paragraphs:
                 if paragraph.lower().find(book_text[position:position + 20].lower()) != -1:
@@ -67,6 +63,13 @@ def get_paragraphs_from_positions(book_path, positions):
 
     return paragraphs
 
+def find_book_by_id(book_id, book_folder):
+    """Find the book file in the folder based on the book ID."""
+    for filename in os.listdir(book_folder):
+        if f"_{book_id}.txt" in filename:
+            return os.path.join(book_folder, filename)
+    return None
+
 def query_engine(word, book_folder="../Datamart_libros", index_folder="../books_datamart_dict"):
     """Search for a word and print the book details and paragraphs where the word occurs."""
     word = word.lower().strip()
@@ -75,12 +78,9 @@ def query_engine(word, book_folder="../Datamart_libros", index_folder="../books_
     # Load the appropriate JSON indexer for the word
     word_index = load_json_index(word, index_folder)
     
-    # Debugging print: check if the word is found in the index file
     if word_index is None:
         print(f"No index file found for the word: {word}")
         return results
-
-    print(f"Word '{word}' found in the index. Checking for occurrences...")
 
     if word not in word_index:
         print(f"Word '{word}' not found in the loaded index.")
@@ -89,9 +89,13 @@ def query_engine(word, book_folder="../Datamart_libros", index_folder="../books_
     # Get the book IDs and positions where the word occurs
     word_data = word_index[word]
 
-    # Iterate over each book where the word appears
     for book_id, positions in word_data.items():
-        book_path = f"{book_folder}/libro_{book_id}.txt"
+        # Find the correct book file based on its ID
+        book_path = find_book_by_id(book_id, book_folder)
+
+        if not book_path:
+            print(f"Book file not found for book ID {book_id}.")
+            continue
 
         # Extract metadata from the book
         title, author, language = get_book_metadata(book_path)
@@ -100,7 +104,6 @@ def query_engine(word, book_folder="../Datamart_libros", index_folder="../books_
         paragraphs = get_paragraphs_from_positions(book_path, positions)
 
         if paragraphs:
-            # Save the results
             results.append({
                 "book_id": book_id,
                 "title": title,
