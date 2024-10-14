@@ -40,7 +40,28 @@ def get_book_metadata(book_path):
 
     return title, author, language
 
-def get_paragraphs_from_positions(book_path, positions):
+# def get_paragraphs_from_positions(book_path, positions):
+#     """Given the list of positions, extract the surrounding paragraphs."""
+#     paragraphs = []
+
+#     try:
+#         with open(book_path, 'r', encoding='utf-8') as file:
+#             text = file.read()
+
+#         # Split the book into paragraphs
+#         book_paragraphs = text.split('\n\n')
+#         book_text = text.replace("\n", "")  # Remove line breaks for easier position handling
+
+#         for position in positions:
+#             for paragraph in book_paragraphs:
+#                 if paragraph.lower().find(book_text[position:position + 20].lower()) != -1:
+#                     paragraphs.append(paragraph.strip())
+#                     break  # Stop after finding the first match for the position
+
+#     except FileNotFoundError:
+#         print(f"Book file not found: {book_path}")
+
+def get_paragraphs_from_positions(book_path, positions, search_word):
     """Given the list of positions, extract the surrounding paragraphs."""
     paragraphs = []
 
@@ -48,18 +69,19 @@ def get_paragraphs_from_positions(book_path, positions):
         with open(book_path, 'r', encoding='utf-8') as file:
             text = file.read()
 
-        # Split the book into paragraphs
+        # Normalize the text by replacing newlines and splitting by double newlines for paragraphs
         book_paragraphs = text.split('\n\n')
-        book_text = text.replace("\n", "")  # Remove line breaks for easier position handling
+        search_word = search_word.lower()  # Ensure we're searching in a case-insensitive manner
 
-        for position in positions:
-            for paragraph in book_paragraphs:
-                if paragraph.lower().find(book_text[position:position + 20].lower()) != -1:
-                    paragraphs.append(paragraph.strip())
-                    break  # Stop after finding the first match for the position
+        for paragraph in book_paragraphs:
+            # Check if the search word is in this paragraph
+            if search_word in paragraph.lower():
+                paragraphs.append(paragraph.strip())
 
     except FileNotFoundError:
         print(f"Book file not found: {book_path}")
+
+    return paragraphs
 
     return paragraphs
 
