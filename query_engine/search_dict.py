@@ -1,6 +1,12 @@
 import json
 import glob
 import os
+
+
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+
 from data_model.object_type.Palabra import Palabra  # Ensure this is correct based on your folder structure
 
 def load_palabras(index_folder):
