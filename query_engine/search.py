@@ -42,7 +42,8 @@ def query_engine(input, book_folder="../Datamart_libros",
                 book_filename = f"{book_folder}/libro_{book_id}.txt"
 
                 try:
-                    with open(book_filename, "r") as file:
+                    # with open(book_filename, "r") as file:
+                    with open(book_filename, "r", encoding="utf-8") as file:
                         text = file.read()
 
                     # separating the text into paragraphs
