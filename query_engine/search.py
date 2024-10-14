@@ -9,7 +9,7 @@ def query_engine(input, book_folder="../Datamart_libros",
     loaded_words = {}
 
     for filepath in glob.glob(f"{index_folder}/*.json"):
-        print(filepath)
+        #print(filepath)
         with open(filepath, "r") as file:
             data = json.load(file)
             if "id_nombre" in data and "diccionario" in data:
