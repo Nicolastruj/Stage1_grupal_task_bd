@@ -1,6 +1,12 @@
 import os
 import json
 
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from data_model.object_type.Palabra import Palabra
+
+
 def load_indexes(index_folder):
     """Load all index files into a single dictionary."""
     indexer = {}
