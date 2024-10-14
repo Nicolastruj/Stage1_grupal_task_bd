@@ -1,78 +1,102 @@
 import json
 import glob
+import re
+import os
 
-def query_engine(input, book_folder="../Datamart_libros",
-                 index_folder="../Datamart_palabras"):
+def find_book(book_id, book_folder):
+    for filename in os.listdir(book_folder):
+        if filename.endswith(f"_{book_id}.txt"):  # Buscar archivo que termine con _{book_id}.txt
+            return os.path.join(book_folder, filename)
+    return None
+
+def query_engine(input, book_folder="../Datamart_libros", index_folder="../Datamart_palabras", max_occurrences=3):
     input = input.lower()
     words = input.split()
     results = []
     loaded_words = {}
 
+    # save the JSON objects
     for filepath in glob.glob(f"{index_folder}/*.json"):
         with open(filepath, "r") as file:
             data = json.load(file)
             if "id_nombre" in data and "diccionario" in data:
                 word_key = data["id_nombre"]
-                dictionary_info = data["diccionario"]  #getting the information out of the diccionary in the JSON object
-                loaded_words[word_key] = {"diccionario": dictionary_info} #saving the information of the word in a diccionary
+                dictionary_info = data["diccionario"]
+                loaded_words[word_key] = {"diccionario": dictionary_info}
 
+    # Check if all the words are there
+    words_looked_for = all(word in loaded_words for word in words)
 
-    words_looked_for= all(word in loaded_words for word in words) #here we check if all the words looked for are in the diccionary we just created
     if words_looked_for:
         books_in_common = None
         for word in words:
             word_info = loaded_words[word]["diccionario"]
             if books_in_common is None:
-                books_in_common = set(word_info.keys())  # common books that include the word
+                books_in_common = set(word_info.keys())
             else:
-                books_in_common &= set(word_info.keys())  # So that it only takes into account books that include all of the words together
+                books_in_common &= set(word_info.keys())
 
-        # If there are books in common with all the words looked for
         if books_in_common:
-            for book_id in books_in_common:
-                book_filename = f"{book_folder}/libro_{book_id}.txt"
+            for book_key in books_in_common:
 
-                try:
-                    with open(book_filename, "r") as file:
-                        text = file.read()
+                book_info = book_key.split(" by ")
+                book_name = book_info[0].strip()
+                author_and_id = book_info[1].split(" - ")
+                author_name = author_and_id[0].strip()
+                book_id = author_and_id[1].strip()
 
-                    # separating the text into paragraphs
-                    paragraphs = text.split('\n\n')
-                    relevant_paragraphs = [] #to save the found paragraphs that include the word or words
 
-                    # Finding the word/words
-                    for paragraph in paragraphs:
-                        if input in paragraph.lower():  # Check to see if the exact word/words are in the paragraph
-                            relevant_paragraphs.append(paragraph.strip()) #and save them
+                book_filename = find_book(book_id, book_folder)
 
-                    # if there are any, we append them to the paragraphs
-                    if relevant_paragraphs:
-                        results.append({
-                            "document_id": book_id,
-                            "paragraphs": relevant_paragraphs
-                        })
+                if book_filename:
+                    try:
+                        with open(book_filename, "r") as file:
+                            text = file.read()
 
-                except FileNotFoundError:
-                    print(f"Error: The file {book_filename} was not found.")  # Error message if there is no boook foudn
+
+                        paragraphs = text.split('\n\n')
+                        relevant_paragraphs = []
+                        occurrences = 0
+
+                        word_pattern = re.compile(rf"\b{input}\b", re.IGNORECASE)
+
+
+                        for paragraph in paragraphs:
+                            if word_pattern.search(paragraph):
+                                occurrences += len(word_pattern.findall(paragraph))
+
+                                highlighted_paragraph = word_pattern.sub(f"\033[94m{input}\033[0m", paragraph)
+                                relevant_paragraphs.append(highlighted_paragraph.strip())
+
+                        if relevant_paragraphs:
+                            results.append({
+                                "book_name": book_name,
+                                "author_name": author_name,
+                                #"URL": ,
+                                "paragraphs": relevant_paragraphs[:max_occurrences],
+                                "total_occurrences": occurrences
+                            })
+
+                    except FileNotFoundError:
+                        print(f"Error: The Book {book_filename} was not found.")
 
     return results
 
 
-# For trying out the code
-input = "men and women"  # words as AND
-#input = "abandon" #word to check
+#Example for testing
+input = "adore"
 search_results = query_engine(input)
 
-# Showing the results - output
-print(f"Results for '{input}':")
-if search_results:  # Only if there are results, otherwise "else"
+# output
+print(f"Resultados para '{input}':")
+if search_results:
     for result in search_results:
-        print(f"Document ID: {result['document_id']}")
-        print(f"URL: \n")
-        print(f"Paragraphs where the word is included: \n")
-
-        for paragraph in result['paragraphs']: #printing out all the paragraphs found
-            print(f"Paragraph: {paragraph} \n")
+        print(f"Book Name: {result['book_name']}")
+        print(f"Author: {result['author_name']}")
+        print(f"URL: ")
+        print(f"Total Ocurrencies: {result['total_occurrences']}")
+        print("Paragraphs:")
+        for paragraph in result['paragraphs']:
+            print(f"Paragraph: {paragraph}\n")
 else:
-    print("No results found.")
-
+    print("No results were found.")
