@@ -50,7 +50,7 @@ def query_engine(input, book_folder="../Datamart_libros", index_folder="../Datam
 
                 if book_filename:
                     try:
-                        with open(book_filename, "r") as file:
+                        with open(book_filename, "r", encoding = "utf-8") as file:
                             text = file.read()
 
 
@@ -82,9 +82,8 @@ def query_engine(input, book_folder="../Datamart_libros", index_folder="../Datam
 
     return results
 
-
 #Example for testing
-input = "adore"
+input = "absence"
 search_results = query_engine(input)
 
 # output
