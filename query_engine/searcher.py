@@ -1,7 +1,6 @@
 import os
 import json
 import re
-import glob
 
 def load_json_index(word, index_folder):
     """Loads the appropriate partial indexer JSON file for the word."""
