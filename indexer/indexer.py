@@ -175,8 +175,14 @@ def indexer2(datamart_txt_path, datamart_json_path):
 
                 if os.path.exists(json_file_path):
                     with open(json_file_path, 'r', encoding='utf-8') as json_file:
-                        data = json.load(json_file)
-                        palabra_obj = Palabra.from_dict(data)
+                        content = json_file.read()
+                        if content:
+                            data = json.load(json_file)
+                            palabra_obj = Palabra.from_dict(data)
+                        
+                        else:
+                            print("Empty json")
+                            continue
 
                     if indice_libro in palabra_obj.diccionario:
                         palabra_obj.diccionario[indice_libro].append(num_parrafo)
