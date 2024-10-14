@@ -15,7 +15,9 @@ def query_engine(input, book_folder="../Datamart_libros",
                 word_key = data["id_nombre"]
                 dictionary_info = data["diccionario"]  #getting the information out of the diccionary in the JSON object
                 loaded_words[word_key] = {"diccionario": dictionary_info} #saving the information of the word in a diccionary
-
+                print(word_key)
+                # print(loaded_words[word_key])
+                
 
     words_looked_for= all(word in loaded_words for word in words) #here we check if all the words looked for are in the diccionary we just created
     if words_looked_for:
@@ -30,6 +32,7 @@ def query_engine(input, book_folder="../Datamart_libros",
         # If there are books in common with all the words looked for
         if books_in_common:
             for book_id in books_in_common:
+                print(book_id)
                 book_filename = f"{book_folder}/libro_{book_id}.txt"
 
                 try:
