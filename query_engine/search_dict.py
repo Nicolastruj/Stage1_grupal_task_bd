@@ -50,21 +50,46 @@ def load_book_metadata(book_folder):
 
     return books_metadata
 
+# def get_paragraphs_from_book(book_file, positions):
+#     """Return the paragraphs that contain the word at the given positions."""
+#     with open(book_file, 'r', encoding='utf-8') as file:
+#         text = file.read()
+    
+#     # Split text into paragraphs
+#     paragraphs = text.split('\n\n')
+
+#     # Find paragraphs with the word at specified positions
+#     relevant_paragraphs = []
+#     for pos in positions:
+#         for paragraph in paragraphs:
+#             if str(pos) in paragraph:  # You can adjust the condition if needed (e.g., exact matching logic)
+#                 relevant_paragraphs.append(paragraph.strip())
+#                 break
+
+#     return relevant_paragraphs
+
 def get_paragraphs_from_book(book_file, positions):
     """Return the paragraphs that contain the word at the given positions."""
     with open(book_file, 'r', encoding='utf-8') as file:
         text = file.read()
-    
-    # Split text into paragraphs
+
+    # Remove potential Project Gutenberg headers and footers
+    if "*** START OF" in text:
+        text = text.split("*** START OF", 1)[-1]  # Skip everything before the actual content
+    if "*** END OF" in text:
+        text = text.split("*** END OF", 1)[0]  # Skip everything after the actual content
+
+    # Split the text into paragraphs
     paragraphs = text.split('\n\n')
 
-    # Find paragraphs with the word at specified positions
+    # Find paragraphs that include the word at specified positions
     relevant_paragraphs = []
     for pos in positions:
         for paragraph in paragraphs:
-            if str(pos) in paragraph:  # You can adjust the condition if needed (e.g., exact matching logic)
+            # If the position occurs within the paragraph, consider it
+            if str(pos) in paragraph:
                 relevant_paragraphs.append(paragraph.strip())
-                break
+                break  # Only add the paragraph once
 
     return relevant_paragraphs
 
