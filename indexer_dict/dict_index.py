@@ -56,8 +56,8 @@ def save_partial_indexers(indexer, output_directory):
 
 def main():
     indexer = {}
-    directory_path = '../Datamart_libros'
-    output_directory = '../books_datamart_dict'
+    directory_path = './Datamart_libros'
+    output_directory = './books_datamart_dict'
     filepaths = extract_files_from_directory(directory_path)
 
     for filepath in filepaths:
