@@ -54,6 +54,12 @@ def get_paragraphs_from_book(book_file, positions):
     """Return the paragraphs that contain the word at the given positions."""
     with open(book_file, 'r', encoding='utf-8') as file:
         text = file.read()
+
+    metadata = extract_metadata(text)
+
+    print(metadata["title"])
+    print(metadata["author"])
+    print(metadata["language"])
     
     # Split text into paragraphs
     paragraphs = text.split('\n\n')
