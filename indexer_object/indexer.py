@@ -2,6 +2,12 @@
 import os
 import json
 import re
+
+
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from  data_model.object_type.Palabra import Palabra
 
 def indexer(datamart_txt_path, datamart_json_path):

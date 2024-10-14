@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../')))
+
 from reader.book_reader import read_words
 from reader.path_reader import extract_files_from_directory
 import re
