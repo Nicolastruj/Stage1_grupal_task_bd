@@ -34,7 +34,7 @@ def id_search(filepath):
 
 def main():
     indexer = {}
-    directory_path = '../Datamart_libros'
+    directory_path = './Datamart_libros'
     filepaths = extract_files_from_directory(directory_path)
     for filepath in filepaths:
         words = read_words(filepath)
