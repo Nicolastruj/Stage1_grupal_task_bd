@@ -9,13 +9,21 @@ def query_engine(input, book_folder="../Datamart_libros",
     loaded_words = {}
 
     for filepath in glob.glob(f"{index_folder}/*.json"):
-        #print(filepath)
-        with open(filepath, "r") as file:
-            data = json.load(file)
-            if "id_nombre" in data and "diccionario" in data:
-                word_key = data["id_nombre"]
-                dictionary_info = data["diccionario"]  #getting the information out of the diccionary in the JSON object
-                loaded_words[word_key] = {"diccionario": dictionary_info} #saving the information of the word in a diccionary
+        try:
+            #print(filepath)
+            #with open(filepath, "r") as file:
+            with open(filepath, "r", encoding="utf-8") as file:
+                data = json.load(file)
+                if "id_nombre" in data and "diccionario" in data:
+                    word_key = data["id_nombre"]
+                    dictionary_info = data["diccionario"]  #getting the information out of the diccionary in the JSON object
+                    loaded_words[word_key] = {"diccionario": dictionary_info} #saving the information of the word in a diccionary
+        except json.JSONDecodeError:
+            print(f"Error: Invalid JSON format in {filepath}")
+        except FileNotFoundError:
+            print(f"Error: {filepath} not found")
+        except Exception as e:
+            print(f"An error occurred while processing {filepath}: {e}")
 
 
     words_looked_for= all(word in loaded_words for word in words) #here we check if all the words looked for are in the diccionary we just created
