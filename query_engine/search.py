@@ -60,7 +60,7 @@ def query_engine(input, book_folder="../Datamart_libros",
 
 
 # For trying out the code
-input = "men and women"  # words as AND
+input = "beauty"  # words as AND
 #input = "abandon" #word to check
 search_results = query_engine(input)
 
