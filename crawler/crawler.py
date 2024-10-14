@@ -53,7 +53,7 @@ def descargar_libro(id_libro, ruta_descarga):
 
 
 # Definir la ruta específica donde guardar los libros
-ruta_descarga = r"C:\Users\carlo\PycharmProjects\Stage1_individual_task_bd\Datamart_libros"  # Cambia esto a la ruta deseada
+ruta_descarga = r"../Datamart_libros"  # Cambia esto a la ruta deseada
 
 # Descargar libros desde el ID 1340 hasta el 1350 en la ruta especificada
 for id_libro in range(1340, 1351):
