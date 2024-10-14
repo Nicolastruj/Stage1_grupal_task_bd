@@ -1,112 +1,120 @@
-import json
-import glob
-import re
 import os
+import json
+import re
+import glob
 
-def extract_metadata(text):
-    """Extract Title, Author, and Language from the book text."""
-    title_match = re.search(r"Title:\s*(.*)", text, re.IGNORECASE)
-    author_match = re.search(r"Author:\s*(.*)", text, re.IGNORECASE)
-    language_match = re.search(r"Language:\s*(.*)", text, re.IGNORECASE)
+def load_json_index(word, index_folder):
+    """Loads the appropriate partial indexer JSON file for the word."""
+    first_letter = word[0].lower()
+    json_path = os.path.join(index_folder, f'indexer_{first_letter}.json')
 
-    title = title_match.group(1).strip() if title_match else "Unknown"
-    author = author_match.group(1).strip() if author_match else "Unknown"
-    language = language_match.group(1).strip() if language_match else "Unknown"
+    try:
+        with open(json_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        return data
+    except FileNotFoundError:
+        print(f"No index file found for letter '{first_letter}'.")
+        return None
 
-    return {
-        "title": title,
-        "author": author,
-        "language": language
-    }
+def get_book_metadata(book_path):
+    """Extracts metadata such as Title, Author, and Language from the book."""
+    title = "Unknown"
+    author = "Unknown"
+    language = "Unknown"
 
-def get_paragraph_by_index(text, word_indexes):
-    """Extract paragraphs containing the word at specified indexes."""
-    paragraphs = text.split('\n\n')  # Assume paragraphs are separated by double newlines
-    relevant_paragraphs = []
+    try:
+        with open(book_path, 'r', encoding='utf-8') as file:
+            text = file.read()
+            title_match = re.search(r"Title:\s*(.*)", text)
+            author_match = re.search(r"Author:\s*(.*)", text)
+            language_match = re.search(r"Language:\s*(.*)", text)
 
-    # Flatten the text and track the position of each word to match indexes
-    words = text.split()
-    for index in word_indexes:
-        if index < len(words):
-            word_position = words[index]
-            for paragraph in paragraphs:
-                if word_position in paragraph:
-                    relevant_paragraphs.append(paragraph.strip())
-                    break
+            if title_match:
+                title = title_match.group(1).strip()
+            if author_match:
+                author = author_match.group(1).strip()
+            if language_match:
+                language = language_match.group(1).strip()
 
-    return relevant_paragraphs
+    except FileNotFoundError:
+        print(f"Book file not found: {book_path}")
 
-def get_paragraphs_from_book(book_file, word_indexes):
-    """Return the metadata and paragraphs that contain the word."""
-    with open(book_file, 'r', encoding='utf-8') as file:
-        text = file.read()
+    return title, author, language
 
-    # Extract metadata
-    metadata = extract_metadata(text)
+def get_paragraphs_from_positions(book_path, positions):
+    """Given the list of positions, extract the surrounding paragraphs."""
+    paragraphs = []
 
-    # Remove Project Gutenberg boilerplate
-    start_marker = "*** START OF"
-    end_marker = "*** END OF"
-    if start_marker in text:
-        text = text.split(start_marker, 1)[-1]  # Skip everything before the actual content
-    if end_marker in text:
-        text = text.split(end_marker, 1)[0]  # Skip everything after the actual content
+    try:
+        with open(book_path, 'r', encoding='utf-8') as file:
+            text = file.read()
 
-    # Get paragraphs that contain the word using the indexes from the JSON index file
-    relevant_paragraphs = get_paragraph_by_index(text, word_indexes)
+        # Split the book into paragraphs
+        book_paragraphs = text.split('\n\n')
+        book_text = text.replace("\n", "")  # Remove line breaks for easier position handling
 
-    return metadata, relevant_paragraphs
+        # Find paragraphs around the positions
+        for position in positions:
+            for paragraph in book_paragraphs:
+                if paragraph.lower().find(book_text[position:position + 20].lower()) != -1:
+                    paragraphs.append(paragraph.strip())
+                    break  # Stop after finding the first match for the position
 
-def query_engine(input_word, book_folder="../Datamart_libros", index_file="index.json"):
-    input_word = input_word.lower()
+    except FileNotFoundError:
+        print(f"Book file not found: {book_path}")
+
+    return paragraphs
+
+def query_engine(word, book_folder="../Datamart_libros", index_folder="../books_datamart_dict"):
+    """Search for a word and print the book details and paragraphs where the word occurs."""
+    word = word.lower()
     results = []
 
-    # Load the dictionary JSON file (like the one you shared)
-    with open(index_file, "r") as file:
-        loaded_words = json.load(file)
+    # Load the appropriate JSON indexer for the word
+    word_index = load_json_index(word, index_folder)
+    if word_index is None or word not in word_index:
+        print(f"Word '{word}' not found in the index.")
+        return results
 
-    # Check if the input word exists in the index (by its prefix)
-    prefix = input_word[:3]  # Assume first three characters are the prefix (this may vary)
-    
-    if prefix in loaded_words:
-        books_with_word = loaded_words[prefix]
-        for book_id, word_indexes in books_with_word.items():
-            book_file = f"{book_folder}/libro_{book_id}.txt"
+    # Get the book IDs and positions where the word occurs
+    word_data = word_index[word]
 
-            try:
-                # Extract metadata and paragraphs from the book
-                metadata, paragraphs = get_paragraphs_from_book(book_file, word_indexes)
+    # Iterate over each book where the word appears
+    for book_id, positions in word_data.items():
+        book_path = f"{book_folder}/libro_{book_id}.txt"
 
-                if paragraphs:
-                    # Add book metadata and paragraphs to results
-                    results.append({
-                        "book_id": book_id,
-                        "title": metadata["title"],
-                        "author": metadata["author"],
-                        "language": metadata["language"],
-                        "paragraphs": paragraphs
-                    })
+        # Extract metadata from the book
+        title, author, language = get_book_metadata(book_path)
 
-            except FileNotFoundError:
-                print(f"Error: The file {book_file} was not found.")  # Handle missing book file
+        # Extract the paragraphs where the word occurs
+        paragraphs = get_paragraphs_from_positions(book_path, positions)
+
+        if paragraphs:
+            # Save the results
+            results.append({
+                "book_id": book_id,
+                "title": title,
+                "author": author,
+                "language": language,
+                "paragraphs": paragraphs
+            })
 
     return results
 
 def main():
-    input_word = input("Enter a word to search for: ")
-    search_results = query_engine(input_word)
+    word = input("Enter a word to search for: ")
+    search_results = query_engine(word)
 
     # Display results
-    if search_results:
-        for result in search_results:
-            print(f"Title: {result['title']}")
-            print(f"Author: {result['author']}")
-            print(f"Language: {result['language']}")
-            print(f"Occurrences at positions: {len(result['paragraphs'])} occurrence(s)\n")
-            for paragraph in result['paragraphs']:
-                print(f"Paragraph: {paragraph}\n")
-    else:
-        print(f"No results found for '{input_word}'.")
+    for result in search_results:
+        print(f"Title: {result['title']}")
+        print(f"Author: {result['author']}")
+        print(f"Language: {result['language']}")
+        print(f"Occurrences at positions: {len(result['paragraphs'])} occurrence(s)\n")
+        
+        for paragraph in result['paragraphs']:
+            print(f"Paragraph: {paragraph}\n")
+
 
 if __name__ == "__main__":
     main()
