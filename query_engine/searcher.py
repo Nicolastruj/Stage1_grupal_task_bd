@@ -102,7 +102,7 @@ def get_paragraphs_from_positions(book_path, positions, search_word):
 
     return paragraphs
 
-    
+
 def find_book_by_id(book_id, book_folder):
     """Find the book file in the folder based on the book ID."""
     for filename in os.listdir(book_folder):
@@ -166,7 +166,9 @@ def main():
         print(f"Occurrences at positions: {len(result['paragraphs'])} occurrence(s)\n")
         
         for paragraph in result['paragraphs']:
-            print(f"Paragraph: {paragraph}\n")
+            # print(f"Paragraph: {paragraph}\n")
+            print(paragraph)
+            print("")
 
 
 if __name__ == "__main__":
