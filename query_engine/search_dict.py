@@ -7,26 +7,25 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from data_model.object_type.Palabra import Palabra
 
 
-def load_indexes(index_folder):
-    """Load all index files into a single dictionary."""
-    indexer = {}
+def load_palabras(index_folder):
+    """Load all Palabra objects from the JSON index files."""
+    palabras = {}
 
     # Load all JSON index files from the directory
-    for filename in os.listdir(index_folder):
-        if filename.endswith('.json'):
-            file_path = os.path.join(index_folder, filename)
-            with open(file_path, 'r', encoding='utf-8') as file:
-                partial_index = json.load(file)
-                # Merge the partial index into the main indexer
-                indexer.update(partial_index)
-    
-    return indexer
+    for filepath in glob.glob(f"{index_folder}/*.json"):
+        with open(filepath, "r", encoding='utf-8') as file:
+            data = json.load(file)
+            palabra_obj = Palabra.from_dict(data)  # Convert JSON to Palabra object
+            palabras[palabra_obj.id_nombre.lower()] = palabra_obj  # Use lowercase id_nombre for case-insensitive search
 
-def search_word(word, indexer):
-    """Search for a word in the index and return the book IDs and positions."""
-    word = word.lower()  # Convert the word to lowercase to match the index
-    if word in indexer:
-        return indexer[word]
+    return palabras
+
+def search_word(word, palabras):
+    """Search for a word in the Palabra objects and return book IDs and positions."""
+    word = word.lower()  # Ensure case-insensitive search
+    if word in palabras:
+        palabra_obj = palabras[word]
+        return palabra_obj.obtener_diccionario()  # Return the dictionary of book IDs and positions
     else:
         return None  # Return None if the word is not found
 
@@ -41,16 +40,16 @@ def display_search_results(results):
 
 def main():
     # Path to the folder where index files are stored
-    index_folder = '../books_datamart_dict'
+    index_folder = '../Datamart_palabras'
 
-    # Load the index data
-    indexer = load_indexes(index_folder)
+    # Load the Palabra objects
+    palabras = load_palabras(index_folder)
 
     # Input word to search
     input_word = input("Enter a word to search for: ").strip()
 
     # Search for the word
-    search_results = search_word(input_word, indexer)
+    search_results = search_word(input_word, palabras)
 
     # Display the results
     display_search_results(search_results)
