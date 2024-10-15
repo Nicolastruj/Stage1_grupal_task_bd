@@ -61,22 +61,27 @@ def query_engine(input, book_folder="../Datamart_libros",
     return results
 
 
-# For trying out the code
-# input = "men and women"  # words as AND
-input = "men"
-#input = "abandon" #word to check
-search_results = query_engine(input)
+while True:
+    # For trying out the code
+    # input = "men and women"  # words as AND
+    
+    # word = "men"
+    word = input("Enter a word to search for: ")
 
-# Showing the results - output
-print(f"Results for '{input}':")
-if search_results:  # Only if there are results, otherwise "else"
-    for result in search_results:
-        print(f"Document ID: {result['document_id']}")
-        print(f"URL: \n")
-        print(f"Paragraphs where the word is included: \n")
+    #input = "abandon" #word to check
+    search_results = query_engine(word)
 
-        for paragraph in result['paragraphs']: #printing out all the paragraphs found
-            print(f"Paragraph: {paragraph} \n")
-else:
-    print("No results found.")
+    # Showing the results - output
+    print(f"Results for '{word}':")
+    if search_results:  # Only if there are results, otherwise "else"
+        for result in search_results:
+            print(f"Document ID: {result['document_id']}")
+            print(f"URL: \n")
+            print(f"Paragraphs where the word is included: \n")
+
+            for paragraph in result['paragraphs']: #printing out all the paragraphs found
+                print(f"Paragraph: {paragraph} \n")
+    else:
+        print("No results found.")
+
 
