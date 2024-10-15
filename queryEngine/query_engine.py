@@ -84,7 +84,7 @@ def query_engine(input, book_folder="../Datamart_libros", index_folder="../Datam
 
 
 #Example for testing
-input = "absence"
+input = "subscribe"
 search_results = query_engine(input)
 
 # output
