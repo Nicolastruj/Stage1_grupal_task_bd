@@ -13,7 +13,7 @@ def read_words(filepath):
         try:
             with open(filepath, 'r', encoding=encoding) as file:
                 content = file.read()
-                words = re.findall(r'\b\w+\b', content.lower())
+                words = re.findall(r"\b[a-zA-Z0-9]+(?:[-'/.][a-zA-Z0-9]+)*\b", content.lower())
                 return words
         except UnicodeDecodeError:
             print(f"Error decoding with {encoding}, trying next...")
