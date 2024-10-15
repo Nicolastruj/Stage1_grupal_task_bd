@@ -3,7 +3,6 @@ import json
 import re
 
 def load_json_index(word, index_folder):
-    """Loads the appropriate partial indexer JSON file for the word."""
     first_letter = word[0].lower()
     json_path = os.path.join(index_folder, f'indexer_{first_letter}.json')
 
@@ -18,7 +17,6 @@ def load_json_index(word, index_folder):
         return None
 
 def get_book_metadata(book_path):
-    """Extract metadata such as Title, Author, and Language from the book."""
     title, author, language = "Unknown", "Unknown", "Unknown"
 
     try:
@@ -40,28 +38,6 @@ def get_book_metadata(book_path):
 
     return title, author, language
 
-# def get_paragraphs_from_positions(book_path, positions, search_word):
-#     """Given the list of positions, extract the surrounding paragraphs."""
-#     paragraphs = []
-
-#     try:
-#         with open(book_path, 'r', encoding='utf-8') as file:
-#             text = file.read()
-
-#         # Normalize the text by replacing newlines and splitting by double newlines for paragraphs
-#         book_paragraphs = text.split('\n\n')
-#         search_word = search_word.lower()  # Ensure we're searching in a case-insensitive manner
-
-#         for paragraph in book_paragraphs:
-#             # Check if the search word is in this paragraph
-#             if search_word in paragraph.lower():
-#                 paragraphs.append(paragraph.strip())
-
-#     except FileNotFoundError:
-#         print(f"Book file not found: {book_path}")
-
-#     return paragraphs
-
 
 def get_paragraphs_from_positions(book_path, positions, search_word):
     """Given the list of positions, extract the surrounding paragraphs."""
@@ -71,31 +47,24 @@ def get_paragraphs_from_positions(book_path, positions, search_word):
         with open(book_path, 'r', encoding='utf-8') as file:
             text = file.read()
         
-        # Normalize the text by replacing newlines and splitting by double newlines for paragraphs
         book_paragraphs = text.split('\n\n')
         
-        # Prepare to keep track of word position across all paragraphs
         word_count = 0
-        paragraph_positions = []  # Will store word count range for each paragraph
+        paragraph_positions = [] 
         
-        # Iterate through paragraphs to map word positions
         for paragraph in book_paragraphs:
             words_in_paragraph = paragraph.split()
             paragraph_word_count = len(words_in_paragraph)
             
-            # Append a tuple with the starting and ending word positions for each paragraph
             paragraph_positions.append((word_count, word_count + paragraph_word_count))
             
-            # Increment word count for the next paragraph
             word_count += paragraph_word_count
         
-        # Extract paragraphs where the word is found based on the positions
         for position in positions:
             for i, (start_pos, end_pos) in enumerate(paragraph_positions):
                 if start_pos <= position < end_pos:
-                    # Add paragraph to the result if the position falls within this paragraph
                     paragraphs.append(book_paragraphs[i].strip())
-                    break  # Once found, no need to check further for this position
+                    break  
 
     except FileNotFoundError:
         print(f"Book file not found: {book_path}")
@@ -104,18 +73,17 @@ def get_paragraphs_from_positions(book_path, positions, search_word):
 
 
 def find_book_by_id(book_id, book_folder):
-    """Find the book file in the folder based on the book ID."""
+   
     for filename in os.listdir(book_folder):
         if f"_{book_id}.txt" in filename:
             return os.path.join(book_folder, filename)
     return None
 
 def query_engine(word, book_folder="../Datamart_libros", index_folder="../books_datamart_dict"):
-    """Search for a word and print the book details and paragraphs where the word occurs."""
+   
     word = word.lower().strip()
     results = []
 
-    # Load the appropriate JSON indexer for the word
     word_index = load_json_index(word, index_folder)
     
     if word_index is None:
@@ -126,21 +94,17 @@ def query_engine(word, book_folder="../Datamart_libros", index_folder="../books_
         print(f"Word '{word}' not found in the loaded index.")
         return results
 
-    # Get the book IDs and positions where the word occurs
     word_data = word_index[word]
 
     for book_id, positions in word_data.items():
-        # Find the correct book file based on its ID
         book_path = find_book_by_id(book_id, book_folder)
 
         if not book_path:
             print(f"Book file not found for book ID {book_id}.")
             continue
 
-        # Extract metadata from the book
         title, author, language = get_book_metadata(book_path)
 
-        # Extract the paragraphs where the word occurs
         paragraphs = get_paragraphs_from_positions(book_path, positions, word)
 
         if paragraphs:
@@ -158,7 +122,6 @@ def main():
     word = input("Enter a word to search for: ")
     search_results = query_engine(word)
 
-    # Display results
     for result in search_results:
         print(f"Title: {result['title']}")
         print(f"Author: {result['author']}")
@@ -166,7 +129,6 @@ def main():
         print(f"Occurrences at positions: {len(result['paragraphs'])} occurrence(s)\n")
         
         for paragraph in result['paragraphs']:
-            # print(f"Paragraph: {paragraph}\n")
             print(paragraph)
             print("")
 
