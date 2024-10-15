@@ -39,31 +39,69 @@ def get_book_metadata(book_path):
     return title, author, language
 
 
+# def get_paragraphs_from_positions(book_path, positions, search_word):
+#     """Given the list of positions, extract the surrounding paragraphs."""
+#     paragraphs = []
+    
+#     try:
+#         with open(book_path, 'r', encoding='utf-8') as file:
+#             text = file.read()
+        
+#         book_paragraphs = text.split('\n\n')
+        
+#         word_count = 0
+#         paragraph_positions = [] 
+        
+#         for paragraph in book_paragraphs:
+#             words_in_paragraph = paragraph.split()
+#             paragraph_word_count = len(words_in_paragraph)
+            
+#             paragraph_positions.append((word_count, word_count + paragraph_word_count))
+            
+#             word_count += paragraph_word_count
+        
+#         for position in positions:
+#             for i, (start_pos, end_pos) in enumerate(paragraph_positions):
+#                 if start_pos <= position < end_pos:
+#                     paragraphs.append(book_paragraphs[i].strip())
+#                     break  
+
+#     except FileNotFoundError:
+#         print(f"Book file not found: {book_path}")
+
+#     return paragraphs
+
+
 def get_paragraphs_from_positions(book_path, positions, search_word):
-    """Given the list of positions, extract the surrounding paragraphs."""
+    """Given the list of positions, extract the surrounding paragraphs containing the search word."""
     paragraphs = []
     
     try:
         with open(book_path, 'r', encoding='utf-8') as file:
             text = file.read()
         
-        book_paragraphs = text.split('\n\n')
+        # Adjust paragraph detection to include cases where paragraphs are split by single newlines
+        book_paragraphs = re.split(r'\n\s*\n|\n{2,}', text)
         
         word_count = 0
         paragraph_positions = [] 
         
         for paragraph in book_paragraphs:
-            words_in_paragraph = paragraph.split()
+            # Splitting on whitespace keeps punctuation
+            words_in_paragraph = re.findall(r'\S+', paragraph)
             paragraph_word_count = len(words_in_paragraph)
             
+            # Track the word start and end for this paragraph
             paragraph_positions.append((word_count, word_count + paragraph_word_count))
-            
             word_count += paragraph_word_count
         
+        # Find the paragraph containing the word at the indicated position
         for position in positions:
             for i, (start_pos, end_pos) in enumerate(paragraph_positions):
                 if start_pos <= position < end_pos:
-                    paragraphs.append(book_paragraphs[i].strip())
+                    # Ensure the paragraph contains the search word and add it
+                    if search_word in book_paragraphs[i].lower():
+                        paragraphs.append(book_paragraphs[i].strip())
                     break  
 
     except FileNotFoundError:
@@ -71,6 +109,7 @@ def get_paragraphs_from_positions(book_path, positions, search_word):
 
     return paragraphs
 
+    
 
 def find_book_by_id(book_id, book_folder):
    
