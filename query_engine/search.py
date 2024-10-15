@@ -1,5 +1,6 @@
-import json
 import glob
+import json
+
 
 def query_engine(input, book_folder="../Datamart_libros",
                  index_folder="../Datamart_palabras"):
@@ -10,14 +11,16 @@ def query_engine(input, book_folder="../Datamart_libros",
 
     for filepath in glob.glob(f"{index_folder}/*.json"):
         try:
-            #print(filepath)
-            #with open(filepath, "r") as file:
+            # print(filepath)
+            # with open(filepath, "r") as file:
             with open(filepath, "r", encoding="utf-8") as file:
                 data = json.load(file)
                 if "id_nombre" in data and "diccionario" in data:
                     word_key = data["id_nombre"]
-                    dictionary_info = data["diccionario"]  #getting the information out of the diccionary in the JSON object
-                    loaded_words[word_key] = {"diccionario": dictionary_info} #saving the information of the word in a diccionary
+                    dictionary_info = data[
+                        "diccionario"]  # getting the information out of the diccionary in the JSON object
+                    loaded_words[word_key] = {
+                        "diccionario": dictionary_info}  # saving the information of the word in a diccionary
         except json.JSONDecodeError:
             print(f"Error: Invalid JSON format in {filepath}")
         except FileNotFoundError:
@@ -25,8 +28,8 @@ def query_engine(input, book_folder="../Datamart_libros",
         except Exception as e:
             print(f"An error occurred while processing {filepath}: {e}")
 
-
-    words_looked_for= all(word in loaded_words for word in words) #here we check if all the words looked for are in the diccionary we just created
+    words_looked_for = all(word in loaded_words for word in
+                           words)  # here we check if all the words looked for are in the diccionary we just created
     if words_looked_for:
         books_in_common = None
         for word in words:
@@ -34,7 +37,8 @@ def query_engine(input, book_folder="../Datamart_libros",
             if books_in_common is None:
                 books_in_common = set(word_info.keys())  # common books that include the word
             else:
-                books_in_common &= set(word_info.keys())  # So that it only takes into account books that include all of the words together
+                books_in_common &= set(
+                    word_info.keys())  # So that it only takes into account books that include all of the words together
 
         # If there are books in common with all the words looked for
         if books_in_common:
@@ -48,12 +52,12 @@ def query_engine(input, book_folder="../Datamart_libros",
 
                     # separating the text into paragraphs
                     paragraphs = text.split('\n\n')
-                    relevant_paragraphs = [] #to save the found paragraphs that include the word or words
+                    relevant_paragraphs = []  # to save the found paragraphs that include the word or words
 
                     # Finding the word/words
                     for paragraph in paragraphs:
                         if input in paragraph.lower():  # Check to see if the exact word/words are in the paragraph
-                            relevant_paragraphs.append(paragraph.strip()) #and save them
+                            relevant_paragraphs.append(paragraph.strip())  # and save them
 
                     # if there are any, we append them to the paragraphs
                     if relevant_paragraphs:
@@ -69,13 +73,13 @@ def query_engine(input, book_folder="../Datamart_libros",
 
 
 while True:
-    
+
     word = input("Enter a word to search for: ")
 
     search_results = query_engine(word)
 
     print(f"Results for '{word}':")
-    if search_results: 
+    if search_results:
         for result in search_results:
             print(f"Document ID: {result['document_id']}")
             print(f"URL: \n")
@@ -85,4 +89,3 @@ while True:
                 print(f"Paragraph: {paragraph} \n")
     else:
         print("No results found.")
-

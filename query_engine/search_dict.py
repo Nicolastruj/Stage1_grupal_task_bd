@@ -1,6 +1,7 @@
-import json
 import glob
+import json
 import re
+
 
 def extract_metadata(text):
     """Extract Title, Author, and Language from the book text."""
@@ -13,6 +14,7 @@ def extract_metadata(text):
         "author": author_match.group(1).strip() if author_match else "Unknown",
         "language": language_match.group(1).strip() if language_match else "Unknown"
     }
+
 
 def get_paragraphs_from_book(book_file, word):
     """Return the metadata and paragraphs that contain the word."""
@@ -40,6 +42,7 @@ def get_paragraphs_from_book(book_file, word):
             relevant_paragraphs.append(paragraph.strip())
 
     return metadata, relevant_paragraphs
+
 
 def query_engine(input_word, book_folder="../Datamart_libros", index_folder="../Datamart_palabras"):
     input_word = input_word.lower()
@@ -79,6 +82,7 @@ def query_engine(input_word, book_folder="../Datamart_libros", index_folder="../
 
     return results
 
+
 def main():
     input_word = input("Enter a word to search for: ")
     search_results = query_engine(input_word)
@@ -94,6 +98,7 @@ def main():
                 print(f"Paragraph: {paragraph}\n")
     else:
         print(f"No results found for '{input_word}'.")
+
 
 if __name__ == "__main__":
     main()
