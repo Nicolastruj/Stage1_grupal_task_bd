@@ -1,7 +1,7 @@
-import json
 import glob
-import re
+import json
 import os
+import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
@@ -137,7 +137,7 @@ def query_engine(input_query, book_folder="../Datamart_libros", index_folder="..
     return results
 
 
-#Example for testing
+# Example for testing
 input = "españa"
 search_results = query_engine(input)
 

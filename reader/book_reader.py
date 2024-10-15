@@ -4,7 +4,6 @@ import re
 def read_words(filepath):
     """Extract words from a TXT file and return a list of words."""
 
-    # TODO check regex pattern. English words can accept "-" in the middle of the word
     # TODO exclude stop words
     words = []
     encodings = ['utf-8', 'utf-8-sig', 'windows-1252', 'latin1']

@@ -1,7 +1,7 @@
 import os
+
 import requests
 from bs4 import BeautifulSoup
-
 
 
 def obtener_titulo(url):
@@ -27,6 +27,8 @@ def obtener_titulo(url):
 
     except requests.RequestException as e:
         return f"Error al realizar la solicitud: {e}"
+
+
 def descargar_libro(id_libro, ruta_descarga):
     url = f'https://www.gutenberg.org/files/{id_libro}/{id_libro}-0.txt'
     if not os.path.exists(ruta_descarga):

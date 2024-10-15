@@ -1,5 +1,3 @@
-import json
-
 class Palabra:
     def __init__(self, id_nombre, diccionario=None):
         self.id_nombre = id_nombre

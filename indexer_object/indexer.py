@@ -1,12 +1,12 @@
 # main.py
-import multiprocessing
-import os
 import json
+import os
 import re
-from  data_model.object_type.Palabra import Palabra
-from concurrent.futures import ProcessPoolExecutor, as_completed
 from collections import defaultdict
-from threading import Lock
+from concurrent.futures import ProcessPoolExecutor, as_completed
+
+from data_model.object_type.Palabra import Palabra
+
 
 def indexer(datamart_txt_path, datamart_json_path):
     """
@@ -141,6 +141,7 @@ def indexer2(datamart_txt_path, datamart_json_path):
 
     print("Indexación completada.")
 
+
 def indexer3(datamart_txt_path, datamart_json_path):
     """
     Procesa archivos de texto en `datamart_txt_path` que siguen el patrón 'The Title by Author_indice.txt'
@@ -199,6 +200,7 @@ def indexer3(datamart_txt_path, datamart_json_path):
                 json.dump(palabra_obj.to_dict(), json_file, ensure_ascii=False, indent=4)
 
     print("Indexación completada.")
+
 
 def indexer4(datamart_txt_path, datamart_json_path):
     """
@@ -265,6 +267,7 @@ def indexer4(datamart_txt_path, datamart_json_path):
 
     print("Indexación completada.")
 
+
 def indexer5(datamart_txt_path, datamart_json_path):
     """
     Procesa archivos de texto en `datamart_txt_path` y actualiza objetos Palabra en `datamart_json_path`.
@@ -324,8 +327,6 @@ def indexer5(datamart_txt_path, datamart_json_path):
     print("Indexación completada.")
 
 
-
-
 def procesar_archivo(txt_file, datamart_txt_path):
     """
     Procesa un solo archivo de texto y devuelve un diccionario con las palabras y sus posiciones.
@@ -348,27 +349,36 @@ def procesar_archivo(txt_file, datamart_txt_path):
         contenido = file.read()
 
     palabras = re.findall(r'\b[a-zA-ZáéíóúüñÁÉÍÓÚÜÑ]+\b', contenido.lower())
-    palabras = [palabra for palabra in palabras if palabra not in ['in', 'on', 'at', 'by', 'for', 'with', 'about', 'against', 'between',
-    'into', 'through', 'during', 'before', 'after', 'above', 'below',
-    'to', 'from', 'up', 'down', 'of', 'off', 'over', 'under', 'again',
-    'further', 'once', 'i', 'me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves', 'you', 'your', 'yours',
-    'yourself', 'yourselves', 'he', 'him', 'his', 'himself', 'she', 'her', 'hers', 'herself',
-    'it', 'its', 'itself', 'they', 'them', 'their', 'theirs', 'themselves', 'what', 'which',
-    'who', 'whom', 'this', 'that', 'these', 'those', 'am', 'is', 'are', 'was', 'were', 'be',
-    'been', 'being', 'have', 'has', 'had', 'having', 'do', 'does', 'did', 'doing', 'a', 'an',
-    'the', 'and', 'but', 'if', 'or', 'because', 'as', 'until', 'while', 'of', 'at', 'by',
-    'for', 'with', 'about', 'against', 'between', 'into', 'through', 'during', 'before', 'after',
-    'above', 'below', 'to', 'from', 'up', 'down', 'in', 'out', 'on', 'off', 'over', 'under',
-    'again', 'further', 'then', 'once', 'here', 'there', 'when', 'where', 'why', 'how', 'all',
-    'any', 'both', 'each', 'few', 'more', 'most', 'other', 'some', 'such', 'no', 'nor', 'not',
-    'only', 'own', 'same', 'so', 'than', 'too', 'very', 's', 't', 'can', 'will', 'just', 'don',
-    'should', 'now']]
+    palabras = [palabra for palabra in palabras if
+                palabra not in ['in', 'on', 'at', 'by', 'for', 'with', 'about', 'against', 'between',
+                                'into', 'through', 'during', 'before', 'after', 'above', 'below',
+                                'to', 'from', 'up', 'down', 'of', 'off', 'over', 'under', 'again',
+                                'further', 'once', 'i', 'me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves', 'you',
+                                'your', 'yours',
+                                'yourself', 'yourselves', 'he', 'him', 'his', 'himself', 'she', 'her', 'hers',
+                                'herself',
+                                'it', 'its', 'itself', 'they', 'them', 'their', 'theirs', 'themselves', 'what', 'which',
+                                'who', 'whom', 'this', 'that', 'these', 'those', 'am', 'is', 'are', 'was', 'were', 'be',
+                                'been', 'being', 'have', 'has', 'had', 'having', 'do', 'does', 'did', 'doing', 'a',
+                                'an',
+                                'the', 'and', 'but', 'if', 'or', 'because', 'as', 'until', 'while', 'of', 'at', 'by',
+                                'for', 'with', 'about', 'against', 'between', 'into', 'through', 'during', 'before',
+                                'after',
+                                'above', 'below', 'to', 'from', 'up', 'down', 'in', 'out', 'on', 'off', 'over', 'under',
+                                'again', 'further', 'then', 'once', 'here', 'there', 'when', 'where', 'why', 'how',
+                                'all',
+                                'any', 'both', 'each', 'few', 'more', 'most', 'other', 'some', 'such', 'no', 'nor',
+                                'not',
+                                'only', 'own', 'same', 'so', 'than', 'too', 'very', 's', 't', 'can', 'will', 'just',
+                                'don',
+                                'should', 'now']]
 
     palabra_posiciones = defaultdict(list)
     for posicion, palabra in enumerate(palabras, start=1):
         palabra_posiciones[palabra].append((clave_diccionario, posicion))
 
     return palabra_posiciones
+
 
 def actualizar_json(palabra, ocurrencias, datamart_json_path):
     """

@@ -1,6 +1,7 @@
-import os
 import json
+import os
 import re
+
 from reader.book_reader import read_words
 from reader.path_reader import extract_files_from_directory
 
