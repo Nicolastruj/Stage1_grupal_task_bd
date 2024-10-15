@@ -119,18 +119,20 @@ def query_engine(word, book_folder="../Datamart_libros", index_folder="../books_
     return results
 
 def main():
-    word = input("Enter a word to search for: ")
-    search_results = query_engine(word)
 
-    for result in search_results:
-        print(f"Title: {result['title']}")
-        print(f"Author: {result['author']}")
-        print(f"Language: {result['language']}")
-        print(f"Occurrences at positions: {len(result['paragraphs'])} occurrence(s)\n")
-        
-        for paragraph in result['paragraphs']:
-            print(paragraph)
-            print("")
+    while(True):
+        word = input("Enter a word to search for: ")
+        search_results = query_engine(word)
+
+        for result in search_results:
+            print(f"Title: {result['title']}")
+            print(f"Author: {result['author']}")
+            print(f"Language: {result['language']}")
+            print(f"Occurrences at positions: {len(result['paragraphs'])} occurrence(s)\n")
+            
+            for paragraph in result['paragraphs']:
+                print(paragraph)
+                print("")
 
 
 if __name__ == "__main__":
