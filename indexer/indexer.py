@@ -535,6 +535,8 @@ def indexer5(datamart_txt_path, datamart_json_path):
                 else:
                     palabra_obj.diccionario[clave_diccionario] = [posicion]
             else:
+                print("creating json for a new word: ")
+                print(palabra)
                 # Crear un nuevo objeto Palabra
                 palabra_obj = Palabra(id_nombre=palabra, diccionario={clave_diccionario: [posicion]})
 

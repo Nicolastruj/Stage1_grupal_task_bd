@@ -15,7 +15,7 @@ def query_engine(input, book_folder="../Datamart_libros",
                 word_key = data["id_nombre"]
                 dictionary_info = data["diccionario"]  #getting the information out of the diccionary in the JSON object
                 loaded_words[word_key] = {"diccionario": dictionary_info} #saving the information of the word in a diccionary
-                print(word_key)
+                #print(word_key)
                 # print(loaded_words[word_key])
                 
 
