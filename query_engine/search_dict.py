@@ -1,99 +1,89 @@
-import json
 import glob
+import json
 import re
 
-def extract_metadata(text):
-    """Extract Title, Author, and Language from the book text."""
-    title_match = re.search(r"(?:^|\n)Title:\s*(.+)$", text, re.MULTILINE)
-    author_match = re.search(r"(?:^|\n)Author:\s*(.+)$", text, re.MULTILINE)
-    language_match = re.search(r"(?:^|\n)Language:\s*(.+)$", text, re.MULTILINE)
-
-    return {
-        "title": title_match.group(1).strip() if title_match else "Unknown",
-        "author": author_match.group(1).strip() if author_match else "Unknown",
-        "language": language_match.group(1).strip() if language_match else "Unknown"
-    }
-
-def get_paragraphs_from_book(book_file, word):
-    """Return the metadata and paragraphs that contain the word."""
-    with open(book_file, 'r', encoding='utf-8') as file:
-        text = file.read()
-
-    # Extract metadata
-    metadata = extract_metadata(text)
-
-    # Clean the text and remove Project Gutenberg boilerplate
-    start_marker = "*** START OF"
-    end_marker = "*** END OF"
-    if start_marker in text:
-        text = text.split(start_marker, 1)[-1]  # Skip everything before the actual content
-    if end_marker in text:
-        text = text.split(end_marker, 1)[0]  # Skip everything after the actual content
-
-    # Split the text into paragraphs using a more robust method (splitting on double newlines)
-    paragraphs = re.split(r'\n\s*\n', text)
-
-    # Find paragraphs that include the word (case-insensitive)
-    relevant_paragraphs = []
-    for paragraph in paragraphs:
-        if word.lower() in paragraph.lower():
-            relevant_paragraphs.append(paragraph.strip())
-
-    return metadata, relevant_paragraphs
-
-def query_engine(input_word, book_folder="../Datamart_libros", index_folder="../Datamart_palabras"):
-    input_word = input_word.lower()
+def query_engine(input, book_folder="../Datamart_libros",
+                 index_folder="../Datamart_palabras"):
+    input = input.lower()
+    words = input.split()  # Split input into individual words
     results = []
     loaded_words = {}
 
-    # Load all word index JSON files
+    # Load all dictionary files
     for filepath in glob.glob(f"{index_folder}/*.json"):
-        with open(filepath, "r") as file:
+        with open(filepath, "r", encoding="utf-8") as file:
             data = json.load(file)
-            word_key = data.get("id_nombre", "").lower()
-            if word_key:
-                loaded_words[word_key] = data["diccionario"]
+            if "id_nombre" in data and "diccionario" in data:
+                word_key = data["id_nombre"]
+                dictionary_info = data["diccionario"]
+                loaded_words[word_key] = {"diccionario": dictionary_info}
 
-    # Check if the input word exists in the index
-    if input_word in loaded_words:
-        books_with_word = loaded_words[input_word]
-        for book_id, positions in books_with_word.items():
-            book_file = f"{book_folder}/libro_{book_id}.txt"
+    # Check if all words exist in the dictionary
+    words_looked_for = all(word in loaded_words for word in words)
+    if words_looked_for:
+        books_in_common = None
+        # Get the common books that contain all words
+        for word in words:
+            word_info = loaded_words[word]["diccionario"]
+            if books_in_common is None:
+                books_in_common = set(word_info.keys())
+            else:
+                books_in_common &= set(word_info.keys())  # Find intersection of book sets
 
-            try:
-                # Extract metadata and paragraphs from the book
-                metadata, paragraphs = get_paragraphs_from_book(book_file, input_word)
+        # If there are common books, check the order of the words
+        if books_in_common:
+            for book_id in books_in_common:
+                print(book_id)
+                book_filename = f"{book_folder}/libro_{book_id}.txt"
 
-                if paragraphs:
-                    # Add book metadata and paragraphs to results
-                    results.append({
-                        "book_id": book_id,
-                        "title": metadata["title"],
-                        "author": metadata["author"],
-                        "language": metadata["language"],
-                        "paragraphs": paragraphs
-                    })
+                try:
+                    with open(book_filename, "r", encoding="utf-8") as file:
+                        text = file.read()
 
-            except FileNotFoundError:
-                print(f"Error: The file {book_file} was not found.")  # Handle missing book file
+                    # Splitting the text into paragraphs
+                    paragraphs = text.split('\n\n')
+                    relevant_paragraphs = []  # To save found paragraphs that include the words in order
+
+                    # Find the paragraphs where the words appear in the specified order
+                    for paragraph in paragraphs:
+                        paragraph_text = paragraph.lower()
+                        # Check if the exact sequence of words exists in the paragraph
+                        if phrase_in_order(paragraph_text, words):
+                            relevant_paragraphs.append(paragraph.strip())  # Save the paragraph
+
+                    # If relevant paragraphs are found, append to the results
+                    if relevant_paragraphs:
+                        results.append({
+                            "document_id": book_id,
+                            "paragraphs": relevant_paragraphs
+                        })
+
+                except FileNotFoundError:
+                    print(f"Error: The file {book_filename} was not found.")
 
     return results
 
-def main():
-    input_word = input("Enter a word to search for: ")
-    search_results = query_engine(input_word)
 
-    # Display results
+def phrase_in_order(paragraph, words):
+    """Check if the words appear consecutively in the given order in the paragraph."""
+    # Create a regex pattern to match words in order, allowing for any spaces or punctuation in between
+    pattern = r'\b' + r'\b.*?\b'.join(re.escape(word) for word in words) + r'\b'
+    return re.search(pattern, paragraph) is not None
+
+
+# Main loop for searching
+while True:
+    word_input = input("Enter a phrase to search for: ")
+
+    search_results = query_engine(word_input)
+
+    # Show the results
+    print(f"Results for '{word_input}':")
     if search_results:
         for result in search_results:
-            print(f"Title: {result['title']}")
-            print(f"Author: {result['author']}")
-            print(f"Language: {result['language']}")
-            print(f"Occurrences at positions: {len(result['paragraphs'])} occurrence(s)\n")
+            print(f"Document ID: {result['document_id']}")
+            print(f"Paragraphs where the phrase is included:\n")
             for paragraph in result['paragraphs']:
-                print(f"Paragraph: {paragraph}\n")
+                print(f"Paragraph: {paragraph} \n")
     else:
-        print(f"No results found for '{input_word}'.")
-
-if __name__ == "__main__":
-    main()
+        print("No results found.")
