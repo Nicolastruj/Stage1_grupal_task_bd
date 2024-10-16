@@ -2,7 +2,7 @@ import json
 import os
 import re
 
-from reader.book_reader import read_words
+from reader.book_reader import read_words, save_metadata_to_json
 from reader.path_reader import extract_files_from_directory
 
 
@@ -48,20 +48,30 @@ def save_partial_indexers(indexer, output_directory):
         output_file = os.path.join(output_directory, f'indexer_{letter}.json')
         with open(output_file, 'w', encoding='utf-8') as file:
             json.dump(partial_indexer, file, ensure_ascii=False, indent=4)
-        print(f"Partial indexer for '{letter}' saved to {output_file}")
 
 
 def main():
     indexer = {}
-    directory_path = '../Datamart_libros'
-    output_directory = '../words_datamart_dict'
-    filepaths = extract_files_from_directory(directory_path)
+    directory_path = '../Datamart_libros'  # Path to the directory containing the book files
+    output_directory = '../words_datamart_dict'  # Output directory for the partial indexers
+    output_directory_metadata = "../metadata_datamart"
+    stopwords_filepath = "../stopwords.txt"
+    filepaths = extract_files_from_directory(directory_path)  # Get all file paths
 
     for filepath in filepaths:
-        words = read_words(filepath)
-        indexer = add_words_to_dict(words, id_search(str(filepath)), indexer)
+        try:
+            words = read_words(filepath, stopwords_filepath)  # Read words from the book file
+            if words:
+                indexer = add_words_to_dict(words, id_search(str(filepath)), indexer)
+            else:
+                print(f"Warning: No words found in {filepath}")
 
-    save_partial_indexers(indexer, output_directory)
+            save_metadata_to_json(str(filepath), output_directory_metadata)  # Save book metadata
+
+        except Exception as e:
+            print(f"Error processing {filepath}: {e}")
+
+    save_partial_indexers(indexer, output_directory)  # Save the partial indexers
 
 
 if __name__ == "__main__":
