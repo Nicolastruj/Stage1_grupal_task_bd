@@ -1,89 +1,152 @@
-import glob
-import json
+import os
 import re
+import json
 
-def query_engine(input, book_folder="../Datamart_libros",
-                 index_folder="../Datamart_palabras"):
-    input = input.lower()
-    words = input.split()  # Split input into individual words
+
+def load_json_index(word, index_folder):
+    first_letter = word[0].lower()
+    json_path = os.path.join(index_folder, f'indexer_{first_letter}.json')
+
+    print(f"Attempting to load index file: {json_path}")
+
+    try:
+        with open(json_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        return data
+    except FileNotFoundError:
+        print(f"No index file found for letter '{first_letter}'.")
+        return None
+
+
+def get_book_metadata(filepath, target_id):
+    """Get book metadata: title, author, and URL."""
+    try:
+        with open(filepath, 'r') as file:
+            books = json.load(file)
+
+        for book in books:
+            if book['id_book'] == target_id:
+                title = book["book_name"]
+                author = book["author"]
+                url = book["URL"]
+
+                return title, author, url
+
+        return "Unknown", "Unknown", "Unknown"
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return None
+
+
+def get_paragraphs_from_positions(book_path, positions, search_phrase):
+    """Given the list of positions, extract the surrounding paragraphs containing the search phrase."""
+    paragraphs = []
+
+    try:
+        with open(book_path, 'r', encoding='utf-8') as file:
+            text = file.read()
+
+        # Adjust paragraph detection to include cases where paragraphs are split by single newlines
+        book_paragraphs = re.split(r'\n\s*\n|\n{2,}', text)
+
+        word_count = 0
+        paragraph_positions = []
+
+        for paragraph in book_paragraphs:
+            # Splitting on whitespace keeps punctuation
+            words_in_paragraph = re.findall(r'\S+', paragraph)
+            paragraph_word_count = len(words_in_paragraph)
+
+            # Track the word start and end for this paragraph
+            paragraph_positions.append((word_count, word_count + paragraph_word_count))
+            word_count += paragraph_word_count
+
+        # Find the paragraph containing the phrase at the indicated position
+        for position in positions:
+            for i, (start_pos, end_pos) in enumerate(paragraph_positions):
+                if start_pos <= position < end_pos:
+                    # Ensure the paragraph contains the search phrase and add it
+                    if search_phrase in book_paragraphs[i].lower():
+                        paragraphs.append(book_paragraphs[i].strip())
+                    break
+
+    except FileNotFoundError:
+        print(f"Book file not found: {book_path}")
+
+    return paragraphs
+
+
+def find_book_by_id(book_id, book_folder):
+    for filename in os.listdir(book_folder):
+        if f"_{book_id}.txt" in filename:
+            return os.path.join(book_folder, filename)
+    return None
+
+
+def query_engine(search_phrase, book_folder="../Datamart_libros", index_folder="../books_datamart_dict",
+                 metadata_folder="../metadata_datamart"):
+    search_phrase = search_phrase.lower().strip()
     results = []
-    loaded_words = {}
 
-    # Load all dictionary files
-    for filepath in glob.glob(f"{index_folder}/*.json"):
-        with open(filepath, "r", encoding="utf-8") as file:
-            data = json.load(file)
-            if "id_nombre" in data and "diccionario" in data:
-                word_key = data["id_nombre"]
-                dictionary_info = data["diccionario"]
-                loaded_words[word_key] = {"diccionario": dictionary_info}
+    # Split the phrase into words to look up the dictionary entries
+    words = search_phrase.split()
+    if not words:
+        print(f"Invalid input, please provide a valid phrase.")
+        return results
 
-    # Check if all words exist in the dictionary
-    words_looked_for = all(word in loaded_words for word in words)
-    if words_looked_for:
-        books_in_common = None
-        # Get the common books that contain all words
-        for word in words:
-            word_info = loaded_words[word]["diccionario"]
-            if books_in_common is None:
-                books_in_common = set(word_info.keys())
-            else:
-                books_in_common &= set(word_info.keys())  # Find intersection of book sets
+    word_index = load_json_index(words[0], index_folder)
 
-        # If there are common books, check the order of the words
-        if books_in_common:
-            for book_id in books_in_common:
-                print(book_id)
-                book_filename = f"{book_folder}/libro_{book_id}.txt"
+    if word_index is None:
+        print(f"No index file found for the word: {words[0]}")
+        return results
 
-                try:
-                    with open(book_filename, "r", encoding="utf-8") as file:
-                        text = file.read()
+    # If the first word of the phrase is not found, the phrase cannot be in the index
+    if words[0] not in word_index:
+        print(f"Word '{words[0]}' not found in the loaded index.")
+        return results
 
-                    # Splitting the text into paragraphs
-                    paragraphs = text.split('\n\n')
-                    relevant_paragraphs = []  # To save found paragraphs that include the words in order
+    # Retrieve the positions of the first word
+    word_data = word_index[words[0]]
 
-                    # Find the paragraphs where the words appear in the specified order
-                    for paragraph in paragraphs:
-                        paragraph_text = paragraph.lower()
-                        # Check if the exact sequence of words exists in the paragraph
-                        if phrase_in_order(paragraph_text, words):
-                            relevant_paragraphs.append(paragraph.strip())  # Save the paragraph
+    # Iterate through the books where the first word occurs
+    for book_id, positions in word_data.items():
+        book_path = find_book_by_id(book_id, book_folder)
 
-                    # If relevant paragraphs are found, append to the results
-                    if relevant_paragraphs:
-                        results.append({
-                            "document_id": book_id,
-                            "paragraphs": relevant_paragraphs
-                        })
+        if not book_path:
+            print(f"Book file not found for book ID {book_id}.")
+            continue
 
-                except FileNotFoundError:
-                    print(f"Error: The file {book_filename} was not found.")
+        hundred_range = (int(book_id) // 100) * 100
+        json_filename = f"books_metadata_{hundred_range}-{hundred_range + 99}.json"
+        metadata_path = os.path.join(metadata_folder, json_filename)
+
+        title, author, url = get_book_metadata(metadata_path, book_id)
+
+        # Now check the paragraphs in this book
+        paragraphs = get_paragraphs_from_positions(book_path, positions, search_phrase)
+
+        if paragraphs:
+            results.append({
+                "book_id": book_id,
+                "title": title,
+                "author": author,
+                "url": url,
+                "paragraphs": paragraphs
+            })
 
     return results
 
 
-def phrase_in_order(paragraph, words):
-    """Check if the words appear consecutively in the given order in the paragraph."""
-    # Create a regex pattern to match words in order, allowing for any spaces or punctuation in between
-    pattern = r'\b' + r'\b.*?\b'.join(re.escape(word) for word in words) + r'\b'
-    return re.search(pattern, paragraph) is not None
-
-
-# Main loop for searching
 while True:
-    word_input = input("Enter a phrase to search for: ")
+    phrase = input("Enter a phrase to search for: ")
+    search_results = query_engine(phrase)
 
-    search_results = query_engine(word_input)
+    for result in search_results:
+        print(f"Title: {result['title']}")
+        print(f"Author: {result['author']}")
+        print(f"URL: {result['url']}")
+        print(f"Occurrences at positions: {len(result['paragraphs'])} occurrence(s)\n")
 
-    # Show the results
-    print(f"Results for '{word_input}':")
-    if search_results:
-        for result in search_results:
-            print(f"Document ID: {result['document_id']}")
-            print(f"Paragraphs where the phrase is included:\n")
-            for paragraph in result['paragraphs']:
-                print(f"Paragraph: {paragraph} \n")
-    else:
-        print("No results found.")
+        for paragraph in result['paragraphs']:
+            print(paragraph)
+            print("")
