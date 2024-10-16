@@ -5,11 +5,11 @@ import os
 
 def find_book(book_id, book_folder):
     for filename in os.listdir(book_folder):
-        if filename.endswith(f"_{book_id}.txt"):  # Buscar archivo que termine con _{book_id}.txt
+        if filename.endswith(f"_{book_id}.txt"):  # find file that ends with _{book_id}.txt
             return os.path.join(book_folder, filename)
     return None
 
-def query_engine(input, book_folder="../Datamart_libros", index_folder="../Datamart_palabras", max_occurrences=3):
+def query_engine(input, book_folder="../Datamart_Books", index_folder="../Datamart_Words", max_occurrences=3):
     input = input.lower()
     words = input.split()
     results = []
@@ -19,10 +19,10 @@ def query_engine(input, book_folder="../Datamart_libros", index_folder="../Datam
     for filepath in glob.glob(f"{index_folder}/*.json"):
         with open(filepath, "r") as file:
             data = json.load(file)
-            if "id_nombre" in data and "diccionario" in data:
-                word_key = data["id_nombre"]
-                dictionary_info = data["diccionario"]
-                loaded_words[word_key] = {"diccionario": dictionary_info}
+            if "id_name" in data and "dictionary" in data:
+                word_key = data["id_name"]
+                dictionary_info = data["dictionary"]
+                loaded_words[word_key] = {"dictionary": dictionary_info}
 
     # Check if all the words are there
     words_looked_for = all(word in loaded_words for word in words)
@@ -30,7 +30,7 @@ def query_engine(input, book_folder="../Datamart_libros", index_folder="../Datam
     if words_looked_for:
         books_in_common = None
         for word in words:
-            word_info = loaded_words[word]["diccionario"]
+            word_info = loaded_words[word]["dictionary"]
             if books_in_common is None:
                 books_in_common = set(word_info.keys())
             else:
@@ -50,7 +50,7 @@ def query_engine(input, book_folder="../Datamart_libros", index_folder="../Datam
 
                 if book_filename:
                     try:
-                        with open(book_filename, "r", encoding="utf-8") as file: #hay que especificar el encoding
+                        with open(book_filename, "r", encoding="utf-8") as file: # we have to specify the encoding
                             text = file.read()
 
 
@@ -88,7 +88,7 @@ input = "almost"
 search_results = query_engine(input)
 
 # output
-print(f"Resultados para '{input}':")
+print(f"Results for '{input}':")
 if search_results:
     for result in search_results:
         print(f"Book Name: {result['book_name']}")

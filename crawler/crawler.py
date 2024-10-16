@@ -4,57 +4,57 @@ from bs4 import BeautifulSoup
 
 
 
-def obtener_titulo(url):
+def get_title(url):
     try:
-        # Realizar la solicitud GET a la URL
-        respuesta = requests.get(url)
+        #GET request to URL
+        answer = requests.get(url)
 
-        # Comprobar si la solicitud fue exitosa
-        if respuesta.status_code == 200:
-            # Analizar el contenido HTML de la página
-            soup = BeautifulSoup(respuesta.text, 'html.parser')
+        # See if request was successful
+        if answer.status_code == 200:
+            # Analyze HTML
+            soup = BeautifulSoup(answer.text, 'html.parser')
 
-            # Buscar el primer <h1> en la página
+            # find the first <h1>
             h1 = soup.find('h1')
 
-            # Si se encontró un <h1>, devolver su texto
+            # If found, give back the text
             if h1:
                 return h1.get_text().strip()
             else:
-                return "No se encontró ningún <h1> en la página."
+                return "There was no <h1> found."
         else:
-            return f"Error al acceder a la página. Código de estado: {respuesta.status_code}"
+            return f"Error accessing the page. Status code: {answer.status_code}"
 
     except requests.RequestException as e:
-        return f"Error al realizar la solicitud: {e}"
-def descargar_libro(id_libro, ruta_descarga):
-    url = f'https://www.gutenberg.org/files/{id_libro}/{id_libro}-0.txt'
-    if not os.path.exists(ruta_descarga):
-        os.makedirs(ruta_descarga)
-    respuesta = requests.get(url)
+        return f"Error making the request: {e}"
+def download_book(book_id, download_route):
+    url = f'https://www.gutenberg.org/files/{book_id}/{book_id}-0.txt'
+    if not os.path.exists(download_route):
+        os.makedirs(download_route)
+    answer = requests.get(url)
 
-    if respuesta.status_code == 200:
-        # Extraer contenido como texto
-        contenido = respuesta.text
+    if answer.status_code == 200:
+        # Extract content as text
+        content = answer.text
 
-        # Llamar a la función assign_tittle para obtener el nombre del archivo
-        nombre_archivo = obtener_titulo(f"https://www.gutenberg.org/ebooks/{id_libro}")
-        nombre_archivo = os.path.join(ruta_descarga, f'{nombre_archivo}_{id_libro}.txt')
+        # Call assign_title to find the file name
+        file_name = get_title(f"https://www.gutenberg.org/ebooks/{book_id}")
+        file_name = os.path.join(download_route, f'{file_name}_{book_id}.txt')
 
-        # Guardar el contenido en el archivo
-        with open(nombre_archivo, 'w', encoding='utf-8') as archivo:
-            archivo.write(contenido)
+        # Save content in file
+        with open(file_name, 'w', encoding='utf-8') as file:
+            file.write(content)
 
-        print(f"Libro {id_libro} descargado correctamente como {nombre_archivo}")
-    elif respuesta.status_code == 404:
-        print(f"Libro {id_libro} no encontrado.")
+        print(f"Book {book_id} downloaded correctly under {file_name}")
+    elif answer.status_code == 404:
+        print(f"Book {book_id} not found.")
     else:
-        print(f"Error al intentar descargar el libro {id_libro}: {respuesta.status_code}")
+        print(f"Error when downloading Book {book_id}: {answer.status_code}")
 
 
-# Definir la ruta específica donde guardar los libros
-ruta_descarga = r"../Datamart_libros"  # Cambia esto a la ruta deseada
+# Route to store the book
+download_route = r"../Datamart_books"  # Change this to the desired route
 
-# Descargar libros desde el ID 1340 hasta el 1350 en la ruta especificada
-for id_libro in range(1343, 1346):
-    descargar_libro(id_libro, ruta_descarga)
+# download books with ID 1340 untin 1350 in the specific route
+for book_id in range(1343, 1346):
+    download_book(book_id, download_route)
