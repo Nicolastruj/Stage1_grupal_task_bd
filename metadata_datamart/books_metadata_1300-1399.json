@@ -1,0 +1,50 @@
+[
+    {
+        "book_name": "A Master's Degree",
+        "author": "Margaret Hill McCarter",
+        "id_book": "1348",
+        "URL": "https://www.gutenberg.org/ebooks/1348"
+    },
+    {
+        "book_name": "Bureaucracy",
+        "author": "Honoré de Balzac",
+        "id_book": "1343",
+        "URL": "https://www.gutenberg.org/ebooks/1343"
+    },
+    {
+        "book_name": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "id_book": "1342",
+        "URL": "https://www.gutenberg.org/ebooks/1342"
+    },
+    {
+        "book_name": "Russia",
+        "author": "Donald Mackenzie Wallace",
+        "id_book": "1349",
+        "URL": "https://www.gutenberg.org/ebooks/1349"
+    },
+    {
+        "book_name": "The Country Doctor",
+        "author": "Honoré de Balzac",
+        "id_book": "1350",
+        "URL": "https://www.gutenberg.org/ebooks/1350"
+    },
+    {
+        "book_name": "The Eighteenth Brumaire of Louis Bonaparte",
+        "author": "Karl Marx",
+        "id_book": "1346",
+        "URL": "https://www.gutenberg.org/ebooks/1346"
+    },
+    {
+        "book_name": "The Secrets of the Princesse de Cadignan",
+        "author": "Honoré de Balzac",
+        "id_book": "1344",
+        "URL": "https://www.gutenberg.org/ebooks/1344"
+    },
+    {
+        "book_name": "The Vicar of Tours",
+        "author": "Honoré de Balzac",
+        "id_book": "1345",
+        "URL": "https://www.gutenberg.org/ebooks/1345"
+    }
+]
