@@ -56,5 +56,5 @@ def descargar_libro(id_libro, ruta_descarga):
 ruta_descarga = r"../Datamart_libros"  # Cambia esto a la ruta deseada
 
 # Descargar libros desde el ID 1340 hasta el 1350 en la ruta especificada
-for id_libro in range(1340, 1351):
+for id_libro in range(1343, 1346):
     descargar_libro(id_libro, ruta_descarga)

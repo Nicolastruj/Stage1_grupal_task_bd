@@ -1,9 +1,9 @@
 from data_model.object_type.Palabra import Palabra
-from indexer_object.indexer import indexer, indexer5
+from indexer_objt.indexer import indexer5_parallel, indexer5
 
 
 def main():
-    indexer5(r"Datamart_libros",
+    indexer5_parallel(r"Datamart_libros",
             r"Datamart_palabras")
 
 if __name__ == "__main__":

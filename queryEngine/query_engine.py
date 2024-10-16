@@ -50,7 +50,7 @@ def query_engine(input, book_folder="../Datamart_libros", index_folder="../Datam
 
                 if book_filename:
                     try:
-                        with open(book_filename, "r", encoding = "utf-8") as file:
+                        with open(book_filename, "r", encoding="utf-8") as file: #hay que especificar el encoding
                             text = file.read()
 
 
@@ -72,7 +72,7 @@ def query_engine(input, book_folder="../Datamart_libros", index_folder="../Datam
                             results.append({
                                 "book_name": book_name,
                                 "author_name": author_name,
-                                #"URL": ,
+                                "URL": f'https://www.gutenberg.org/files/{book_id}/{book_id}-0.txt',
                                 "paragraphs": relevant_paragraphs[:max_occurrences],
                                 "total_occurrences": occurrences
                             })
@@ -82,8 +82,9 @@ def query_engine(input, book_folder="../Datamart_libros", index_folder="../Datam
 
     return results
 
+
 #Example for testing
-input = "absence"
+input = "almost"
 search_results = query_engine(input)
 
 # output
@@ -92,7 +93,7 @@ if search_results:
     for result in search_results:
         print(f"Book Name: {result['book_name']}")
         print(f"Author: {result['author_name']}")
-        print(f"URL: ")
+        print(f"URL: {result['URL']}")
         print(f"Total Ocurrencies: {result['total_occurrences']}")
         print("Paragraphs:")
         for paragraph in result['paragraphs']:
