@@ -1,6 +1,6 @@
-import json
 import os
 import re
+import json
 
 
 def load_json_index(word, index_folder):
@@ -18,60 +18,24 @@ def load_json_index(word, index_folder):
         return None
 
 
-def get_book_metadata(book_path):
-    title, author, language = "Unknown", "Unknown", "Unknown"
-
+def get_book_metadata(filepath, target_id):
+    """Get book metadata: title, author and URL."""
     try:
-        with open(book_path, 'r', encoding='utf-8') as file:
-            text = file.read()
-            title_match = re.search(r"Title:\s*(.*)", text)
-            author_match = re.search(r"Author:\s*(.*)", text)
-            language_match = re.search(r"Language:\s*(.*)", text)
+        with open(filepath, 'r') as file:
+            books = json.load(file)
 
-            if title_match:
-                title = title_match.group(1).strip()
-            if author_match:
-                author = author_match.group(1).strip()
-            if language_match:
-                language = language_match.group(1).strip()
+        for book in books:
+            if book['id_book'] == target_id:
+                title = book["book_name"]
+                author = book["author"]
+                url = book["URL"]
 
-    except FileNotFoundError:
-        print(f"Book file not found: {book_path}")
+                return title, author, url
 
-    return title, author, language
-
-
-# def get_paragraphs_from_positions(book_path, positions, search_word):
-#     """Given the list of positions, extract the surrounding paragraphs."""
-#     paragraphs = []
-
-#     try:
-#         with open(book_path, 'r', encoding='utf-8') as file:
-#             text = file.read()
-
-#         book_paragraphs = text.split('\n\n')
-
-#         word_count = 0
-#         paragraph_positions = [] 
-
-#         for paragraph in book_paragraphs:
-#             words_in_paragraph = paragraph.split()
-#             paragraph_word_count = len(words_in_paragraph)
-
-#             paragraph_positions.append((word_count, word_count + paragraph_word_count))
-
-#             word_count += paragraph_word_count
-
-#         for position in positions:
-#             for i, (start_pos, end_pos) in enumerate(paragraph_positions):
-#                 if start_pos <= position < end_pos:
-#                     paragraphs.append(book_paragraphs[i].strip())
-#                     break  
-
-#     except FileNotFoundError:
-#         print(f"Book file not found: {book_path}")
-
-#     return paragraphs
+        return "Unknown", "Unknown", "Unknown"
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return None
 
 
 def get_paragraphs_from_positions(book_path, positions, search_word):
@@ -119,7 +83,8 @@ def find_book_by_id(book_id, book_folder):
     return None
 
 
-def query_engine(word, book_folder="../Datamart_libros", index_folder="../books_datamart_dict"):
+def query_engine(word, book_folder="../Datamart_libros", index_folder="../books_datamart_dict",
+                 metadata_folder="../metadata_datamart"):
     word = word.lower().strip()
     results = []
 
@@ -142,7 +107,12 @@ def query_engine(word, book_folder="../Datamart_libros", index_folder="../books_
             print(f"Book file not found for book ID {book_id}.")
             continue
 
-        title, author, language = get_book_metadata(book_path)
+        hundred_range = (int(book_id) // 100) * 100
+        json_filename = f"books_metadata_{hundred_range}-{hundred_range + 99}.json"
+        metadata_path = os.path.join(metadata_folder, json_filename)
+
+        title, author, url = get_book_metadata(metadata_path, book_id)
+
 
         paragraphs = get_paragraphs_from_positions(book_path, positions, word)
 
@@ -151,28 +121,23 @@ def query_engine(word, book_folder="../Datamart_libros", index_folder="../books_
                 "book_id": book_id,
                 "title": title,
                 "author": author,
-                "language": language,
+                "url": url,
                 "paragraphs": paragraphs
             })
 
     return results
 
 
-def main():
-    while (True):
-        word = input("Enter a word to search for: ")
-        search_results = query_engine(word)
+while (True):
+    word = input("Enter a word to search for: ")
+    search_results = query_engine(word)
 
-        for result in search_results:
-            print(f"Title: {result['title']}")
-            print(f"Author: {result['author']}")
-            print(f"Language: {result['language']}")
-            print(f"Occurrences at positions: {len(result['paragraphs'])} occurrence(s)\n")
+    for result in search_results:
+        print(f"Title: {result['title']}")
+        print(f"Author: {result['author']}")
+        print(f"URL: {result['url']}")
+        print(f"Occurrences at positions: {len(result['paragraphs'])} occurrence(s)\n")
 
-            for paragraph in result['paragraphs']:
-                print(paragraph)
-                print("")
-
-
-if __name__ == "__main__":
-    main()
+        for paragraph in result['paragraphs']:
+            print(paragraph)
+            print("")
