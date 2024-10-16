@@ -19,10 +19,13 @@ def query_engine(input, book_folder="../Datamart_Books", index_folder="../Datama
     for filepath in glob.glob(f"{index_folder}/*.json"):
         with open(filepath, "r") as file:
             data = json.load(file)
+
             if "id_name" in data and "dictionary" in data:
                 word_key = data["id_name"]
                 dictionary_info = data["dictionary"]
                 loaded_words[word_key] = {"dictionary": dictionary_info}
+            else:
+                print(f"Invalid structure in file: {filepath}")
 
     # Check if all the words are there
     words_looked_for = all(word in loaded_words for word in words)
@@ -81,22 +84,3 @@ def query_engine(input, book_folder="../Datamart_Books", index_folder="../Datama
                         print(f"Error: The Book {book_filename} was not found.")
 
     return results
-
-
-#Example for testing
-input = "almost"
-search_results = query_engine(input)
-
-# output
-print(f"Results for '{input}':")
-if search_results:
-    for result in search_results:
-        print(f"Book Name: {result['book_name']}")
-        print(f"Author: {result['author_name']}")
-        print(f"URL: {result['URL']}")
-        print(f"Total Ocurrencies: {result['total_occurrences']}")
-        print("Paragraphs:")
-        for paragraph in result['paragraphs']:
-            print(f"Paragraph: {paragraph}\n")
-else:
-    print("No results were found.")
