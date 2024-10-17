@@ -55,7 +55,7 @@ def indexer_dict(books_datamart, words_datamart):
     directory_path = books_datamart  # Path to the directory containing the book files
     output_directory = words_datamart  # Output directory for the partial indexers
     output_directory_metadata = "./metadata_datamart"
-    stopwords_filepath = "./stopwords.txt"
+    stopwords_filepath = "indexer/stopwords.txt"
     filepaths = extract_files_from_directory(directory_path)  # Get all file paths
 
     for filepath in filepaths:

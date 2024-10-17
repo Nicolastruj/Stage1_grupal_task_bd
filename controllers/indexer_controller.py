@@ -8,13 +8,7 @@ from indexer.indexer_dict import indexer_dict
 
 
 def job(books_directory, tray, words_directory):
-    print(f"Running the job with the directories:\n"
-          f"Books: {books_directory}\n"
-          f"Tray: {tray}\n"
-          f"Words: {words_directory}")
-    time.sleep(20)
     files = get_latest_files(books_directory)
-    print(f"Files found: {files}")
 
     if not files:
         print("No files found to process.")

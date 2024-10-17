@@ -1,19 +1,14 @@
-# def main():
-# interval = 20  # Crawler interval in seconds
-# path = "./Datamart_libros"
 
-# # Start the crawler periodic task
-# crawler_controller.periodic_task(interval, path)
+from controllers.indexer_controller import execute_indexer
 
-# while True:
-#     time.sleep(1)
-# Run the indexer after the crawler has completed
-# execute_indexer(r'./Datamart_libros', r'./Datamart_libros/bandeja_libros', r'Datamart_palabras')
 
-# Execute the search engine controller
-# search_engine_controller()
+def main():
+    """execute_crawl(300, r'./Books_Datamart')"""
+    execute_indexer(r'./Books_Datamart', r'./Books_Datamart/Books_Tray', r'./Words_Datamart')
 
-# Keep the script alive, for any future scheduling
+
+if __name__ == "__main__":
+    main()
 
 
 # if __name__ == "__main__":
