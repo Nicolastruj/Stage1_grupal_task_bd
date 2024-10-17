@@ -26,4 +26,3 @@ def search_engine_controller():
                     print(f"Paragraph: {paragraph}\n")
         else:
             print("\nSorry! No results were found for that word.\n")
-search_engine_controller()
