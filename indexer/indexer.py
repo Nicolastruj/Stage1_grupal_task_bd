@@ -7,7 +7,6 @@ from threading import Lock
 
 from data_model.object_type.Word import Word
 
-
 def indexer5(datamart_txt_path, datamart_json_path):
     """
     Process text tiles in `datamart_txt_path` and update the Word objects in `datamart_json_path`.

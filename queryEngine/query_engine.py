@@ -2,6 +2,7 @@ import glob
 import json
 import os
 import re
+from memory_profiler import profile
 
 
 def find_book(book_id, book_folder):
@@ -10,7 +11,8 @@ def find_book(book_id, book_folder):
             return os.path.join(book_folder, filename)
     return None
 
-
+#uncomment if using memory usage test
+#@profile
 def query_engine(input, book_folder="../Datamart_Books", index_folder="../Datamart_Words", max_occurrences=3):
     input = input.lower()
     words = input.split()
@@ -83,3 +85,6 @@ def query_engine(input, book_folder="../Datamart_Books", index_folder="../Datama
                         print(f"Error: The Book {book_filename} was not found.")
 
     return results
+
+#uncomment if doing memory usage tests
+#query_engine("wife")

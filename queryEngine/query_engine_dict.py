@@ -1,6 +1,8 @@
 import json
 import os
 import re
+from memory_profiler import profile
+
 
 
 def load_json_index(word, index_folder):
@@ -83,7 +85,8 @@ def extract_paragraphs(book_filename, occurrences_dict, search_words):
         print(f"Error: Book file not found: {book_filename}")
         return [], 0  # Return empty list and zero occurrences on error
 
-
+#uncomment if doing memory usage tests
+#@profile
 def query_engine(input, index_folder="../words_datamart_dict", metadata_folder="../metadata_datamart",
                  book_folder="../Datamart_libros", max_occurrences=3):
     """
@@ -151,7 +154,10 @@ def query_engine(input, index_folder="../words_datamart_dict", metadata_folder="
 
     return results
 
+#uncomment if doing memory usage tests
+#query_engine("wife")
 
+"""
 if __name__ == "__main__":
     while True:
         search_input = input("Enter the words you want to search (or type 'q' to quit): ")
@@ -169,4 +175,4 @@ if __name__ == "__main__":
             print(f'\n')
             print(f"Author: {result['author_name']}")
             print(f"URL: {result['url']}")
-            print(f"Total occurrences: {result['total_occurrences']}\n")
+            print(f"Total occurrences: {result['total_occurrences']}\n")"""
