@@ -154,12 +154,19 @@ def query_engine(input, index_folder="../words_datamart_dict", metadata_folder="
 
 if __name__ == "__main__":
     while True:
-        search_input = input("Enter the words you want to search: ")
+        search_input = input("Enter the words you want to search (or type 'q' to quit): ")
+
+        if search_input.lower() == 'q':
+            print("Exiting search...")
+            break
+
         search_results = query_engine(search_input)
         for result in search_results:
             print(f"Book: {result['book_name']}")
+            print(f'\n')
             for paragraph in result['paragraphs']:
                 print(paragraph)
+            print(f'\n')
             print(f"Author: {result['author_name']}")
             print(f"URL: {result['url']}")
             print(f"Total occurrences: {result['total_occurrences']}\n")
