@@ -1,17 +1,15 @@
-import glob
 import json
-import os
+import glob
 import re
-
+import os
 
 def find_book(book_id, book_folder):
     for filename in os.listdir(book_folder):
-        if filename.endswith(f"_{book_id}.txt"):  # Buscar archivo que termine con _{book_id}.txt
+        if filename.endswith(f"_{book_id}.txt"):  # find file that ends with _{book_id}.txt
             return os.path.join(book_folder, filename)
     return None
 
-
-def query_engine(input, book_folder="../Datamart_libros", index_folder="../Datamart_palabras", max_occurrences=3):
+def query_engine(input, book_folder="../Datamart_Books", index_folder="../Datamart_Words", max_occurrences=3):
     input = input.lower()
     words = input.split()
     results = []
@@ -21,10 +19,10 @@ def query_engine(input, book_folder="../Datamart_libros", index_folder="../Datam
     for filepath in glob.glob(f"{index_folder}/*.json"):
         with open(filepath, "r") as file:
             data = json.load(file)
-            if "id_nombre" in data and "diccionario" in data:
-                word_key = data["id_nombre"]
-                dictionary_info = data["diccionario"]
-                loaded_words[word_key] = {"diccionario": dictionary_info}
+            if "id_name" in data and "dictionary" in data:
+                word_key = data["id_name"]
+                dictionary_info = data["dictionary"]
+                loaded_words[word_key] = {"dictionary": dictionary_info}
 
     # Check if all the words are there
     words_looked_for = all(word in loaded_words for word in words)
@@ -32,7 +30,7 @@ def query_engine(input, book_folder="../Datamart_libros", index_folder="../Datam
     if words_looked_for:
         books_in_common = None
         for word in words:
-            word_info = loaded_words[word]["diccionario"]
+            word_info = loaded_words[word]["dictionary"]
             if books_in_common is None:
                 books_in_common = set(word_info.keys())
             else:
@@ -47,18 +45,21 @@ def query_engine(input, book_folder="../Datamart_libros", index_folder="../Datam
                 author_name = author_and_id[0].strip()
                 book_id = author_and_id[1].strip()
 
+
                 book_filename = find_book(book_id, book_folder)
 
                 if book_filename:
                     try:
-                        with open(book_filename, "r", encoding="utf-8") as file:  # hay que especificar el encoding
+                        with open(book_filename, "r", encoding="utf-8") as file: # we have to specify the encoding
                             text = file.read()
+
 
                         paragraphs = text.split('\n\n')
                         relevant_paragraphs = []
                         occurrences = 0
 
                         word_pattern = re.compile(rf"\b{input}\b", re.IGNORECASE)
+
 
                         for paragraph in paragraphs:
                             if word_pattern.search(paragraph):
@@ -71,7 +72,7 @@ def query_engine(input, book_folder="../Datamart_libros", index_folder="../Datam
                             results.append({
                                 "book_name": book_name,
                                 "author_name": author_name,
-                                # "URL": ,
+                                "URL": f'https://www.gutenberg.org/files/{book_id}/{book_id}-0.txt',
                                 "paragraphs": relevant_paragraphs[:max_occurrences],
                                 "total_occurrences": occurrences
                             })
@@ -82,17 +83,17 @@ def query_engine(input, book_folder="../Datamart_libros", index_folder="../Datam
     return results
 
 
-# Example for testing
-input = "subscribe"
+#Example for testing
+input = "almost"
 search_results = query_engine(input)
 
 # output
-print(f"Resultados para '{input}':")
+print(f"Results for '{input}':")
 if search_results:
     for result in search_results:
         print(f"Book Name: {result['book_name']}")
         print(f"Author: {result['author_name']}")
-        print(f"URL: ")
+        print(f"URL: {result['URL']}")
         print(f"Total Ocurrencies: {result['total_occurrences']}")
         print("Paragraphs:")
         for paragraph in result['paragraphs']:
