@@ -1,10 +1,27 @@
-from data_model.object_type.Palabra import Palabra
-from indexer.indexer import indexer, indexer2, indexer3, indexer4, indexer5
-
+import crawler_controller
+import time
 
 def main():
-    indexer5(r"Datamart_libros",
-            r"Datamart_palabras")
+    interval = 20
+    path = "./Datamart_libros"
+
+    crawler_controller.periodic_task(interval, path)
+
+    while True:
+        time.sleep(1)
+
 
 if __name__ == "__main__":
     main()
+
+
+
+
+
+
+
+
+
+
+
+
