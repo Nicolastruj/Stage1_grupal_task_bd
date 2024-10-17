@@ -22,7 +22,7 @@ class Word:
 
     @staticmethod
     def from_dict(data):
-        """Creat un Word object from a dictionary."""
+        """Create a Word object from a dictionary."""
         return Word(
             id_name=data['id_name'],
             dictionary=data['dictionary']
