@@ -1,4 +1,4 @@
-from queryEngine.query_engine import query_engine
+from queryEngine.query_engine_dict import query_engine as query_engine_dict
 
 
 def search_engine_controller():
@@ -22,7 +22,14 @@ def search_engine_controller():
                   "Have a nice day! :)\n")
             break
 
-        results = query_engine(user_input)
+        ## Code for JSON structure
+        # results = query_engine(user_input)
+
+        ## Code for dictionary structure
+        indexer_folder = "../Words_Datamart"
+        metadata_datamart_folder = "../Books_Metadata"
+        book_datamart_folder = "../Books_Datamart"
+        results = query_engine_dict(user_input, indexer_folder, metadata_datamart_folder, book_datamart_folder)
 
         if results:
             print(f"\nResults for '{user_input}':\n")
@@ -36,3 +43,11 @@ def search_engine_controller():
                     print(f"Paragraph: {paragraph}\n")
         else:
             print("\nSorry! No results were found for that word.\n")
+
+
+def main():
+    search_engine_controller()
+
+
+if __name__ == "__main__":
+    main()

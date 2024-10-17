@@ -107,7 +107,7 @@ def execute_indexer(books_directory, tray, words_directory, output_directory_met
     print("Scheduler set. Waiting for scheduled executions...")
 
     while True:
-        schedule.run_pending()   # Run scheduled tasks
+        schedule.run_pending()  # Run scheduled tasks
         time.sleep(1)
 
 
@@ -123,3 +123,16 @@ def setup_schedule(books_directory, tray, words_directory):
     print("Setting up the schedule for the scheduled task.")
     schedule.every(5).minutes.do(lambda: job(books_directory, tray, words_directory))
     print("Task scheduled every 5 minutes.")
+
+
+def main():
+    books_directory = "../Books_Datamart"
+    tray = "../Books_Datamart/Books_Tray"
+    words_directory = "../Words_Datamart"
+    output_directory_metadata = "../Books_Metadata"
+    stopwords_filepath = "../indexer/stopwords.txt"
+    execute_indexer(books_directory, tray, words_directory, output_directory_metadata, stopwords_filepath)
+
+
+if __name__ == "__main__":
+    main()

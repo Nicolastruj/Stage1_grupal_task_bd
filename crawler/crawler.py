@@ -68,9 +68,9 @@ def download_book(book_id, download_route):
     return answer.status_code
 
 
-# Route to store the book
-download_route = r"../Datamart_books"  # Change this to the desired route
-
-# download books with ID 1340 until 1350 in the specific route
-for book_id in range(1343, 1346):
-    download_book(book_id, download_route)
+# # Route to store the book
+# download_route = r"../Datamart_books"  # Change this to the desired route
+#
+# # download books with ID 1340 until 1350 in the specific route
+# for book_id in range(1343, 1346):
+#     download_book(book_id, download_route)

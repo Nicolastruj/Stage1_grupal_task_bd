@@ -11,6 +11,8 @@ def obtain_last_id(datamart_path):
     :param datamart_path: The path to the directory containing the TXT files.
     :return: The most recently added ID found in the file names, or 0 if no valid IDs are found.
     """
+    if not os.path.exists(datamart_path):
+        os.makedirs(datamart_path)
     files = os.listdir(datamart_path)
     ids = []
 
