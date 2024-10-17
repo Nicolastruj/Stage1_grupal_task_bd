@@ -2,8 +2,8 @@ import json
 import os
 import re
 
-from indexer_dict.book_reader import read_words, save_metadata_to_json
-from indexer_dict.path_reader import extract_files_from_directory
+from indexer.book_reader import read_words, save_metadata_to_json
+from indexer.path_reader import extract_files_from_directory
 
 
 def add_words_to_dict(words, id_book, dictionary):
@@ -50,12 +50,12 @@ def save_partial_indexers(indexer, output_directory):
             json.dump(partial_indexer, file, ensure_ascii=False, indent=4)
 
 
-def main():
+def indexer_dict(books_datamart, words_datamart):
     indexer = {}
-    directory_path = '../Datamart_libros'  # Path to the directory containing the book files
-    output_directory = '../words_datamart_dict'  # Output directory for the partial indexers
-    output_directory_metadata = "../metadata_datamart"
-    stopwords_filepath = "stopwords.txt"
+    directory_path = books_datamart  # Path to the directory containing the book files
+    output_directory = words_datamart  # Output directory for the partial indexers
+    output_directory_metadata = "./metadata_datamart"
+    stopwords_filepath = "./stopwords.txt"
     filepaths = extract_files_from_directory(directory_path)  # Get all file paths
 
     for filepath in filepaths:
@@ -72,7 +72,3 @@ def main():
             print(f"Error processing {filepath}: {e}")
 
     save_partial_indexers(indexer, output_directory)  # Save the partial indexers
-
-
-if __name__ == "__main__":
-    main()
