@@ -17,7 +17,7 @@ def load_stopwords_from_file(file_path):
 
 
 def main():
-    file_path = "../stopwords.txt"
+    file_path = "stopwords.txt"
     words_list = load_stopwords_from_file(file_path)
 
     print(words_list)
