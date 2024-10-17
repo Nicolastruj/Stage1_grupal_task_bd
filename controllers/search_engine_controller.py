@@ -1,6 +1,16 @@
 from queryEngine.query_engine import query_engine
 
+
 def search_engine_controller():
+    """
+    Start the search engine interface for querying words in the indexed books.
+
+    This function allows users to input words to search for and displays the results,
+    including book name, author, URL, total occurrences, and relevant paragraphs.
+    The user can exit the search engine by typing 'EXIT'.
+
+    :return: None
+    """
     print("\nWelcome to the Search Engine!")
     print("If you desire to exit the search engine, type 'EXIT'")
 

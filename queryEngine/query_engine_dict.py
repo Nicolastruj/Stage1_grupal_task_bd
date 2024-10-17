@@ -45,12 +45,11 @@ def load_metadata(book_id, metadata_folder):
     return None
 
 
-def extract_paragraphs(book_filename, occurrences_dict, search_words):
+def extract_paragraphs(book_filename, search_words):
     """
     Extract paragraphs from the book based on occurrences dictionary and search words.
 
     :param book_filename: The path to the book file from which to extract paragraphs.
-    :param occurrences_dict: A dictionary containing occurrences data (not used in this version).
     :param search_words: A list of words to search for in the book paragraphs.
     :return: A list of relevant paragraphs containing the search words.
     """
@@ -77,27 +76,26 @@ def extract_paragraphs(book_filename, occurrences_dict, search_words):
                     relevant_paragraphs.append(highlighted_paragraph.strip())
                     break  # Exit the loop after the first match to prevent duplication
         # Return the relevant paragraphs and total occurrences
-        return relevant_paragraphs
+        return relevant_paragraphs, occurrences
 
     except FileNotFoundError:
         print(f"Error: Book file not found: {book_filename}")
         return [], 0  # Return empty list and zero occurrences on error
 
 
-def query_engine(input, index_folder="../words_datamart_dict", metadata_folder="../metadata_datamart",
-                 book_folder="../Datamart_libros", max_occurrences=3):
+def query_engine(input_query, index_folder, metadata_folder, book_folder, max_occurrences=3):
     """
     Searches for books containing the words in the input query and returns relevant paragraphs.
 
-    :param input: The search query (a string of words).
+    :param input_query: The search query (a string of words).
     :param index_folder: Directory where the word index files are stored.
     :param metadata_folder: Directory where the book metadata JSON files are stored.
     :param book_folder: Directory where the book files are stored.
     :param max_occurrences: Maximum number of paragraphs to return for each book.
     :return: List of dictionaries with book information and paragraphs containing the search words.
     """
-    input = input.lower()
-    words = input.split()
+    input_query = input_query.lower()
+    words = input_query.split()
     results = []
 
     # Dictionary to store word occurrences across books
@@ -135,18 +133,15 @@ def query_engine(input, index_folder="../words_datamart_dict", metadata_folder="
             # Step 5: Load the book content
             book_path = os.path.join(book_folder, f"{book_name} by {author_name}_{book_id}.txt")
 
-            combined_positions = []
-            for word in words:
-                combined_positions.extend(word_occurrences[word][book_id])
             # Step 6: Extract relevant paragraphs
-            paragraphs = extract_paragraphs(book_path, combined_positions, words)
+            paragraphs, occurrences = extract_paragraphs(book_path, words)
             if paragraphs:
                 results.append({
                     "book_name": book_name,
                     "author_name": author_name,
                     "url": url,
                     "paragraphs": paragraphs[:max_occurrences],
-                    "total_occurrences": len(paragraphs)
+                    "total_occurrences": occurrences
                 })
 
     return results
@@ -160,13 +155,16 @@ if __name__ == "__main__":
             print("Exiting search...")
             break
 
-        search_results = query_engine(search_input)
+        indexer_folder = "../Words_Datamart"
+        metadata_datamart_folder = "../metadata_datamart"
+        book_datamart_folder = "../Datamart_books"
+        search_results = query_engine(search_input, indexer_folder, metadata_datamart_folder, book_datamart_folder)
         for result in search_results:
-            print(f"Book: {result['book_name']}")
-            print(f'\n')
-            for paragraph in result['paragraphs']:
-                print(paragraph)
-            print(f'\n')
+            print(f"Book Name: {result['book_name']}")
             print(f"Author: {result['author_name']}")
             print(f"URL: {result['url']}")
-            print(f"Total occurrences: {result['total_occurrences']}\n")
+            print(f"Total Occurrences: {result['total_occurrences']}\n")
+            print(f'Paragraphs:\n')
+            for paragraph in result['paragraphs']:
+                print(f'Paragraph: {paragraph}')
+            print(f'\n')

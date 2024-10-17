@@ -5,6 +5,12 @@ from crawler import crawler
 
 
 def obtain_last_id(datamart_path):
+    """
+    Obtain the most recently added numerical ID from TXT files in the specified directory.
+
+    :param datamart_path: The path to the directory containing the TXT files.
+    :return: The most recently added ID found in the file names, or 0 if no valid IDs are found.
+    """
     files = os.listdir(datamart_path)
     ids = []
 
@@ -23,6 +29,15 @@ def obtain_last_id(datamart_path):
 
 
 def downloading_process(datamart_path):
+    """
+    Downloads three books sequentially from Gutenberg starting from the next available ID.
+
+    This function checks the specified datamart path to find the last downloaded book ID,
+    then attempts to download the next three books based on that ID.
+
+    :param datamart_path: The directory where the downloaded books will be saved.
+    :return: None
+    """
     last_id = obtain_last_id(datamart_path)
 
     successful_downloads = 0
@@ -40,6 +55,16 @@ def downloading_process(datamart_path):
 
 
 def periodic_task(interval, datamart_path):
+    """
+    Executes the downloading process at a specified interval.
+
+    This function repeatedly calls the downloading_process function to download
+    books from Gutenberg every `interval` seconds.
+
+    :param interval: The time interval (in seconds) to wait between downloads.
+    :param datamart_path: The path to the directory where the downloaded books will be stored.
+    :return: None
+    """
     while True:
         downloading_process(datamart_path)
         print(f"Wait {interval} seconds")

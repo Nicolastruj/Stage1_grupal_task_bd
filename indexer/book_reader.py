@@ -6,7 +6,13 @@ from indexer.stopwords_reader import load_stopwords_from_file
 
 
 def read_words(filepath, stopwords_filepath):
-    """Extract words from a TXT file and return a list of words."""
+    """
+    Extract words from a TXT file and return a list of words, filtering out stopwords.
+
+    :param filepath: The path to the TXT file from which to extract words.
+    :param stopwords_filepath: The path to the file containing stopwords to be filtered out.
+    :return: A list of words extracted from the file, excluding any stopwords.
+    """
 
     words = []
     encodings = ['utf-8', 'utf-8-sig', 'windows-1252', 'latin1']

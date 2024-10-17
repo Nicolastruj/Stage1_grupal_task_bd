@@ -5,6 +5,12 @@ from bs4 import BeautifulSoup
 
 
 def get_title(url):
+    """
+    Fetch the title of a webpage by retrieving the text from the first <h1> tag.
+
+    :param url: The URL of the webpage to fetch the title from.
+    :return: The text of the first <h1> tag if found; otherwise, an error message or indication of failure.
+    """
     try:
         # GET request to URL
         answer = requests.get(url)
@@ -30,6 +36,13 @@ def get_title(url):
 
 
 def download_book(book_id, download_route):
+    """
+    Download a book from Project Gutenberg using its book ID and save it to a specified directory.
+
+    :param book_id: The ID of the book to be downloaded from Project Gutenberg.
+    :param download_route: The directory where the downloaded book will be saved.
+    :return: None
+    """
     url = f'https://www.gutenberg.org/files/{book_id}/{book_id}-0.txt'
     if not os.path.exists(download_route):
         os.makedirs(download_route)
@@ -57,6 +70,6 @@ def download_book(book_id, download_route):
 # Route to store the book
 download_route = r"../Datamart_books"  # Change this to the desired route
 
-# download books with ID 1340 untin 1350 in the specific route
+# download books with ID 1340 until 1350 in the specific route
 for book_id in range(1343, 1346):
     download_book(book_id, download_route)

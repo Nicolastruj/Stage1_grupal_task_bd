@@ -5,6 +5,16 @@ import re
 
 
 def find_book(book_id, book_folder):
+    """
+    Searches for a book file in the specified folder by its ID.
+
+    This function looks for a file that ends with '_{book_id}.txt' in the provided
+    book folder and returns the full path if found.
+
+    :param book_id: The ID of the book to search for.
+    :param book_folder: The folder where the book files are stored.
+    :return: The full path to the book file if found, otherwise None.
+    """
     for filename in os.listdir(book_folder):
         if filename.endswith(f"_{book_id}.txt"):  # find file that ends with _{book_id}.txt
             return os.path.join(book_folder, filename)
