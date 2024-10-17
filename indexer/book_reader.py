@@ -2,7 +2,7 @@ import json
 import os
 import re
 
-from indexer_dict.stopwords_reader import load_stopwords_from_file
+from indexer.stopwords_reader import load_stopwords_from_file
 
 
 def read_words(filepath, stopwords_filepath):

@@ -11,6 +11,6 @@ def extract_files_from_directory(directory):
     return files_paths
 
 
-directory_path = '../Datamart_libros'
-files_paths = extract_files_from_directory(directory_path)
-print(files_paths)
+#directory_path = '../Datamart_libros'
+#files_paths = extract_files_from_directory(directory_path)
+#print(files_paths)
