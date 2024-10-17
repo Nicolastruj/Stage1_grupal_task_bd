@@ -65,6 +65,7 @@ def download_book(book_id, download_route):
         print(f"Book {book_id} not found.")
     else:
         print(f"Error when downloading Book {book_id}: {answer.status_code}")
+    return answer.status_code
 
 
 # Route to store the book

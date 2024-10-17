@@ -69,3 +69,13 @@ def periodic_task(interval, datamart_path):
         downloading_process(datamart_path)
         print(f"Wait {interval} seconds")
         time.sleep(interval)
+
+
+def main():
+    sleep_interval = 20
+    books_datamart_path = "../Books_Datamart"
+    periodic_task(sleep_interval, books_datamart_path)
+
+
+if __name__ == "__main__":
+    main()
