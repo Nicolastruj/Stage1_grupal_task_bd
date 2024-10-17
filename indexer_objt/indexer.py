@@ -1,13 +1,12 @@
 # main.py
-import multiprocessing
-import os
 import json
+import os
 import re
-from  data_model.object_type.Word import Word
-from concurrent.futures import ProcessPoolExecutor, as_completed
-from collections import defaultdict
-from threading import Lock
 from concurrent.futures import ThreadPoolExecutor
+from threading import Lock
+
+from data_model.object_type.Word import Word
+
 
 def indexer5(datamart_txt_path, datamart_json_path):
     """
@@ -46,32 +45,32 @@ def indexer5(datamart_txt_path, datamart_json_path):
         # Skips Stop Words
         words = re.findall(r'\b[a-zA-ZáéíóúüñÁÉÍÓÚÜÑ]+\b', content.lower())
         words = [word for word in words if
-                    word not in ['in', 'on', 'at', 'by', 'for', 'with', 'about', 'against', 'between',
-                                    'into', 'through', 'during', 'before', 'after', 'above', 'below',
-                                    'to', 'from', 'up', 'down', 'of', 'off', 'over', 'under', 'again',
-                                    'further', 'once', 'i', 'me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves',
-                                    'you', 'your', 'yours',
-                                    'yourself', 'yourselves', 'he', 'him', 'his', 'himself', 'she', 'her', 'hers',
-                                    'herself',
-                                    'it', 'its', 'itself', 'they', 'them', 'their', 'theirs', 'themselves', 'what',
-                                    'which',
-                                    'who', 'whom', 'this', 'that', 'these', 'those', 'am', 'is', 'are', 'was', 'were',
-                                    'be',
-                                    'been', 'being', 'have', 'has', 'had', 'having', 'do', 'does', 'did', 'doing', 'a',
-                                    'an',
-                                    'the', 'and', 'but', 'if', 'or', 'because', 'as', 'until', 'while', 'of', 'at',
-                                    'by',
-                                    'for', 'with', 'about', 'against', 'between', 'into', 'through', 'during', 'before',
-                                    'after',
-                                    'above', 'below', 'to', 'from', 'up', 'down', 'in', 'out', 'on', 'off', 'over',
-                                    'under',
-                                    'again', 'further', 'then', 'once', 'here', 'there', 'when', 'where', 'why', 'how',
-                                    'all',
-                                    'any', 'both', 'each', 'few', 'more', 'most', 'other', 'some', 'such', 'no', 'nor',
-                                    'not',
-                                    'only', 'own', 'same', 'so', 'than', 'too', 'very', 's', 't', 'can', 'will', 'just',
-                                    'don',
-                                    'should', 'now']]
+                 word not in ['in', 'on', 'at', 'by', 'for', 'with', 'about', 'against', 'between',
+                              'into', 'through', 'during', 'before', 'after', 'above', 'below',
+                              'to', 'from', 'up', 'down', 'of', 'off', 'over', 'under', 'again',
+                              'further', 'once', 'i', 'me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves',
+                              'you', 'your', 'yours',
+                              'yourself', 'yourselves', 'he', 'him', 'his', 'himself', 'she', 'her', 'hers',
+                              'herself',
+                              'it', 'its', 'itself', 'they', 'them', 'their', 'theirs', 'themselves', 'what',
+                              'which',
+                              'who', 'whom', 'this', 'that', 'these', 'those', 'am', 'is', 'are', 'was', 'were',
+                              'be',
+                              'been', 'being', 'have', 'has', 'had', 'having', 'do', 'does', 'did', 'doing', 'a',
+                              'an',
+                              'the', 'and', 'but', 'if', 'or', 'because', 'as', 'until', 'while', 'of', 'at',
+                              'by',
+                              'for', 'with', 'about', 'against', 'between', 'into', 'through', 'during', 'before',
+                              'after',
+                              'above', 'below', 'to', 'from', 'up', 'down', 'in', 'out', 'on', 'off', 'over',
+                              'under',
+                              'again', 'further', 'then', 'once', 'here', 'there', 'when', 'where', 'why', 'how',
+                              'all',
+                              'any', 'both', 'each', 'few', 'more', 'most', 'other', 'some', 'such', 'no', 'nor',
+                              'not',
+                              'only', 'own', 'same', 'so', 'than', 'too', 'very', 's', 't', 'can', 'will', 'just',
+                              'don',
+                              'should', 'now']]
 
         for position, word in enumerate(words, start=1):
             # Route to the JSON file of the word
@@ -143,32 +142,33 @@ def indexer5_parallel(datamart_txt_path, datamart_json_path):
             content = file.read()
 
         words = re.findall(r'\b[a-zA-ZáéíóúüñÁÉÍÓÚÜÑ]+\b', content.lower())
-        words = [word for word in words if word not in ['in', 'on', 'at', 'by', 'for', 'with', 'about', 'against', 'between',
-                                    'into', 'through', 'during', 'before', 'after', 'above', 'below',
-                                    'to', 'from', 'up', 'down', 'of', 'off', 'over', 'under', 'again',
-                                    'further', 'once', 'i', 'me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves',
-                                    'you', 'your', 'yours',
-                                    'yourself', 'yourselves', 'he', 'him', 'his', 'himself', 'she', 'her', 'hers',
-                                    'herself',
-                                    'it', 'its', 'itself', 'they', 'them', 'their', 'theirs', 'themselves', 'what',
-                                    'which',
-                                    'who', 'whom', 'this', 'that', 'these', 'those', 'am', 'is', 'are', 'was', 'were',
-                                    'be',
-                                    'been', 'being', 'have', 'has', 'had', 'having', 'do', 'does', 'did', 'doing', 'a',
-                                    'an',
-                                    'the', 'and', 'but', 'if', 'or', 'because', 'as', 'until', 'while', 'of', 'at',
-                                    'by',
-                                    'for', 'with', 'about', 'against', 'between', 'into', 'through', 'during', 'before',
-                                    'after',
-                                    'above', 'below', 'to', 'from', 'up', 'down', 'in', 'out', 'on', 'off', 'over',
-                                    'under',
-                                    'again', 'further', 'then', 'once', 'here', 'there', 'when', 'where', 'why', 'how',
-                                    'all',
-                                    'any', 'both', 'each', 'few', 'more', 'most', 'other', 'some', 'such', 'no', 'nor',
-                                    'not',
-                                    'only', 'own', 'same', 'so', 'than', 'too', 'very', 's', 't', 'can', 'will', 'just',
-                                    'don',
-                                    'should', 'now']]
+        words = [word for word in words if
+                 word not in ['in', 'on', 'at', 'by', 'for', 'with', 'about', 'against', 'between',
+                              'into', 'through', 'during', 'before', 'after', 'above', 'below',
+                              'to', 'from', 'up', 'down', 'of', 'off', 'over', 'under', 'again',
+                              'further', 'once', 'i', 'me', 'my', 'myself', 'we', 'our', 'ours', 'ourselves',
+                              'you', 'your', 'yours',
+                              'yourself', 'yourselves', 'he', 'him', 'his', 'himself', 'she', 'her', 'hers',
+                              'herself',
+                              'it', 'its', 'itself', 'they', 'them', 'their', 'theirs', 'themselves', 'what',
+                              'which',
+                              'who', 'whom', 'this', 'that', 'these', 'those', 'am', 'is', 'are', 'was', 'were',
+                              'be',
+                              'been', 'being', 'have', 'has', 'had', 'having', 'do', 'does', 'did', 'doing', 'a',
+                              'an',
+                              'the', 'and', 'but', 'if', 'or', 'because', 'as', 'until', 'while', 'of', 'at',
+                              'by',
+                              'for', 'with', 'about', 'against', 'between', 'into', 'through', 'during', 'before',
+                              'after',
+                              'above', 'below', 'to', 'from', 'up', 'down', 'in', 'out', 'on', 'off', 'over',
+                              'under',
+                              'again', 'further', 'then', 'once', 'here', 'there', 'when', 'where', 'why', 'how',
+                              'all',
+                              'any', 'both', 'each', 'few', 'more', 'most', 'other', 'some', 'such', 'no', 'nor',
+                              'not',
+                              'only', 'own', 'same', 'so', 'than', 'too', 'very', 's', 't', 'can', 'will', 'just',
+                              'don',
+                              'should', 'now']]
 
         with ThreadPoolExecutor() as executor:
             for position, word in enumerate(words, start=1):

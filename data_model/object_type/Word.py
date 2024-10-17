@@ -1,5 +1,3 @@
-import json
-
 class Word:
     def __init__(self, id_name, dictionary=None):
         self.id_name = id_name

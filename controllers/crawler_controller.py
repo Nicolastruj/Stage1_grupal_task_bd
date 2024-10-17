@@ -1,5 +1,6 @@
-import time
 import os
+import time
+
 from crawler import crawler
 
 
@@ -43,4 +44,3 @@ def periodic_task(interval, datamart_path):
         downloading_process(datamart_path)
         print(f"Wait {interval} seconds")
         time.sleep(interval)
-

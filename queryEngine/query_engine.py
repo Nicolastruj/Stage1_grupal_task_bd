@@ -1,13 +1,15 @@
-import json
 import glob
-import re
+import json
 import os
+import re
+
 
 def find_book(book_id, book_folder):
     for filename in os.listdir(book_folder):
         if filename.endswith(f"_{book_id}.txt"):  # find file that ends with _{book_id}.txt
             return os.path.join(book_folder, filename)
     return None
+
 
 def query_engine(input, book_folder="../Datamart_Books", index_folder="../Datamart_Words", max_occurrences=3):
     input = input.lower()
@@ -48,21 +50,18 @@ def query_engine(input, book_folder="../Datamart_Books", index_folder="../Datama
                 author_name = author_and_id[0].strip()
                 book_id = author_and_id[1].strip()
 
-
                 book_filename = find_book(book_id, book_folder)
 
                 if book_filename:
                     try:
-                        with open(book_filename, "r", encoding="utf-8") as file: # we have to specify the encoding
+                        with open(book_filename, "r", encoding="utf-8") as file:  # we have to specify the encoding
                             text = file.read()
-
 
                         paragraphs = text.split('\n\n')
                         relevant_paragraphs = []
                         occurrences = 0
 
                         word_pattern = re.compile(rf"\b{input}\b", re.IGNORECASE)
-
 
                         for paragraph in paragraphs:
                             if word_pattern.search(paragraph):

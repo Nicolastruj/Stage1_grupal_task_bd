@@ -1,7 +1,7 @@
-import json
 import glob
-import re
+import json
 import os
+import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
@@ -67,7 +67,7 @@ def process_book(book_key, book_folder, input_word, max_occurrences):
             return {
                 "book_name": book_name,
                 "author_name": author_name,
-                "URL":  f'https://www.gutenberg.org/files/{book_id}/{book_id}-0.txt',
+                "URL": f'https://www.gutenberg.org/files/{book_id}/{book_id}-0.txt',
                 "paragraphs": relevant_paragraphs[:max_occurrences],
                 "total_occurrences": occurrences
             }
@@ -137,7 +137,7 @@ def query_engine(input_query, book_folder="../Datamart_libros", index_folder="..
     return results
 
 
-#Example for testing
+# Example for testing
 input = "almost"
 search_results = query_engine(input)
 
