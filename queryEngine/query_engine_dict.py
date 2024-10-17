@@ -30,7 +30,6 @@ def load_metadata(book_id, metadata_folder):
     :param metadata_folder: The directory containing the metadata JSON files.
     :return: A dictionary with the book's metadata, or None if not found.
     """
-    # Calculate the range of the book's id to find the corresponding metadata file
     hundred_range = (int(book_id) // 100) * 100
     json_filename = f"books_metadata_{hundred_range}-{hundred_range + 99}.json"
     json_filepath = os.path.join(metadata_folder, json_filename)
@@ -38,7 +37,6 @@ def load_metadata(book_id, metadata_folder):
     if os.path.exists(json_filepath):
         with open(json_filepath, 'r', encoding='utf-8') as file:
             books_data = json.load(file)
-            # Find the book metadata by id
             for book in books_data:
                 if book['id_book'] == book_id:
                     return book
@@ -57,30 +55,24 @@ def extract_paragraphs(book_filename, search_words):
         with open(book_filename, "r", encoding="utf-8") as file:
             text = file.read()
 
-        # Split text into paragraphs
         paragraphs = text.split('\n\n')
         relevant_paragraphs = []
         occurrences = 0
-        word_patterns = {word: re.compile(rf"\b{word}\b", re.IGNORECASE) for word in
-                         search_words}  # Compile patterns for search words
+        word_patterns = {word: re.compile(rf"\b{word}\b", re.IGNORECASE) for word in search_words}
 
         for paragraph in paragraphs:
-            # Check for occurrences of any search word in the paragraph
             for word, pattern in word_patterns.items():
                 if pattern.search(paragraph):
-                    # Count occurrences of the word
                     occurrences += len(pattern.findall(paragraph))
 
-                    # Highlight the word in the paragraph
                     highlighted_paragraph = pattern.sub(f"\033[94m{word}\033[0m", paragraph)
                     relevant_paragraphs.append(highlighted_paragraph.strip())
-                    break  # Exit the loop after the first match to prevent duplication
-        # Return the relevant paragraphs and total occurrences
+                    break
         return relevant_paragraphs, occurrences
 
     except FileNotFoundError:
         print(f"Error: Book file not found: {book_filename}")
-        return [], 0  # Return empty list and zero occurrences on error
+        return [], 0
 
 
 def query_engine(input_query, index_folder, metadata_folder, book_folder, max_occurrences=3):
@@ -165,6 +157,6 @@ if __name__ == "__main__":
             print(f"URL: {result['url']}")
             print(f"Total Occurrences: {result['total_occurrences']}\n")
             print(f'Paragraphs:\n')
-            for paragraph in result['paragraphs']:
-                print(f'Paragraph: {paragraph}')
+            for relevant_paragraph in result['paragraphs']:
+                print(f'Paragraph: {relevant_paragraph}')
             print(f'\n')
