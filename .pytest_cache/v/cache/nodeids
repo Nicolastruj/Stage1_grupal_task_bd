@@ -1,0 +1,4 @@
+[
+  "benchmark/benchmark.py::test_query_engine",
+  "benchmark/benchmark.py::test_query_engine_dict"
+]
