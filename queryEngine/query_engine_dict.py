@@ -137,26 +137,3 @@ def query_engine(input_query, index_folder, metadata_folder, book_folder, max_oc
                 })
 
     return results
-
-
-if __name__ == "__main__":
-    while True:
-        search_input = input("Enter the words you want to search (or type 'q' to quit): ")
-
-        if search_input.lower() == 'q':
-            print("Exiting search...")
-            break
-
-        indexer_folder = "../Words_Datamart"
-        metadata_datamart_folder = "../Books_Metadata"
-        book_datamart_folder = "../Books_Datamart"
-        search_results = query_engine(search_input, indexer_folder, metadata_datamart_folder, book_datamart_folder)
-        for result in search_results:
-            print(f"Book Name: {result['book_name']}")
-            print(f"Author: {result['author_name']}")
-            print(f"URL: {result['URL']}")
-            print(f"Total Occurrences: {result['total_occurrences']}\n")
-            print(f'Paragraphs:\n')
-            for relevant_paragraph in result['paragraphs']:
-                print(f'Paragraph: {relevant_paragraph}')
-            print(f'\n')
