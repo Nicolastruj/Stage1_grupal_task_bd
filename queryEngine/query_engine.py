@@ -21,7 +21,7 @@ def find_book(book_id, book_folder):
     return None
 
 
-def query_engine(input, book_folder="../Datamart_Books", index_folder="../Datamart_Words", max_occurrences=3):
+def query_engine(input, book_folder, index_folder, max_occurrences=3):
     input = input.lower()
     words = input.split()
     results = []

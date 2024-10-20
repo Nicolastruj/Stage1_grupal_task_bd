@@ -4,10 +4,10 @@ import time
 
 import schedule
 
-from indexer.indexer import indexer5
+from indexer.indexer_dict import indexer_dict
 
 
-def job(books_directory, tray, words_directory):
+def job(books_directory, tray, words_directory, output_directory_metadata, stopwords_filepath):
     """
     Execute the job to process files from the specified books directory,
     copy them to a temporary tray, and index their contents.
@@ -15,6 +15,8 @@ def job(books_directory, tray, words_directory):
     :param books_directory: The directory containing the book files to be processed.
     :param tray: The directory where files will be temporarily copied for processing.
     :param words_directory: The directory where the indexed words will be saved.
+    :param stopwords_filepath: The directory containing the stopwords TXT file.
+    :param output_directory_metadata: The directory containing the metadata JSON file.
     :return: None
     """
     files = get_latest_files(books_directory)
@@ -26,7 +28,7 @@ def job(books_directory, tray, words_directory):
     copy_files_to_temp_directory(files, tray)
     print(f"Files copied to the temporary tray: {files}")
 
-    indexer5(tray, words_directory)
+    indexer_dict(tray, words_directory, output_directory_metadata, stopwords_filepath)
     print("Indexing completed.")
 
     delete_temp_directory(tray)
@@ -84,7 +86,7 @@ def copy_files_to_temp_directory(latest_files, temp_directory):
         print(f"File copied: {file}")
 
 
-def execute_indexer(books_directory, tray, words_directory):
+def execute_indexer(books_directory, tray, words_directory, output_directory_metadata, stopwords_filepath):
     """
     Execute the indexing process immediately and set up a scheduler for subsequent runs.
 
@@ -92,11 +94,13 @@ def execute_indexer(books_directory, tray, words_directory):
     :param books_directory: The directory containing the book files to be indexed.
     :param tray: The directory where files will be temporarily copied for processing.
     :param words_directory: The directory where the indexed words will be saved.
+    :param stopwords_filepath: The directory containing the stopwords TXT file.
+    :param output_directory_metadata: The directory containing the metadata JSON file.
     :return: None
     """
     # Run the job immediately
     print("Running the initial task immediately...")
-    job(books_directory, tray, words_directory)
+    job(books_directory, tray, words_directory, output_directory_metadata, stopwords_filepath)
 
     # Set up the scheduler for later runs
     setup_schedule(books_directory, tray, words_directory)
@@ -123,9 +127,11 @@ def setup_schedule(books_directory, tray, words_directory):
 
 def main():
     books_directory = "../Books_Datamart"
-    tray = "../Books_Datamart/Books_Tray"
-    words_directory = "../Words_Datamart"
-    execute_indexer(books_directory, tray, words_directory)
+    tray = "../Books_Datamart/Books_Tray_Dict"
+    words_directory = "../Words_Datamart_Dict"
+    output_directory_metadata = "../Books_Metadata_Dict"
+    stopwords_filepath = "../indexer/stopwords.txt"
+    execute_indexer(books_directory, tray, words_directory, output_directory_metadata, stopwords_filepath)
 
 
 if __name__ == "__main__":

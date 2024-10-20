@@ -1,13 +1,13 @@
 from queryEngine import query_engine, query_engine_dict
-import pytest
 
 
 def test_query_engine(benchmark):
     benchmark.extra_info['unit'] = 'ms'
-
+    book_datamart_folder = "../Books_Datamart"
+    indexer_folder = "../Words_Datamart"
     benchmark.pedantic(
         target=query_engine.query_engine,
-        args=("wife",),
+        args=("wife", book_datamart_folder, indexer_folder,),
         iterations=100,
         rounds=10,
         warmup_rounds=5
@@ -17,13 +17,13 @@ def test_query_engine(benchmark):
 def test_query_engine_dict(benchmark):
     benchmark.extra_info['unit'] = 'ms'
 
-    indexer_folder = "../Words_Datamart"
-    metadata_datamart_folder = "../Books_Metadata"
+    indexer_folder = "../Words_Datamart_Dict"
+    metadata_datamart_folder = "../Books_Metadata_Dict"
     book_datamart_folder = "../Books_Datamart"
 
     benchmark.pedantic(
         target=query_engine_dict.query_engine,
-        args=("wife", indexer_folder, metadata_datamart_folder, book_datamart_folder),
+        args=("wife", indexer_folder, metadata_datamart_folder, book_datamart_folder,),
         iterations=100,
         rounds=10,
         warmup_rounds=5
