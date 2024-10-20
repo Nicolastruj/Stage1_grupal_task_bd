@@ -4,7 +4,7 @@ import time
 
 import schedule
 
-from indexer.indexer import indexer5
+from indexer.indexer import indexer5_parallel
 
 
 def job(books_directory, tray, words_directory):
@@ -26,7 +26,7 @@ def job(books_directory, tray, words_directory):
     copy_files_to_temp_directory(files, tray)
     print(f"Files copied to the temporary tray: {files}")
 
-    indexer5(tray, words_directory)
+    indexer5_parallel(tray, words_directory)
     print("Indexing completed.")
 
     delete_temp_directory(tray)
