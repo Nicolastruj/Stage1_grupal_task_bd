@@ -3,6 +3,10 @@ import os
 import re
 
 
+# uncomment if using memory usage test
+# from memory_profiler import profile
+
+
 def load_json_index(word, index_folder):
     """
     Loads the JSON file for the word's index based on its first letter.
@@ -75,6 +79,8 @@ def extract_paragraphs(book_filename, search_words):
         return [], 0
 
 
+# uncomment if using memory usage test
+# @profile
 def query_engine(input_query, index_folder, metadata_folder, book_folder, max_occurrences=3):
     """
     Searches for books containing the words in the input query and returns relevant paragraphs.
@@ -137,3 +143,9 @@ def query_engine(input_query, index_folder, metadata_folder, book_folder, max_oc
                 })
 
     return results
+
+# uncomment if doing memory usage tests
+# indexer_folder = "../Words_Datamart_Dict"
+# metadata_datamart_folder = "../Books_Metadata_Dict"
+# book_datamart_folder = "../Books_Datamart"
+# query_engine("wife", indexer_folder, metadata_datamart_folder, book_datamart_folder)

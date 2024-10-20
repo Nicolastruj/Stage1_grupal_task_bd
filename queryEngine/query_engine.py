@@ -4,6 +4,10 @@ import os
 import re
 
 
+# uncomment if using memory usage test
+# from memory_profiler import profile
+
+
 def find_book(book_id, book_folder):
     """
     Searches for a book file in the specified folder by its ID.
@@ -21,6 +25,8 @@ def find_book(book_id, book_folder):
     return None
 
 
+# uncomment if using memory usage test
+# @profile
 def query_engine(input, book_folder, index_folder, max_occurrences=3):
     input = input.lower()
     words = input.split()
@@ -93,3 +99,8 @@ def query_engine(input, book_folder, index_folder, max_occurrences=3):
                         print(f"Error: The Book {book_filename} was not found.")
 
     return results
+
+# uncomment if doing memory usage tests
+# book_datamart_folder = "../Books_Datamart"
+# indexer_folder = "../Words_Datamart"
+# query_engine("wife", book_datamart_folder, indexer_folder)
