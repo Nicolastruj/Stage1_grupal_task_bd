@@ -149,5 +149,5 @@ def query_engine(input_query, index_folder, metadata_folder, book_folder, max_oc
 indexer_folder = "../Words_Datamart_Dict"
 metadata_datamart_folder = "../Books_Metadata_Dict"
 book_datamart_folder = "../Books_Datamart"
-query_engine("wife", indexer_folder, metadata_datamart_folder, book_datamart_folder)
+query_engine("dog", indexer_folder, metadata_datamart_folder, book_datamart_folder)
 print(query_engine)
