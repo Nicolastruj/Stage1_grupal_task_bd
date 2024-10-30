@@ -1,3 +1,4 @@
+from queryEngine.query_engine import query_engine
 from queryEngine.query_engine_dict import query_engine as query_engine_dict
 
 
@@ -22,12 +23,15 @@ def search_engine_controller():
                   "Have a nice day! :)\n")
             break
 
+
         ## Code for JSON structure
-        # results = query_engine(user_input)
+        #indexer_folder = "../Words_Datamart"
+        #book_datamart_folder = "../Books_Datamart"
+        #results = query_engine(user_input,book_datamart_folder,indexer_folder)
 
         ## Code for dictionary structure
-        indexer_folder = "../Words_Datamart"
-        metadata_datamart_folder = "../Books_Metadata"
+        indexer_folder = "../Words_Datamart_Dict"
+        metadata_datamart_folder = "../Books_Metadata_Dict"
         book_datamart_folder = "../Books_Datamart"
         results = query_engine_dict(user_input, indexer_folder, metadata_datamart_folder, book_datamart_folder)
 
